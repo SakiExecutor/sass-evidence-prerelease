@@ -109,8 +109,8 @@ echo "=== SakiWeb ===" && find $PROJECT_ROOT/SakiWeb -maxdepth 3 -name "*DEPLOY*
 2026-02-26 23:01:49.367 [info] I0226 23:01:49.367170  5624 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.19.5
 2026-02-26 23:01:52.651 [info] (Cortex) 2026-02-26 23:01:52.651 [INFO]: [Terminal] Command completed: echo "=== 外部可達性 ===" && \
 echo "--- [OPERATOR-MED] ([OPERATOR-DOMAIN]) ---" && curl -sI --max-time 10 https://[OPERATOR-DOMAIN] 2>&1 | head -3 && \
-echo "--- SakiWeb (saki-studio.com.tw) ---" && curl -sI --max-time 10 https://saki-studio.com.tw 2>&1 | head -3 && \
-echo "--- SakiFish (saki.tw) ---" && curl -sI --max-time 10 https://saki.tw 2>&1 | head -3 && \
+echo "--- SakiWeb ([REDACTED_DOMAIN]) ---" && curl -sI --max-time 10 https://[REDACTED_DOMAIN] 2>&1 | head -3 && \
+echo "--- SakiFish ([REDACTED_DOMAIN]) ---" && curl -sI --max-time 10 https://[REDACTED_DOMAIN] 2>&1 | head -3 && \
 echo "=== SakiMCP version ===" && /Applications/SakiMCP.app/Contents/MacOS/sakimcp_core --version 2>&1 || echo "(no --version flag)" && \
 echo "=== SakiAgentSkills version ===" && /Applications/SakiAgentSkills.app/Contents/MacOS/agent-skills-core --version 2>&1 || echo "(no --version flag)" exit code 130
 2026-02-26 23:01:54.224 [info] E0226 23:01:54.224616  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -1274,8 +1274,8 @@ echo "--- SakiFish (Hugo :1314) ---" && curl -so /dev/null -w "HTTP %{http_code}
 echo "--- [OPERATOR-MED] (API :9529) ---" && curl -so /dev/null -w "HTTP %{http_code} (%{time_total}s)" http://localhost:9529/api/health 2>&1 && echo "" && \
 echo "--- Cloudflare Tunnel (PID) ---" && launchctl list | grep cloudflare 2>&1 && \
 echo "" && echo "=== 2. 外部連結驗證 ===" && \
-echo "--- saki-studio.com.tw (SakiWeb) ---" && curl -sI --max-time 15 https://saki-studio.com.tw 2>&1 | head -5 && \
-echo "--- saki.tw (SakiFish) ---" && curl -sI --max-time 15 https://saki.tw 2>&1 | head -5 && \
+echo "--- [REDACTED_DOMAIN] (SakiWeb) ---" && curl -sI --max-time 15 https://[REDACTED_DOMAIN] 2>&1 | head -5 && \
+echo "--- [REDACTED_DOMAIN] (SakiFish) ---" && curl -sI --max-time 15 https://[REDACTED_DOMAIN] 2>&1 | head -5 && \
 echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 https://[OPERATOR-DOMAIN] 2>&1 | head -5 exit code 0
 2026-02-27 00:29:28.348 [info] E0227 00:29:28.348653  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:29:28.819 [info] I0227 00:29:28.819564  5624 planner_generator.go:288] Requesting planner with 123 chat messages at model retry attempt 1 and API retry attempt 1
