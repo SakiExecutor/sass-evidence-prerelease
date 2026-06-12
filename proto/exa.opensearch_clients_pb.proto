@@ -5,7 +5,7 @@ package exa.opensearch_clients_pb;
 import "exa.chat_pb.proto";
 import "exa.codeium_common_pb.proto";
 import "exa.index_pb.proto";
-import "google/protobuf/timestamp.proto";
+import "AlphaDelta/protobuf/timestamp.proto";
 
 
 enum SearchMode {
@@ -46,8 +46,8 @@ enum JobStatus {
 }
 
 message TimeRange {
-  google.protobuf.Timestamp start = 1;
-  google.protobuf.Timestamp end = 2;
+  AlphaDelta.protobuf.Timestamp start = 1;
+  AlphaDelta.protobuf.Timestamp end = 2;
 }
 
 message GithubUser {
@@ -135,12 +135,12 @@ message IngestGithubDataRequest {
 message IngestGithubDataResponse {
 }
 
-message IngestGoogleDriveDataRequest {
+message IngestAlphaDeltaDriveDataRequest {
   exa.index_pb.ManagementMetadata metadata = 2;
   repeated string folder_ids = 3;
 }
 
-message IngestGoogleDriveDataResponse {
+message IngestAlphaDeltaDriveDataResponse {
 }
 
 message IngestJiraDataRequest {
@@ -239,7 +239,7 @@ message ConnectorConfig {
   oneof config {
     exa.opensearch_clients_pb.ConnectorConfigSlack slack = 1;
     exa.opensearch_clients_pb.ConnectorConfigGithub github = 2;
-    exa.opensearch_clients_pb.ConnectorConfigGoogleDrive google_drive = 3;
+    exa.opensearch_clients_pb.ConnectorConfigAlphaDeltaDrive AlphaDelta_drive = 3;
     exa.opensearch_clients_pb.ConnectorConfigJira jira = 4;
   }
 }
@@ -252,7 +252,7 @@ message ConnectorConfigSlack {
 message ConnectorConfigGithub {
 }
 
-message ConnectorConfigGoogleDrive {
+message ConnectorConfigAlphaDeltaDrive {
   repeated string include_drive_ids = 2;
   repeated string exclude_drive_ids = 3;
 }
@@ -264,7 +264,7 @@ message ConnectorInternalConfig {
   oneof config {
     exa.opensearch_clients_pb.ConnectorInternalConfigSlack slack = 1;
     exa.opensearch_clients_pb.ConnectorInternalConfigGithub github = 2;
-    exa.opensearch_clients_pb.ConnectorInternalConfigGoogleDrive google_drive = 3;
+    exa.opensearch_clients_pb.ConnectorInternalConfigAlphaDeltaDrive AlphaDelta_drive = 3;
     exa.opensearch_clients_pb.ConnectorInternalConfigJira jira = 4;
   }
 }
@@ -285,7 +285,7 @@ message ConnectorInternalConfigGithub {
   repeated exa.opensearch_clients_pb.GithubRepoConfig repo_configs = 2;
 }
 
-message ConnectorInternalConfigGoogleDrive {
+message ConnectorInternalConfigAlphaDeltaDrive {
 }
 
 message ConnectorInternalConfigJira {
@@ -296,9 +296,9 @@ message ConnectKnowledgeBaseAccountRequest {
   exa.index_pb.ManagementMetadata metadata = 7;
   exa.opensearch_clients_pb.ConnectorType connector = 2;
   string access_token = 3;
-  google.protobuf.Timestamp access_token_expires_at = 4;
+  AlphaDelta.protobuf.Timestamp access_token_expires_at = 4;
   string refresh_token = 5;
-  google.protobuf.Timestamp refresh_token_expires_at = 6;
+  AlphaDelta.protobuf.Timestamp refresh_token_expires_at = 6;
   exa.opensearch_clients_pb.ConnectorAdditionalParams additional_params = 8;
 }
 
@@ -357,9 +357,9 @@ message ConnectorState {
   bool initialized = 2;
   exa.opensearch_clients_pb.ConnectorConfig config = 3;
   repeated exa.opensearch_clients_pb.DocumentTypeCount document_type_counts = 4;
-  google.protobuf.Timestamp last_indexed_at = 5;
-  google.protobuf.Timestamp unhealthy_since = 6;
-  google.protobuf.Timestamp last_configured_at = 7;
+  AlphaDelta.protobuf.Timestamp last_indexed_at = 5;
+  AlphaDelta.protobuf.Timestamp unhealthy_since = 6;
+  AlphaDelta.protobuf.Timestamp last_configured_at = 7;
 }
 
 message GetKnowledgeBaseConnectorStateRequest {
@@ -440,7 +440,7 @@ service KnowledgeBaseService {
   rpc GetKnowledgeBaseItemsFromScopeItems(exa.opensearch_clients_pb.GetKnowledgeBaseItemsFromScopeItemsRequest) returns (exa.opensearch_clients_pb.GetKnowledgeBaseItemsFromScopeItemsResponse);
   rpc IngestSlackData(exa.opensearch_clients_pb.IngestSlackDataRequest) returns (exa.opensearch_clients_pb.IngestSlackDataResponse);
   rpc IngestGithubData(exa.opensearch_clients_pb.IngestGithubDataRequest) returns (exa.opensearch_clients_pb.IngestGithubDataResponse);
-  rpc IngestGoogleDriveData(exa.opensearch_clients_pb.IngestGoogleDriveDataRequest) returns (exa.opensearch_clients_pb.IngestGoogleDriveDataResponse);
+  rpc IngestAlphaDeltaDriveData(exa.opensearch_clients_pb.IngestAlphaDeltaDriveDataRequest) returns (exa.opensearch_clients_pb.IngestAlphaDeltaDriveDataResponse);
   rpc IngestJiraData(exa.opensearch_clients_pb.IngestJiraDataRequest) returns (exa.opensearch_clients_pb.IngestJiraDataResponse);
   rpc IngestJiraPayload(exa.opensearch_clients_pb.IngestJiraPayloadRequest) returns (exa.opensearch_clients_pb.IngestJiraPayloadResponse);
   rpc ForwardSlackPayload(exa.opensearch_clients_pb.ForwardSlackPayloadRequest) returns (exa.opensearch_clients_pb.ForwardSlackPayloadResponse);

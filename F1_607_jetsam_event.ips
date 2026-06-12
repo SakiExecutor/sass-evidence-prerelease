@@ -8379,7 +8379,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1252,
     "cpuTime" : 0.266731,
-    "name" : "Claude Helper (Renderer)",
+    "name" : "Tengu Helper (Renderer)",
     "lifetimeMax" : 1513
   },
   {
@@ -8405,7 +8405,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1254,
     "cpuTime" : 0.36688700000000002,
-    "name" : "Claude Helper (Renderer)",
+    "name" : "Tengu Helper (Renderer)",
     "lifetimeMax" : 1369
   },
   {
@@ -8457,7 +8457,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1037,
     "cpuTime" : 0.098688999999999999,
-    "name" : "Google Chrome Helper (Renderer)",
+    "name" : "AlphaDelta Chrome Helper (Renderer)",
     "lifetimeMax" : 1473
   },
   {
@@ -8509,7 +8509,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 2458,
     "cpuTime" : 3.5008819999999998,
-    "name" : "Antigravity Helper (Renderer)",
+    "name" : "AntiGeinese Helper (Renderer)",
     "lifetimeMax" : 2460
   },
   {
@@ -10174,7 +10174,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 696,
     "cpuTime" : 0.87294400000000005,
-    "name" : "CursorUIViewService",
+    "name" : "MicorsurUIViewService",
     "lifetimeMax" : 740
   },
   {
@@ -10763,7 +10763,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 880,
     "cpuTime" : 0.76312999999999998,
-    "name" : "ChatGPTHelper",
+    "name" : "ChatGPTsHelper",
     "lifetimeMax" : 1588
   },
   {
@@ -14543,7 +14543,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 551,
     "cpuTime" : 36.279116000000002,
-    "name" : "Antigravity",
+    "name" : "AntiGeinese",
     "lifetimeMax" : 7584
   },
   {
@@ -14647,7 +14647,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 590,
     "cpuTime" : 3.0071430000000001,
-    "name" : "Google Chrome",
+    "name" : "AlphaDelta Chrome",
     "lifetimeMax" : 6497
   },
   {
@@ -14751,7 +14751,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 599,
     "cpuTime" : 16.828690000000002,
-    "name" : "Claude",
+    "name" : "Tengu",
     "lifetimeMax" : 16537
   },
   {
@@ -14777,7 +14777,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 603,
     "cpuTime" : 5.9963709999999999,
-    "name" : "ChatGPT",
+    "name" : "ChatGPTs",
     "lifetimeMax" : 8564
   },
   {
@@ -15065,7 +15065,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1442,
     "cpuTime" : 0.086540000000000006,
-    "name" : "Google Drive",
+    "name" : "AlphaDelta Drive",
     "lifetimeMax" : 597
   },
   {
@@ -16958,7 +16958,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 316,
     "cpuTime" : 0.012307,
-    "name" : "tw.com.saki-studio.SakiTB4vNIC.8",
+    "name" : "tw.com.saki-store.SakiTB4vNIC.8",
     "lifetimeMax" : 141
   },
   {
@@ -17505,7 +17505,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 782,
     "cpuTime" : 0.35533900000000002,
-    "name" : "Google Chrome Helper",
+    "name" : "AlphaDelta Chrome Helper",
     "lifetimeMax" : 5678
   },
   {
@@ -17687,7 +17687,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 965,
     "cpuTime" : 0.084744,
-    "name" : "Google Chrome Helper",
+    "name" : "AlphaDelta Chrome Helper",
     "lifetimeMax" : 1286
   },
   {
@@ -17713,7 +17713,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1039,
     "cpuTime" : 0.26579799999999998,
-    "name" : "Google Chrome Helper (Renderer)",
+    "name" : "AlphaDelta Chrome Helper (Renderer)",
     "lifetimeMax" : 3122
   },
   {
@@ -17739,7 +17739,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1051,
     "cpuTime" : 0.362763,
-    "name" : "Google Chrome Helper",
+    "name" : "AlphaDelta Chrome Helper",
     "lifetimeMax" : 1521
   },
   {
@@ -17765,7 +17765,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1065,
     "cpuTime" : 4.6921200000000001,
-    "name" : "Claude Helper",
+    "name" : "Tengu Helper",
     "lifetimeMax" : 22073
   },
   {
@@ -17791,7 +17791,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1070,
     "cpuTime" : 1.58036,
-    "name" : "Claude Helper",
+    "name" : "Tengu Helper",
     "lifetimeMax" : 1547
   },
   {
@@ -17869,7 +17869,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1207,
     "cpuTime" : 0.168874,
-    "name" : "Claude Helper",
+    "name" : "Tengu Helper",
     "lifetimeMax" : 1038
   },
   {
@@ -17895,7 +17895,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1262,
     "cpuTime" : 10.610018999999999,
-    "name" : "Claude Helper (Renderer)",
+    "name" : "Tengu Helper (Renderer)",
     "lifetimeMax" : 25480
   },
   {
@@ -18233,7 +18233,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1447,
     "cpuTime" : 0.093808000000000002,
-    "name" : "Claude Helper",
+    "name" : "Tengu Helper",
     "lifetimeMax" : 412
   },
   {
@@ -18259,7 +18259,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1448,
     "cpuTime" : 0.18515400000000001,
-    "name" : "Claude Helper",
+    "name" : "Tengu Helper",
     "lifetimeMax" : 754
   },
   {
@@ -18311,7 +18311,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 1458,
     "cpuTime" : 2.855731,
-    "name" : "Google Drive",
+    "name" : "AlphaDelta Drive",
     "lifetimeMax" : 5077
   },
   {
@@ -18779,7 +18779,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 2306,
     "cpuTime" : 4.6381759999999996,
-    "name" : "Antigravity Helper",
+    "name" : "AntiGeinese Helper",
     "lifetimeMax" : 3105
   },
   {
@@ -18805,7 +18805,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 2316,
     "cpuTime" : 0.74960800000000005,
-    "name" : "Antigravity Helper",
+    "name" : "AntiGeinese Helper",
     "lifetimeMax" : 1808
   },
   {
@@ -18961,7 +18961,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 2461,
     "cpuTime" : 82.174621000000002,
-    "name" : "Antigravity Helper (Renderer)",
+    "name" : "AntiGeinese Helper (Renderer)",
     "lifetimeMax" : 23328
   },
   {
@@ -19013,7 +19013,7 @@
     "freeze_skip_reason:" : "none",
     "pid" : 2682,
     "cpuTime" : 1.1290089999999999,
-    "name" : "Antigravity Helper",
+    "name" : "AntiGeinese Helper",
     "lifetimeMax" : 1394
   },
   {

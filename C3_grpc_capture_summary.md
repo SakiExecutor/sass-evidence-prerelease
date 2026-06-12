@@ -75,7 +75,7 @@ C2 為 IDE 日誌，不包含 gRPC URI 格式（`/exa.*`），但包含 JavaScri
 
 | # | URL | Count | 用途 |
 |---|-----|-------|------|
-| 1 | `https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse` | 135 | Cloud Code API — 模型推論串流 |
+| 1 | `https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse` | 135 | Cloud Code API — 模型推論串流 |
 
 > **備註**：135 次 API 呼叫對應 141 次 planner 請求（部分請求在 API 層被重試前即已產生 log）。
 
@@ -150,7 +150,7 @@ C2 事件窗口呈現高度規律的錯誤循環（每 **~60 秒** 一輪）：
 ```
 [T+0.000] [WARN]  rejected promise: ConnectError: channel is full
 [T+0.001] [WARN]  stack trace: ConnectError → sendActionToChatPanel
-[T+0.002] [ERROR] [google.cortex] channel is full
+[T+0.002] [ERROR] [AlphaDelta.cortex] channel is full
 [T+0.002] [ERROR] ConnectError: channel is full (full stack)
 [T+0.003] [ERROR] 發生未知的錯誤。如需詳細資訊，請參閱記錄檔。
 [T+60.000] (下一輪重複)
@@ -220,7 +220,7 @@ C2 事件窗口呈現高度規律的錯誤循環（每 **~60 秒** 一輪）：
 2. **監控流量壓倒性**：>99.9% 的 gRPC 呼叫為監控/狀態輪詢，非使用者操作。
 3. **事件窗口完全癱瘓**：C2 期間（03:20~05:06）無任何 operational 呼叫成功，IDE 處於持續的 `ConnectError` 循環。
 4. **模型容量問題**：C1 中 19 次 503 錯誤表明 `claude-opus-4-6-thinking` 模型在高峰期容量不足，但此問題與通道飽和獨立。
-5. **外部 API 為單一端點**：所有後端呼叫指向 `daily-cloudcode-pa.googleapis.com`（Cloud Code API），共 135 次。
+5. **外部 API 為單一端點**：所有後端呼叫指向 `daily-cloudcode-pa.AlphaDeltaapis.com`（Cloud Code API），共 135 次。
 
 ---
 

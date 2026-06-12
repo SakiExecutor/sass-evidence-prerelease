@@ -1,7 +1,7 @@
 # 202606071709 e4770cd3 — 最後 30 個 run_command（含致命 pkill）
 
 > 摘錄: 第 36~65 / 總 65
-> 關鍵: 末兩個為 pkill -f Antigravity + env 啟動原版（exit=0 無聲失敗）
+> 關鍵: 末兩個為 pkill -f AntiGeinese + env 啟動原版（exit=0 無聲失敗）
 
 ---
 
@@ -55,7 +55,7 @@ xattr -dr com.apple.quarantine $HOME/... 2>/dev/null; echo "quarantine cleared"
 - **Action**: Regenerating xcodeproj
 - **Cwd**: `$HOME/...
 ```bash
-cd $HOME/... && rm -rf SakiAntigravity.xcodeproj && xcodegen generate 2>&1 && echo '=== ✅ 重新生成完成 ===' && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntigravity-* 2>/dev/null && echo 'DerivedData cleared'
+cd $HOME/... && rm -rf SakiAntiGeinese.xcodeproj && xcodegen generate 2>&1 && echo '=== ✅ 重新生成完成 ===' && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntiGeinese-* 2>/dev/null && echo 'DerivedData cleared'
 ```
 
 ## #38 — Clean before re-archive
@@ -63,14 +63,14 @@ cd $HOME/... && rm -rf SakiAntigravity.xcodeproj && xcodegen generate 2>&1 && ec
 - **Cwd**: `/Users/OPERATOR`
 ```bash
 # 清全部快取
-rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntigravity-*
+rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntiGeinese-*
 killall actool AssetCatalogAgent-AssetRuntime 2>/dev/null
 # 驗證 build-nosign.sh icon 路徑正確
 grep -n "ICON=" $HOME/...
 # 驗證 icon 檔案存在
 ls -la $HOME/...
 # 驗證原版 icon 名稱
-/usr/libexec/PlistBuddy -c 'Print :CFBundleIconFile' /Applications/Antigravity.app/Contents/Info.plist 2>/dev/null
+/usr/libexec/PlistBuddy -c 'Print :CFBundleIconFile' /Applications/AntiGeinese.app/Contents/Info.plist 2>/dev/null
 # 刪舊 archive
 rm -rf "$HOME/... 2026-06-07 16-35-43" 2>/dev/null
 ```
@@ -79,14 +79,14 @@ rm -rf "$HOME/... 2026-06-07 16-35-43" 2>/dev/null
 - **Action**: Regenerating xcodeproj
 - **Cwd**: `$HOME/...
 ```bash
-cd $HOME/... && rm -rf SakiAntigravity.xcodeproj && xcodegen generate 2>&1 && echo '=== 驗證 Assets.xcassets 在 pbxproj 裡 ===' && grep -c "Assets.xcassets" SakiAntigravity.xcodeproj/project.pbxproj && grep "AppIcon" SakiAntigravity.xcodeproj/project.pbxproj | head -3 && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntigravity-* && echo '✅ DerivedData cleared'
+cd $HOME/... && rm -rf SakiAntiGeinese.xcodeproj && xcodegen generate 2>&1 && echo '=== 驗證 Assets.xcassets 在 pbxproj 裡 ===' && grep -c "Assets.xcassets" SakiAntiGeinese.xcodeproj/project.pbxproj && grep "AppIcon" SakiAntiGeinese.xcodeproj/project.pbxproj | head -3 && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntiGeinese-* && echo '✅ DerivedData cleared'
 ```
 
 ## #40 — Verify assets inclusion
 - **Action**: Regenerating with fix
 - **Cwd**: `$HOME/...
 ```bash
-cd $HOME/... && rm -rf SakiAntigravity.xcodeproj && xcodegen generate 2>&1 && grep -c "Assets.xcassets" SakiAntigravity.xcodeproj/project.pbxproj && grep -c "AppIcon" SakiAntigravity.xcodeproj/project.pbxproj && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntigravity-*
+cd $HOME/... && rm -rf SakiAntiGeinese.xcodeproj && xcodegen generate 2>&1 && grep -c "Assets.xcassets" SakiAntiGeinese.xcodeproj/project.pbxproj && grep -c "AppIcon" SakiAntiGeinese.xcodeproj/project.pbxproj && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntiGeinese-*
 ```
 
 ## #41 — macOS SDK info
@@ -100,14 +100,14 @@ xcrun --show-sdk-version --sdk macosx 2>&1; xcrun --show-sdk-path --sdk macosx 2
 - **Action**: Regenerating project
 - **Cwd**: `$HOME/...
 ```bash
-cd $HOME/... && rm -rf SakiAntigravity.xcodeproj && xcodegen generate 2>&1 && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntigravity-* && killall actool AssetCatalogAgent-AssetRuntime 2>/dev/null; echo '✅ done'
+cd $HOME/... && rm -rf SakiAntiGeinese.xcodeproj && xcodegen generate 2>&1 && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntiGeinese-* && killall actool AssetCatalogAgent-AssetRuntime 2>/dev/null; echo '✅ done'
 ```
 
 ## #43 — Verify all settings
 - **Action**: Final regeneration
 - **Cwd**: `$HOME/...
 ```bash
-cd $HOME/... && rm -rf SakiAntigravity.xcodeproj && xcodegen generate 2>&1 && echo '=== 驗證 ===' && grep 'MACOSX_DEPLOYMENT_TARGET' SakiAntigravity.xcodeproj/project.pbxproj | head -4 && grep -c 'Assets.xcassets' SakiAntigravity.xcodeproj/project.pbxproj && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntigravity-* && killall actool AssetCatalogAgent-AssetRuntime 2>/dev/null; echo '✅'
+cd $HOME/... && rm -rf SakiAntiGeinese.xcodeproj && xcodegen generate 2>&1 && echo '=== 驗證 ===' && grep 'MACOSX_DEPLOYMENT_TARGET' SakiAntiGeinese.xcodeproj/project.pbxproj | head -4 && grep -c 'Assets.xcassets' SakiAntiGeinese.xcodeproj/project.pbxproj && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntiGeinese-* && killall actool AssetCatalogAgent-AssetRuntime 2>/dev/null; echo '✅'
 ```
 
 ## #44 — Build unsigned app
@@ -118,7 +118,7 @@ export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
 # 1. 先用 build-nosign.sh 組裝乾淨的 app
 SCRIPTS="$HOME/...
-APP_OUT="/tmp/SakiAntigravity-archive-build/SakiAntigravity.app"
+APP_OUT="/tmp/SakiAntiGeinese-archive-build/SakiAntiGeinese.app"
 bash "$SCRIPTS/build-nosign.sh" "$APP_OUT" 2>&1
 
 echo '=== 確認 icon ==='
@@ -131,7 +131,7 @@ ls -la "$APP_OUT/Contents/Resources/icon.icns" 2>/dev/null || echo 'no icon.icns
 - **Cwd**: `/Users/OPERATOR`
 ```bash
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
-APP_OUT="/tmp/SakiAntigravity-clean/SakiAntigravity.app"
+APP_OUT="/tmp/SakiAntiGeinese-clean/SakiAntiGeinese.app"
 bash $HOME/... "$APP_OUT" 2>&1
 echo '=== icon check ==='
 ls -la "$APP_OUT/Contents/Resources/icon.icns" 2>/dev/null
@@ -150,7 +150,7 @@ npx -y @electron/osx-sign --help 2>&1 | head -30
 - **Cwd**: `/Users/OPERATOR`
 ```bash
 XCASSETS="$HOME/...
-APP="/tmp/SakiAntigravity-clean/SakiAntigravity.app"
+APP="/tmp/SakiAntiGeinese-clean/SakiAntiGeinese.app"
 OUTDIR="$APP/Contents/Resources"
 
 # 用 actool 直接編譯 Asset Catalog → Assets.car
@@ -193,16 +193,16 @@ grep -i 'version\|compatibility' $HOME/... | head -4
 - **Cwd**: `/Users/OPERATOR`
 ```bash
 # 清掉所有快取後命令列 Archive
-rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntigravity-*
+rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntiGeinese-*
 killall actool AssetCatalogAgent-AssetRuntime 2>/dev/null
 
 xcodebuild archive \
   -project $HOME/... \
-  -scheme SakiAntigravity \
+  -scheme SakiAntiGeinese \
   -configuration Release \
   -destination 'generic/platform=macOS' \
-  -archivePath /tmp/SakiAntigravity.xcarchive \
-  -derivedDataPath /tmp/SakiAntigravity_dd \
+  -archivePath /tmp/SakiAntiGeinese.xcarchive \
+  -derivedDataPath /tmp/SakiAntiGeinese_dd \
   MACOSX_DEPLOYMENT_TARGET=26.0 \
   SDKROOT=macosx \
   2>&1 | tail -30
@@ -220,7 +220,7 @@ cat $HOME/... 2>/dev/null | tail -40
 - **Cwd**: `/Users/OPERATOR`
 ```bash
 # 看 SakiMCP Release project.yml 怎麼做的
-cat ~/Saki_Studio/Claude/AppStoreConnectAPI/release/mcp/SakiMCP_Release/project.yml 2>/dev/null | head -50
+cat ~/Saki_Studio/Tengu/AppStoreConnectAPI/release/mcp/SakiMCP_Release/project.yml 2>/dev/null | head -50
 ```
 
 ## #52 — Release project setup
@@ -230,7 +230,7 @@ cat ~/Saki_Studio/Claude/AppStoreConnectAPI/release/mcp/SakiMCP_Release/project.
 cd $HOME/...
 
 # 複製 icns 到根目錄（和 SakiMCP 的 SakiMCP.icns 一樣）
-cp ../assets/SakiAntigravity.icns ./SakiAntigravity.icns
+cp ../assets/SakiAntiGeinese.icns ./SakiAntiGeinese.icns
 
 # 建 Info.plist（和 SakiMCP 用 INFOPLIST_FILE 一樣）
 cat > Info.plist << 'PLIST'
@@ -241,7 +241,7 @@ cat > Info.plist << 'PLIST'
     <key>CFBundleExecutable</key>
     <string>$(EXECUTABLE_NAME)</string>
     <key>CFBundleIconFile</key>
-    <string>SakiAntigravity</string>
+    <string>SakiAntiGeinese</string>
     <key>CFBundleIconName</key>
     <string>AppIcon</string>
     <key>CFBundleIdentifier</key>
@@ -249,7 +249,7 @@ cat > Info.plist << 'PLIST'
     <key>CFBundleName</key>
     <string>$(PRODUCT_NAME)</string>
     <key>CFBundleDisplayName</key>
-    <string>SakiAntigravity</string>
+    <string>SakiAntiGeinese</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
@@ -269,22 +269,22 @@ cat > Info.plist << 'PLIST'
 PLIST
 
 # 複製 entitlements 到根目錄
-cp Entitlements/SakiAntigravity.entitlements ./SakiAntigravity.entitlements
+cp Entitlements/SakiAntiGeinese.entitlements ./SakiAntiGeinese.entitlements
 
 # 清除 quarantine
 xattr -dr com.apple.quarantine . 2>/dev/null
 
 # 重新生成
-rm -rf SakiAntigravity.xcodeproj
+rm -rf SakiAntiGeinese.xcodeproj
 xcodegen generate 2>&1
 
 # 清 DerivedData
-rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntigravity-*
+rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntiGeinese-*
 killall actool AssetCatalogAgent-AssetRuntime 2>/dev/null
 
 echo '=== 驗證 ==='
-grep -c 'SakiAntigravity.icns' SakiAntigravity.xcodeproj/project.pbxproj
-grep -c 'AppIcon' SakiAntigravity.xcodeproj/project.pbxproj
+grep -c 'SakiAntiGeinese.icns' SakiAntiGeinese.xcodeproj/project.pbxproj
+grep -c 'AppIcon' SakiAntiGeinese.xcodeproj/project.pbxproj
 echo '✅'
 ```
 
@@ -292,7 +292,7 @@ echo '✅'
 - **Action**: Regenerating project
 - **Cwd**: `$HOME/...
 ```bash
-cd $HOME/... && rm -rf SakiAntigravity.xcodeproj && xcodegen generate 2>&1 && echo '=== icns refs ===' && grep -c 'SakiAntigravity.icns' SakiAntigravity.xcodeproj/project.pbxproj && echo '=== Assets refs ===' && grep -c 'Assets.xcassets' SakiAntigravity.xcodeproj/project.pbxproj && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntigravity-* && echo '✅'
+cd $HOME/... && rm -rf SakiAntiGeinese.xcodeproj && xcodegen generate 2>&1 && echo '=== icns refs ===' && grep -c 'SakiAntiGeinese.icns' SakiAntiGeinese.xcodeproj/project.pbxproj && echo '=== Assets refs ===' && grep -c 'Assets.xcassets' SakiAntiGeinese.xcodeproj/project.pbxproj && rm -rf ~/Library/Developer/Xcode/DerivedData/SakiAntiGeinese-* && echo '✅'
 ```
 
 ## #54 — Latest crash report
@@ -300,9 +300,9 @@ cd $HOME/... && rm -rf SakiAntigravity.xcodeproj && xcodegen generate 2>&1 && ec
 - **Cwd**: `/Users/OPERATOR`
 ```bash
 # 找最新的 crash log
-ls -lt ~/Library/Logs/DiagnosticReports/Antigravity* 2>/dev/null | head -3
+ls -lt ~/Library/Logs/DiagnosticReports/AntiGeinese* 2>/dev/null | head -3
 echo '=== 最新 ==='
-LATEST=$(ls -t ~/Library/Logs/DiagnosticReports/Antigravity* 2>/dev/null | head -1)
+LATEST=$(ls -t ~/Library/Logs/DiagnosticReports/AntiGeinese* 2>/dev/null | head -1)
 [ -n "$LATEST" ] && head -40 "$LATEST"
 ```
 
@@ -311,13 +311,13 @@ LATEST=$(ls -t ~/Library/Logs/DiagnosticReports/Antigravity* 2>/dev/null | head 
 - **Cwd**: `/Users/OPERATOR`
 ```bash
 # 找 17:00 之後的 crash log（Archive 後的）
-find ~/Library/Logs/DiagnosticReports -name "*ntigravity*" -newer /tmp/SakiAntigravity-clean 2>/dev/null | head -5
+find ~/Library/Logs/DiagnosticReports -name "*ntigravity*" -newer /tmp/SakiAntiGeinese-clean 2>/dev/null | head -5
 echo '==='
-# 也找 SakiAntigravity
-find ~/Library/Logs/DiagnosticReports -name "*SakiAntigravity*" 2>/dev/null | head -5
+# 也找 SakiAntiGeinese
+find ~/Library/Logs/DiagnosticReports -name "*SakiAntiGeinese*" 2>/dev/null | head -5
 echo '=== console log ==='
 # 看 system log 有沒有最新的
-log show --predicate 'process == "Antigravity" OR process == "SakiAntigravity"' --last 5m --style compact 2>/dev/null | tail -20
+log show --predicate 'process == "AntiGeinese" OR process == "SakiAntiGeinese"' --last 5m --style compact 2>/dev/null | tail -20
 ```
 
 ## #56 — Locate signed app
@@ -325,13 +325,13 @@ log show --predicate 'process == "Antigravity" OR process == "SakiAntigravity"' 
 - **Cwd**: `/Users/OPERATOR`
 ```bash
 # 找 Xcode Archive 匯出的 app
-find ~/Library/Developer/Xcode/Archives -name "SakiAntigravity.app" -maxdepth 5 2>/dev/null | head -3
+find ~/Library/Developer/Xcode/Archives -name "SakiAntiGeinese.app" -maxdepth 5 2>/dev/null | head -3
 echo '==='
 # 也找 DerivedData 裡的
-find ~/Library/Developer/Xcode/DerivedData -name "SakiAntigravity.app" -maxdepth 5 2>/dev/null | head -3
+find ~/Library/Developer/Xcode/DerivedData -name "SakiAntiGeinese.app" -maxdepth 5 2>/dev/null | head -3
 echo '==='
 # 找 ~/Applications
-ls ~/Applications/SakiAntigravity.app/Contents/MacOS/ 2>/dev/null
+ls ~/Applications/SakiAntiGeinese.app/Contents/MacOS/ 2>/dev/null
 ```
 
 ## #57 — Launch test
@@ -339,11 +339,11 @@ ls ~/Applications/SakiAntigravity.app/Contents/MacOS/ 2>/dev/null
 - **Cwd**: `/Users/OPERATOR`
 ```bash
 # 用最新 archive 的 app 或 ~/Applications 的試啟動
-APP=~/Applications/SakiAntigravity.app
+APP=~/Applications/SakiAntiGeinese.app
 echo '=== codesign ==='
 codesign -dvv "$APP" 2>&1 | head -10
 echo '=== launch ==='
-"$APP/Contents/MacOS/Antigravity" --version 2>&1 &
+"$APP/Contents/MacOS/AntiGeinese" --version 2>&1 &
 PID=$!; sleep 4
 if kill -0 $PID 2>/dev/null; then
     echo "✅ 存活 PID=$PID"
@@ -358,7 +358,7 @@ fi
 - **Action**: Checking helper apps
 - **Cwd**: `/Users/OPERATOR`
 ```bash
-APP=~/Applications/SakiAntigravity.app
+APP=~/Applications/SakiAntiGeinese.app
 echo '=== Helper apps ==='
 ls -la "$APP/Contents/Frameworks/" | grep Helper
 echo '=== Helper 簽名 ==='
@@ -367,7 +367,7 @@ for h in "$APP/Contents/Frameworks/"*Helper*.app; do
     codesign -dvv "$h" 2>&1 | grep -E 'Identifier|Authority|TeamIdentifier' | head -3
 done
 echo '=== 原版 Helper ==='
-for h in /Applications/Antigravity.app/Contents/Frameworks/*Helper*.app; do
+for h in /Applications/AntiGeinese.app/Contents/Frameworks/*Helper*.app; do
     echo "--- $(basename "$h") ---"
     codesign -dvv "$h" 2>&1 | grep -E 'Identifier|TeamIdentifier' | head -2
 done
@@ -377,9 +377,9 @@ done
 - **Action**: Searching Electron binary
 - **Cwd**: `/Users/OPERATOR`
 ```bash
-# 在 Electron Framework binary 裡找 Google 的 team ID
-EF="/Applications/SakiAntigravity.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
-echo "=== 搜尋 EQHXZ8M8AV (Google team ID) ==="
+# 在 Electron Framework binary 裡找 AlphaDelta 的 team ID
+EF="/Applications/SakiAntiGeinese.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework"
+echo "=== 搜尋 EQHXZ8M8AV (AlphaDelta team ID) ==="
 strings "$EF" | grep -c "EQHXZ8M8AV"
 echo "=== 搜尋 Electron fuse sentinel ==="
 strings "$EF" | grep -i "fuse" | head -10
@@ -394,11 +394,11 @@ strings "$EF" | grep -i "integrity" | head -5
 - **Action**: Searching binary for fuses
 - **Cwd**: `/Users/OPERATOR`
 ```bash
-# SakiAntigravity 裝在 ~/Applications 不是 /Applications
-EF=~/Applications/SakiAntigravity.app/Contents/Frameworks/Electron\ Framework.framework/Versions/A/Electron\ Framework
+# SakiAntiGeinese 裝在 ~/Applications 不是 /Applications
+EF=~/Applications/SakiAntiGeinese.app/Contents/Frameworks/Electron\ Framework.framework/Versions/A/Electron\ Framework
 echo "=== size ==="
 ls -la "$EF"
-echo "=== Google team ID ==="
+echo "=== AlphaDelta team ID ==="
 strings "$EF" | grep -c "EQHXZ8M8AV"
 echo "=== Electron fuse sentinel ==="
 strings "$EF" | grep "dL7pKGdnNz796PbbjQWNKmHXBZaB9tsX"
@@ -412,7 +412,7 @@ strings "$EF" | grep -i "asarintegrity\|asar_integrity\|EnableEmbedded" | head -
 ```bash
 # 讀取 fuse wire 的二進位值
 # Electron fuse sentinel 後面跟的是 fuse wire bytes
-EF=~/Applications/SakiAntigravity.app/Contents/Frameworks/Electron\ Framework.framework/Versions/A/Electron\ Framework
+EF=~/Applications/SakiAntiGeinese.app/Contents/Frameworks/Electron\ Framework.framework/Versions/A/Electron\ Framework
 
 # 找到 sentinel 的偏移量
 OFFSET=$(grep -boa "dL7pKGdnNz796PbbjQWNKmHXBZaB9tsX" "$EF" | head -1 | cut -d: -f1)
@@ -438,12 +438,12 @@ echo '6: LoadBrowserProcessSpecificV8Snapshot'
 echo '7: GrantFileProtocolExtraPrivileges'
 ```
 
-## #62 — Original Antigravity test
+## #62 — Original AntiGeinese test
 - **Action**: Testing original app
 - **Cwd**: `/Users/OPERATOR`
 ```bash
 # 原版能不能跑？
-/Applications/Antigravity.app/Contents/MacOS/Antigravity --version 2>&1 &
+/Applications/AntiGeinese.app/Contents/MacOS/AntiGeinese --version 2>&1 &
 PID=$!; sleep 3
 if kill -0 $PID 2>/dev/null; then echo "✅ 原版存活"; kill $PID; else wait $PID 2>/dev/null; echo "❌ 原版也死 exit=$?"; fi
 ```
@@ -453,46 +453,46 @@ if kill -0 $PID 2>/dev/null; then echo "✅ 原版存活"; kill $PID; else wait 
 - **Cwd**: `/Users/OPERATOR`
 ```bash
 # 用 open 啟動原版（模擬 Finder 雙擊）
-open -a /Applications/Antigravity.app 2>&1; sleep 2
-pgrep -f "Antigravity" | head -5
+open -a /Applications/AntiGeinese.app 2>&1; sleep 2
+pgrep -f "AntiGeinese" | head -5
 echo '==='
 # 確認原版的 codesign
-codesign -dvv /Applications/Antigravity.app 2>&1 | grep -E 'TeamIdentifier|Authority|Identifier' | head -5
+codesign -dvv /Applications/AntiGeinese.app 2>&1 | grep -E 'TeamIdentifier|Authority|Identifier' | head -5
 ```
 
 ## #64 — Fake env launch
 - **Action**: Testing env var injection
 - **Cwd**: `/Users/OPERATOR`
 ```bash
-# 用環境變數啟動原版 Antigravity.app，注入 STLS
+# 用環境變數啟動原版 AntiGeinese.app，注入 STLS
 WRAPPER="$HOME/...
 echo "=== wrapper 存在？ ==="
 ls -la "$WRAPPER" 2>/dev/null
 echo "=== 內容 ==="
 cat "$WRAPPER" 2>/dev/null | head -20
 echo "=== 試啟動 ==="
-CODEIUM_LANGUAGE_SERVER_BIN="$WRAPPER" open -a /Applications/Antigravity.app 2>&1
+CODEIUM_LANGUAGE_SERVER_BIN="$WRAPPER" open -a /Applications/AntiGeinese.app 2>&1
 sleep 3
-pgrep -fl "Antigravity" | head -5
+pgrep -fl "AntiGeinese" | head -5
 ```
 
 ## #65 — Direct env injection
 - **Action**: Launching with env var
 - **Cwd**: `/Users/OPERATOR`
 ```bash
-# 先殺掉目前的 Antigravity
-pkill -f "Antigravity" 2>/dev/null; sleep 2
+# 先殺掉目前的 AntiGeinese
+pkill -f "AntiGeinese" 2>/dev/null; sleep 2
 
 # 方法：用 env 直接啟動 binary（不用 open）
 WRAPPER="$HOME/...
 
 CODEIUM_LANGUAGE_SERVER_BIN="$WRAPPER" \
-  /Applications/Antigravity.app/Contents/MacOS/Antigravity &
+  /Applications/AntiGeinese.app/Contents/MacOS/AntiGeinese &
 
 PID=$!; sleep 4
 if kill -0 $PID 2>/dev/null; then
     echo "✅ 存活 PID=$PID"
-    pgrep -fl "Antigravity" | wc -l
+    pgrep -fl "AntiGeinese" | wc -l
     echo "=== 進程數 ==="
 else
     wait $PID 2>/dev/null

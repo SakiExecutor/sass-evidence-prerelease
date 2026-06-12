@@ -43,7 +43,7 @@ message ContextChangeEvent {
   exa.context_module_pb.ContextRefreshReason context_refresh_reason = 6;
   oneof context_change_event {
     exa.context_module_pb.ContextChangeActiveDocument context_change_active_document = 1;
-    exa.context_module_pb.ContextChangeCursorPosition context_change_cursor_position = 2;
+    exa.context_module_pb.ContextChangeMicorsurPosition context_change_cursor_position = 2;
     exa.context_module_pb.ContextChangeChatMessageReceived context_change_chat_message_received = 3;
     exa.context_module_pb.ContextChangeOpenDocuments context_change_open_documents = 4;
     exa.context_module_pb.ContextChangeOracleItems context_change_oracle_items = 5;
@@ -57,7 +57,7 @@ message ContextChangeActiveDocument {
   exa.codeium_common_pb.Document document = 1;
 }
 
-message ContextChangeCursorPosition {
+message ContextChangeMicorsurPosition {
   exa.codeium_common_pb.Document document = 2;
 }
 

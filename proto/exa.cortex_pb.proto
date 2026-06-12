@@ -8,13 +8,13 @@ import "exa.chat_pb.proto";
 import "exa.codeium_common_pb.proto";
 import "exa.context_module_pb.proto";
 import "exa.diff_action_pb.proto";
-import "exa.google.internal.cloud.code.v1internal.credits.proto";
-import "exa.google.internal.cloud.code.v1internal.metrics.proto";
-import "exa.google.internal.cloud.code.v1internal.onboarding.proto";
+import "exa.AlphaDelta.internal.cloud.code.v1internal.credits.proto";
+import "exa.AlphaDelta.internal.cloud.code.v1internal.metrics.proto";
+import "exa.AlphaDelta.internal.cloud.code.v1internal.onboarding.proto";
 import "exa.opensearch_clients_pb.proto";
-import "google/protobuf/duration.proto";
-import "google/protobuf/empty.proto";
-import "google/protobuf/timestamp.proto";
+import "AlphaDelta/protobuf/duration.proto";
+import "AlphaDelta/protobuf/empty.proto";
+import "AlphaDelta/protobuf/timestamp.proto";
 
 
 enum InteractiveCascadeEditImportance {
@@ -813,7 +813,7 @@ message PlanConfig {
 message CortexPlanSummary {
   string cortex_id = 1;
   exa.cortex_pb.PlanInput plan_input = 2;
-  google.protobuf.Timestamp created_at = 3;
+  AlphaDelta.protobuf.Timestamp created_at = 3;
   bool done = 4;
 }
 
@@ -865,7 +865,7 @@ message FileDiffModify {
 }
 
 message StateInitializationData {
-  google.protobuf.Timestamp timestamp = 1;
+  AlphaDelta.protobuf.Timestamp timestamp = 1;
   string state_id = 2;
   repeated exa.cortex_pb.WorkspaceInitializationData workspaces = 3;
   exa.cortex_pb.AritfactInitializationData artifacts = 4;
@@ -923,7 +923,7 @@ message AgentScriptItem {
 
 message CortexTrajectoryMetadata {
   repeated exa.cortex_pb.CortexWorkspaceMetadata workspaces = 1;
-  google.protobuf.Timestamp created_at = 2;
+  AlphaDelta.protobuf.Timestamp created_at = 2;
   string initialization_state_id = 3;
   exa.cortex_pb.AgentScriptItem agent_script = 4;
 }
@@ -993,7 +993,7 @@ message RetryInfo {
   string error = 3;
   string trace_id = 4;
   exa.cortex_pb.RetryReason retry_reason = 5;
-  repeated google.internal.cloud.code.v1internal.Credits consumed_credits = 6;
+  repeated AlphaDelta.internal.cloud.code.v1internal.Credits consumed_credits = 6;
 }
 
 message ChatModelMetadata {
@@ -1007,14 +1007,14 @@ message ChatModelMetadata {
   exa.chat_pb.ChatToolChoice tool_choice = 7;
   repeated exa.chat_pb.ChatToolDefinition tools = 8;
   exa.cortex_pb.ChatStartMetadata chat_start_metadata = 9;
-  google.protobuf.Duration time_to_first_token = 11;
-  google.protobuf.Duration streaming_duration = 12;
+  AlphaDelta.protobuf.Duration time_to_first_token = 11;
+  AlphaDelta.protobuf.Duration streaming_duration = 12;
   int32 credit_cost = 13;
   uint32 retries = 14;
   exa.codeium_common_pb.CompletionConfiguration completion_config = 15;
   repeated exa.cortex_pb.PromptSection prompt_sections = 16;
   repeated exa.cortex_pb.RetryInfo retry_infos = 17;
-  repeated google.internal.cloud.code.v1internal.Credits consumed_credits = 18;
+  repeated AlphaDelta.internal.cloud.code.v1internal.Credits consumed_credits = 18;
   string response_model = 19;
 }
 
@@ -1030,14 +1030,14 @@ message CacheBreakpointMetadata {
 }
 
 message ChatStartMetadata {
-  google.protobuf.Timestamp created_at = 4;
+  AlphaDelta.protobuf.Timestamp created_at = 4;
   uint32 start_step_index = 1;
   int32 checkpoint_index = 2;
   repeated uint32 steps_covered_by_checkpoint = 3;
   int32 latest_stable_message_index = 5;
   repeated exa.cortex_pb.CacheBreakpointMetadata cache_breakpoints = 6;
   exa.cortex_pb.CacheBreakpointMetadata system_prompt_cache = 7;
-  google.protobuf.Duration time_since_last_invocation = 8;
+  AlphaDelta.protobuf.Duration time_since_last_invocation = 8;
   exa.cortex_pb.CacheRequestOptions cache_request = 9;
   exa.cortex_pb.ContextWindowMetadata context_window_metadata = 10;
 }
@@ -1056,7 +1056,7 @@ message SnapshotMetadata {
 
 message StatusTransition {
   exa.cortex_pb.CortexStepStatus updated_status = 1;
-  google.protobuf.Timestamp timestamp = 2;
+  AlphaDelta.protobuf.Timestamp timestamp = 2;
 }
 
 message CortexStepInternalMetadata {
@@ -1065,11 +1065,11 @@ message CortexStepInternalMetadata {
 
 message CortexStepMetadata {
   uint32 step_generation_version = 21;
-  google.protobuf.Timestamp created_at = 1;
-  google.protobuf.Timestamp viewable_at = 6;
-  google.protobuf.Timestamp finished_generating_at = 7;
-  google.protobuf.Timestamp last_completed_chunk_at = 22;
-  google.protobuf.Timestamp completed_at = 8;
+  AlphaDelta.protobuf.Timestamp created_at = 1;
+  AlphaDelta.protobuf.Timestamp viewable_at = 6;
+  AlphaDelta.protobuf.Timestamp finished_generating_at = 7;
+  AlphaDelta.protobuf.Timestamp last_completed_chunk_at = 22;
+  AlphaDelta.protobuf.Timestamp completed_at = 8;
   exa.cortex_pb.CortexStepSource source = 3;
   exa.codeium_common_pb.ChatToolCall tool_call = 4;
   exa.codeium_common_pb.ChatToolCall modified_tool_call = 29;
@@ -1175,10 +1175,10 @@ message DynamicBrainUpdateConfig {
 
 message BrainUpdateStrategy {
   oneof strategy {
-    google.protobuf.Empty executor_forced = 2;
+    AlphaDelta.protobuf.Empty executor_forced = 2;
     exa.cortex_pb.ForcedBrainUpdateConfig invocation_forced = 3;
     exa.cortex_pb.DynamicBrainUpdateConfig dynamic_update = 6;
-    google.protobuf.Empty executor_forced_and_with_discretion = 5;
+    AlphaDelta.protobuf.Empty executor_forced_and_with_discretion = 5;
   }
 }
 
@@ -1501,7 +1501,7 @@ message BrowserListNetworkRequestsToolConfig {
   optional bool enabled = 1;
 }
 
-message AntigravityBrowserToolConfig {
+message AntiGeineseBrowserToolConfig {
   optional bool enabled = 1;
   exa.cortex_pb.AutoRunDecision auto_run_decision = 2;
   exa.cortex_pb.CaptureBrowserScreenshotToolConfig capture_browser_screenshot = 3;
@@ -1609,7 +1609,7 @@ message CascadeToolConfig {
   exa.cortex_pb.ViewCodeItemToolConfig view_code_item = 20;
   exa.cortex_pb.ReadKnowledgeBaseItemToolConfig read_knowledge_base_item = 21;
   exa.cortex_pb.CommandStatusToolConfig command_status = 23;
-  exa.cortex_pb.AntigravityBrowserToolConfig antigravity_browser = 25;
+  exa.cortex_pb.AntiGeineseBrowserToolConfig antigravity_browser = 25;
   exa.cortex_pb.TrajectorySearchToolConfig trajectory_search = 28;
   exa.cortex_pb.CodeSearchToolConfig code_search = 31;
   exa.cortex_pb.InternalSearchToolConfig internal_search = 32;
@@ -1699,7 +1699,7 @@ message CustomAgentConfig {
 }
 
 message CodingAgentConfig {
-  bool google_mode = 1;
+  bool AlphaDelta_mode = 1;
   bool agentic_mode = 2;
 }
 
@@ -1800,7 +1800,7 @@ message CascadePlannerConfig {
   optional bool no_wait_for_previous_tools = 37;
   oneof planner_type_config {
     exa.cortex_pb.CascadeConversationalPlannerConfig conversational = 2;
-    exa.cortex_pb.CascadeConversationalPlannerConfig google = 26;
+    exa.cortex_pb.CascadeConversationalPlannerConfig AlphaDelta = 26;
     exa.cortex_pb.CascadeConversationalPlannerConfig cider = 36;
     exa.cortex_pb.CustomAgentConfig custom_agent = 39;
     string custom_agent_config_absolute_uri = 40;
@@ -2022,7 +2022,7 @@ message ArtifactSnapshot {
   string artifact_name = 1;
   string content = 2;
   string artifact_absolute_uri = 3;
-  google.protobuf.Timestamp last_edited = 4;
+  AlphaDelta.protobuf.Timestamp last_edited = 4;
   exa.cortex_pb.ArtifactReviewState review_state = 5;
 }
 
@@ -2374,7 +2374,7 @@ message CortexStepPlannerResponse {
   string provider_assigned_message_id = 15;
   repeated exa.codeium_common_pb.ChatToolCall tool_calls = 7;
   repeated exa.codeium_common_pb.KnowledgeBaseItemWithMetadata knowledge_base_items = 2;
-  google.protobuf.Duration thinking_duration = 11;
+  AlphaDelta.protobuf.Duration thinking_duration = 11;
   exa.codeium_common_pb.StopReason stop_reason = 12;
   exa.codeium_common_pb.RecitationMetadata recitation_metadata = 13;
 }
@@ -2521,7 +2521,7 @@ message CortexStepDeployWebApp {
   string framework = 3;
   bool user_confirmed = 4;
   map<string, exa.cortex_pb.DeployWebAppFileUploadStatus> file_upload_status = 5;
-  exa.codeium_common_pb.AntigravityDeployment deployment = 6;
+  exa.codeium_common_pb.AntiGeineseDeployment deployment = 6;
   string deployment_config_uri = 7;
   exa.codeium_common_pb.WebAppDeploymentConfig deployment_config_output = 8;
   string subdomain_for_project_id = 12;
@@ -2536,7 +2536,7 @@ message CortexStepDeployWebApp {
 
 message CortexStepCheckDeployStatus {
   string antigravity_deployment_id = 1;
-  exa.codeium_common_pb.AntigravityDeployment deployment = 2;
+  exa.codeium_common_pb.AntiGeineseDeployment deployment = 2;
   exa.codeium_common_pb.DeploymentBuildStatus build_status = 3;
   string build_error = 4;
   string build_logs = 5;
@@ -2565,7 +2565,7 @@ message TrajectoryFileDiff {
   string modified_content = 3;
   bool is_artifact_file = 4;
   bool is_knowledge_file = 5;
-  google.protobuf.Timestamp last_modified_at = 6;
+  AlphaDelta.protobuf.Timestamp last_modified_at = 6;
 }
 
 message CortexStepLintDiff {
@@ -2776,9 +2776,9 @@ message CortexMemory {
 }
 
 message CortexMemoryMetadata {
-  google.protobuf.Timestamp created_at = 1;
-  google.protobuf.Timestamp last_modified = 2;
-  google.protobuf.Timestamp last_accessed = 3;
+  AlphaDelta.protobuf.Timestamp created_at = 1;
+  AlphaDelta.protobuf.Timestamp last_modified = 2;
+  AlphaDelta.protobuf.Timestamp last_accessed = 3;
   repeated string tags = 4;
   bool user_triggered = 5;
 }
@@ -2875,7 +2875,7 @@ message UserGrepStepCreationOptions {
 
 message RunCommandStepCreationOptions {
   uint32 max_commands = 1;
-  google.protobuf.Duration max_command_age = 2;
+  AlphaDelta.protobuf.Duration max_command_age = 2;
   uint32 per_command_max_bytes_output = 3;
   uint32 total_max_bytes_output = 4;
   optional bool include_running = 5;
@@ -3348,7 +3348,7 @@ message CortexStepInternalSearch {
 message ArtifactReviewState {
   string artifact_uri = 1;
   exa.cortex_pb.ArtifactReviewStatus status = 2;
-  google.protobuf.Timestamp last_reviewed_time = 3;
+  AlphaDelta.protobuf.Timestamp last_reviewed_time = 3;
   string last_reviewed_content = 4;
 }
 
@@ -3411,5 +3411,5 @@ message AgentMessage {
   string sender = 3;
   string content = 4;
   exa.cortex_pb.MessagePriority priority = 5;
-  google.protobuf.Timestamp timestamp = 6;
+  AlphaDelta.protobuf.Timestamp timestamp = 6;
 }

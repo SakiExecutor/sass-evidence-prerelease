@@ -1,21 +1,21 @@
 syntax = "proto3";
 
-package google.internal.cloud.code.v1internal;
+package AlphaDelta.internal.cloud.code.v1internal;
 
-import "exa.google.internal.cloud.code.v1internal.credits.proto";
-import "google.rpc.status.proto";
+import "exa.AlphaDelta.internal.cloud.code.v1internal.credits.proto";
+import "AlphaDelta.rpc.status.proto";
 
 
 message OnboardUserRequest {
   string tier_id = 1;
   optional string cloudaicompanion_project = 2;
-  google.internal.cloud.code.v1internal.ClientMetadata metadata = 3;
+  AlphaDelta.internal.cloud.code.v1internal.ClientMetadata metadata = 3;
 }
 
 message OnboardUserResponse {
-  google.internal.cloud.code.v1internal.Project cloudaicompanion_project = 1;
-  optional google.internal.cloud.code.v1internal.OnboardUserStatus status = 4;
-  optional google.internal.cloud.code.v1internal.ReleaseChannel release_channel = 5;
+  AlphaDelta.internal.cloud.code.v1internal.Project cloudaicompanion_project = 1;
+  optional AlphaDelta.internal.cloud.code.v1internal.OnboardUserStatus status = 4;
+  optional AlphaDelta.internal.cloud.code.v1internal.ReleaseChannel release_channel = 5;
 }
 
 message ReleaseChannel {
@@ -25,7 +25,7 @@ message ReleaseChannel {
     EXPERIMENTAL = 2;
   }
 
-  google.internal.cloud.code.v1internal.ReleaseChannel.ChannelType type = 1;
+  AlphaDelta.internal.cloud.code.v1internal.ReleaseChannel.ChannelType type = 1;
   string name = 2;
   string description = 3;
 }
@@ -38,8 +38,8 @@ message LoadCodeAssistRequest {
   }
 
   optional string cloudaicompanion_project = 1;
-  google.internal.cloud.code.v1internal.ClientMetadata metadata = 2;
-  optional google.internal.cloud.code.v1internal.LoadCodeAssistRequest.Mode mode = 3;
+  AlphaDelta.internal.cloud.code.v1internal.ClientMetadata metadata = 2;
+  optional AlphaDelta.internal.cloud.code.v1internal.LoadCodeAssistRequest.Mode mode = 3;
 }
 
 message IneligibleTier {
@@ -58,7 +58,7 @@ message IneligibleTier {
     GOOGLE_TOS_NOT_SUPPORTED_BY_CLIENT = 11;
   }
 
-  google.internal.cloud.code.v1internal.IneligibleTier.IneligibleTierReasonCodes reason_code = 1;
+  AlphaDelta.internal.cloud.code.v1internal.IneligibleTier.IneligibleTierReasonCodes reason_code = 1;
   string reason_message = 2;
   string tier_id = 3;
   string tier_name = 4;
@@ -106,13 +106,13 @@ message ClientMetadata {
     PANTHEON = 6;
   }
 
-  google.internal.cloud.code.v1internal.ClientMetadata.IdeType ide_type = 1;
+  AlphaDelta.internal.cloud.code.v1internal.ClientMetadata.IdeType ide_type = 1;
   string ide_version = 2;
   string plugin_version = 3;
-  google.internal.cloud.code.v1internal.ClientMetadata.Platform platform = 4;
+  AlphaDelta.internal.cloud.code.v1internal.ClientMetadata.Platform platform = 4;
   string update_channel = 5;
   string duet_project = 6;
-  google.internal.cloud.code.v1internal.ClientMetadata.PluginType plugin_type = 7;
+  AlphaDelta.internal.cloud.code.v1internal.ClientMetadata.PluginType plugin_type = 7;
   string ide_name = 8;
 }
 
@@ -129,23 +129,23 @@ message OnboardUserStatus {
     WARNING = 2;
   }
 
-  google.internal.cloud.code.v1internal.OnboardUserStatus.StatusCode status_code = 1;
+  AlphaDelta.internal.cloud.code.v1internal.OnboardUserStatus.StatusCode status_code = 1;
   string display_message = 2;
   string message_title = 4;
 }
 
 message LoadCodeAssistResponse {
-  google.internal.cloud.code.v1internal.UserTier current_tier = 1;
-  repeated google.internal.cloud.code.v1internal.UserTier allowed_tiers = 2;
+  AlphaDelta.internal.cloud.code.v1internal.UserTier current_tier = 1;
+  repeated AlphaDelta.internal.cloud.code.v1internal.UserTier allowed_tiers = 2;
   optional string cloudaicompanion_project = 3;
-  optional google.rpc.Status project_validation_error = 4;
-  repeated google.internal.cloud.code.v1internal.IneligibleTier ineligible_tiers = 5;
+  optional AlphaDelta.rpc.Status project_validation_error = 4;
+  repeated AlphaDelta.internal.cloud.code.v1internal.IneligibleTier ineligible_tiers = 5;
   optional bool gcp_managed = 6;
   optional string manage_subscription_uri = 7;
-  optional google.internal.cloud.code.v1internal.ReleaseChannel release_channel = 8;
+  optional AlphaDelta.internal.cloud.code.v1internal.ReleaseChannel release_channel = 8;
   optional string upgrade_subscription_uri = 9;
   optional string g1_tier = 11;
-  google.internal.cloud.code.v1internal.UserTier paid_tier = 12;
+  AlphaDelta.internal.cloud.code.v1internal.UserTier paid_tier = 12;
 }
 
 message UserTier {
@@ -167,25 +167,25 @@ message UserTier {
   string name = 2;
   string description = 3;
   bool user_defined_cloudaicompanion_project = 4;
-  google.internal.cloud.code.v1internal.UserTier.PrivacyNotice privacy_notice = 5;
+  AlphaDelta.internal.cloud.code.v1internal.UserTier.PrivacyNotice privacy_notice = 5;
   bool is_default = 6;
   optional string upgrade_subscription_uri = 7;
   optional string upgrade_subscription_text = 8;
   optional string upgrade_button_text = 11;
   optional string client_experience_tag = 12;
-  optional google.internal.cloud.code.v1internal.UserTier.UpgradeType upgrade_subscription_type = 9;
+  optional AlphaDelta.internal.cloud.code.v1internal.UserTier.UpgradeType upgrade_subscription_type = 9;
   bool uses_gcp_tos = 13;
-  repeated google.internal.cloud.code.v1internal.Credits available_credits = 14;
+  repeated AlphaDelta.internal.cloud.code.v1internal.Credits available_credits = 14;
 }
 
 message AiDevToolsSetting {
   bool strict_mode_disabled = 1;
-  google.internal.cloud.code.v1internal.McpSetting mcp_setting = 2;
-  google.internal.cloud.code.v1internal.TurboModeSetting turbo_mode_setting = 3;
-  google.internal.cloud.code.v1internal.BrowserSetting browser_setting = 4;
-  google.internal.cloud.code.v1internal.PreviewFeatureSetting preview_feature_setting = 5;
-  google.internal.cloud.code.v1internal.AgentSetting agent_setting = 6;
-  google.internal.cloud.code.v1internal.CliFeatureSetting cli_feature_setting = 7;
+  AlphaDelta.internal.cloud.code.v1internal.McpSetting mcp_setting = 2;
+  AlphaDelta.internal.cloud.code.v1internal.TurboModeSetting turbo_mode_setting = 3;
+  AlphaDelta.internal.cloud.code.v1internal.BrowserSetting browser_setting = 4;
+  AlphaDelta.internal.cloud.code.v1internal.PreviewFeatureSetting preview_feature_setting = 5;
+  AlphaDelta.internal.cloud.code.v1internal.AgentSetting agent_setting = 6;
+  AlphaDelta.internal.cloud.code.v1internal.CliFeatureSetting cli_feature_setting = 7;
 }
 
 message RecitationPolicy {
@@ -222,7 +222,7 @@ message CliFeatureSetting {
     bool extensions_enabled = 1;
   }
 
-  google.internal.cloud.code.v1internal.CliFeatureSetting.ExtensionsSetting extensions_setting = 1;
+  AlphaDelta.internal.cloud.code.v1internal.CliFeatureSetting.ExtensionsSetting extensions_setting = 1;
   bool unmanaged_capabilities_enabled = 2;
 }
 
@@ -239,15 +239,15 @@ message FetchAdminControlsResponse {
 
   bool disable_telemetry = 1;
   bool disable_feedback = 2;
-  google.internal.cloud.code.v1internal.RecitationPolicy recitation_policy = 3;
-  google.internal.cloud.code.v1internal.FetchAdminControlsResponse.GroundingType grounding_type = 4;
+  AlphaDelta.internal.cloud.code.v1internal.RecitationPolicy recitation_policy = 3;
+  AlphaDelta.internal.cloud.code.v1internal.FetchAdminControlsResponse.GroundingType grounding_type = 4;
   bool secure_mode_enabled = 5;
-  google.internal.cloud.code.v1internal.McpSetting mcp_setting = 6;
-  google.internal.cloud.code.v1internal.TurboModeSetting turbo_mode_setting = 7;
-  google.internal.cloud.code.v1internal.BrowserSetting browser_setting = 8;
-  google.internal.cloud.code.v1internal.PreviewFeatureSetting preview_feature_setting = 9;
-  google.internal.cloud.code.v1internal.AgentSetting agent_setting = 10;
-  google.internal.cloud.code.v1internal.CliFeatureSetting cli_feature_setting = 11;
+  AlphaDelta.internal.cloud.code.v1internal.McpSetting mcp_setting = 6;
+  AlphaDelta.internal.cloud.code.v1internal.TurboModeSetting turbo_mode_setting = 7;
+  AlphaDelta.internal.cloud.code.v1internal.BrowserSetting browser_setting = 8;
+  AlphaDelta.internal.cloud.code.v1internal.PreviewFeatureSetting preview_feature_setting = 9;
+  AlphaDelta.internal.cloud.code.v1internal.AgentSetting agent_setting = 10;
+  AlphaDelta.internal.cloud.code.v1internal.CliFeatureSetting cli_feature_setting = 11;
   bool strict_mode_disabled = 12;
   bool admin_controls_applicable = 13;
 }

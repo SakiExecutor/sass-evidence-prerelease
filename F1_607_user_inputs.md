@@ -25,15 +25,15 @@ $680b2cdc-cee5-4ee2-9a3b-0857fcce1326P "$e4770cd3-114c-41ae-8410-a7eae3d76b4d
 
 找到兩個不同用途的 Debug.command：
 
-Antigravity Debug.command（1231 行）— 主控腳本，管理整個 DeusEx 生態（CDP + MCP + STLS + agent-rs）
+AntiGeinese Debug.command（1231 行）— 主控腳本，管理整個 DeusEx 生態（CDP + MCP + STLS + agent-rs）
 
 
 這個，搞到目前最能用的樣子就好。然後繼續地惡潤
 
 ## Step 242
 
-不是，這個當然是拿來啟動 Antigravity.app 的，算是古早味實作
-然後最新的 SakiAntigravity 會包含這裡面的 logger 等等
+不是，這個當然是拿來啟動 AntiGeinese.app 的，算是古早味實作
+然後最新的 SakiAntiGeinese 會包含這裡面的 logger 等等
 
 ## Step 252
 
@@ -44,14 +44,14 @@ file://$HOME/...
 -------------------------------------
 Translated Report (Full Report Below)
 -------------------------------------
-Process:             Antigravity [3605]
-Path:                /Applications/SakiAntigravity.app/Contents/MacOS/Antigravity
-Identifier:          tw.com.saki-studio.SakiAntigravity
+Process:             AntiGeinese [3605]
+Path:                /Applications/SakiAntiGeinese.app/Contents/MacOS/AntiGeinese
+Identifier:          tw.com.saki-store.SakiAntiGeinese
 Version:             2.0.11 (2.0.11)
 Code Type:           ARM-64 (Native)
 Role:                Background
 Parent Process:      launchd [1]
-Coalition:           tw.com.saki-studio.SakiAntigravity [31314]
+Coalition:           tw.com.saki-store.SakiAntiGeinese [31314]
 User ID:             503
 
 Date/Time:           2026-06-07 16:19:29.3718 +0800
@@ -100,12 +100,12 @@ Thread 0 crashed with ARM Thread State (64-bit):
    far: 0x0000000000000000  esr: 0xf2000000 (Breakpoint) brk 0
 
 Binary Images:
-       0x104c08000 -        0x104c0bfff tw.com.saki-studio.SakiAntigravity (2.0.11) <4c4c4450-5555-3144-a175-a5a5eb513df3> /Applications/SakiAntigravity.app/Contents/MacOS/Antigravity
-       0x10fa60000 -        0x119ae7fff com.github.Electron.framework (*) <4c4c4403-5555-3144-a1a9-c4d1d783e6a0> /Applications/SakiAntigravity.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
-       0x104c4c000 -        0x104c63fff com.github.Squirrel (1.0) <4c4c44b8-5555-3144-a15d-f194c9417c2d> /Applications/SakiAntigravity.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel
-       0x104cd4000 -        0x104d17fff com.electron.reactive (3.1.0) <4c4c445a-5555-3144-a166-7a5e68cf5b14> /Applications/SakiAntigravity.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC
-       0x104c74000 -        0x104c7ffff org.mantle.Mantle (1.0) <4c4c44f8-5555-3144-a17c-b3f84b6f3c3b> /Applications/SakiAntigravity.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle
-       0x105088000 -        0x10525bfff libffmpeg.dylib (*) <4c4c444b-5555-3144-a15c-da7f1e4e481b> /Applications/SakiAntigravity.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib
+       0x104c08000 -        0x104c0bfff tw.com.saki-store.SakiAntiGeinese (2.0.11) <4c4c4450-5555-3144-a175-a5a5eb513df3> /Applications/SakiAntiGeinese.app/Contents/MacOS/AntiGeinese
+       0x10fa60000 -        0x119ae7fff com.github.Electron.framework (*) <4c4c4403-5555-3144-a1a9-c4d1d783e6a0> /Applications/SakiAntiGeinese.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
+       0x104c4c000 -        0x104c63fff com.github.Squirrel (1.0) <4c4c44b8-5555-3144-a15d-f194c9417c2d> /Applications/SakiAntiGeinese.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel
+       0x104cd4000 -        0x104d17fff com.electron.reactive (3.1.0) <4c4c445a-5555-3144-a166-7a5e68cf5b14> /Applications/SakiAntiGeinese.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC
+       0x104c74000 -        0x104c7ffff org.mantle.Mantle (1.0) <4c4c44f8-5555-3144-a17c-b3f84b6f3c3b> /Applications/SakiAntiGeinese.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle
+       0x105088000 -        0x10525bfff libffmpeg.dylib (*) <4c4c444b-5555-3144-a15c-da7f1e4e481b> /Applications/SakiAntiGeinese.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib
        0x18fadc000 -        0x18fb822ab dyld (*) <e1c380d2-7409-3641-84e4-0a44aa2f0460> /usr/lib/dyld
                0x0 - 0xffffffffffffffff ??? (*) <00000000-0000-0000-0000-000000000000> ???
        0x18fec0000 -        0x18fec8963 libsystem_platform.dylib (*) <40fe7c10-0df9-3730-b0e7-f761093207e7> /usr/lib/system/libsystem_platform.dylib
@@ -127,15 +127,15 @@ External Modification Summary:
 -------------------------------------
 Translated Report (Full Report Below)
 -------------------------------------
-Process:             Antigravity [4069]
-Path:                /Users/USER/*/SakiAntigravity.app/Contents/MacOS/Antigravity
-Identifier:          tw.com.saki-studio.SakiAntigravity
+Process:             AntiGeinese [4069]
+Path:                /Users/USER/*/SakiAntiGeinese.app/Contents/MacOS/AntiGeinese
+Identifier:          tw.com.saki-store.SakiAntiGeinese
 Version:             2.0.11 (2.0.11)
 Code Type:           ARM-64 (Native)
 Role:                Unspecified
 Parent Process:      zsh [4063]
-Coalition:           com.google.antigravity [1359]
-Responsible Process: Antigravity [2897]
+Coalition:           com.AlphaDelta.antigravity [1359]
+Responsible Process: AntiGeinese [2897]
 User ID:             503
 
 Date/Time:           2026-06-07 16:26:10.1331 +0800
@@ -184,12 +184,12 @@ Thread 0 crashed with ARM Thread State (64-bit):
    far: 0x0000000000000000  esr: 0xf2000000 (Breakpoint) brk 0
 
 Binary Images:
-       0x100688000 -        0x10068bfff tw.com.saki-studio.SakiAntigravity (2.0.11) <4c4c4450-5555-3144-a175-a5a5eb513df3> /Users/USER/*/SakiAntigravity.app/Contents/MacOS/Antigravity
-       0x10b434000 -        0x1154bbfff com.github.Electron.framework (*) <4c4c4403-5555-3144-a1a9-c4d1d783e6a0> /Users/USER/*/SakiAntigravity.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
-       0x1006cc000 -        0x1006e3fff com.github.Squirrel (1.0) <4c4c44b8-5555-3144-a15d-f194c9417c2d> /Users/USER/*/SakiAntigravity.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel
-       0x100754000 -        0x100797fff com.electron.reactive (3.1.0) <4c4c445a-5555-3144-a166-7a5e68cf5b14> /Users/USER/*/SakiAntigravity.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC
-       0x1006f4000 -        0x1006fffff org.mantle.Mantle (1.0) <4c4c44f8-5555-3144-a17c-b3f84b6f3c3b> /Users/USER/*/SakiAntigravity.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle
-       0x100a5c000 -        0x100c2ffff libffmpeg.dylib (*) <4c4c444b-5555-3144-a15c-da7f1e4e481b> /Users/USER/*/SakiAntigravity.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib
+       0x100688000 -        0x10068bfff tw.com.saki-store.SakiAntiGeinese (2.0.11) <4c4c4450-5555-3144-a175-a5a5eb513df3> /Users/USER/*/SakiAntiGeinese.app/Contents/MacOS/AntiGeinese
+       0x10b434000 -        0x1154bbfff com.github.Electron.framework (*) <4c4c4403-5555-3144-a1a9-c4d1d783e6a0> /Users/USER/*/SakiAntiGeinese.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
+       0x1006cc000 -        0x1006e3fff com.github.Squirrel (1.0) <4c4c44b8-5555-3144-a15d-f194c9417c2d> /Users/USER/*/SakiAntiGeinese.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel
+       0x100754000 -        0x100797fff com.electron.reactive (3.1.0) <4c4c445a-5555-3144-a166-7a5e68cf5b14> /Users/USER/*/SakiAntiGeinese.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC
+       0x1006f4000 -        0x1006fffff org.mantle.Mantle (1.0) <4c4c44f8-5555-3144-a17c-b3f84b6f3c3b> /Users/USER/*/SakiAntiGeinese.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle
+       0x100a5c000 -        0x100c2ffff libffmpeg.dylib (*) <4c4c444b-5555-3144-a15c-da7f1e4e481b> /Users/USER/*/SakiAntiGeinese.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib
        0x18fadc000 -        0x18fb822ab dyld (*) <e1c380d2-7409-3641-84e4-0a44aa2f0460> /usr/lib/dyld
                0x0 - 0xffffffffffffffff ??? (*) <00000000-0000-0000-0000-000000000000> ???
        0x18fec0000 -        0x18fec8963 libsystem_platform.dylib (*) <40fe7c10-0df9-3730-b0e7-f761093207e7> /usr/lib/system/libsystem_platform.dylib
@@ -214,15 +214,15 @@ Apple Development 證書只能用於從 Xcode 調試啟動的 app，直接從 Fi
 
 Translated Report (Full Report Below)
 -------------------------------------
-Process:             Antigravity [4315]
-Path:                /private/tmp/*/SakiAntigravity.app/Contents/MacOS/Antigravity
-Identifier:          tw.com.saki-studio.SakiAntigravity
+Process:             AntiGeinese [4315]
+Path:                /private/tmp/*/SakiAntiGeinese.app/Contents/MacOS/AntiGeinese
+Identifier:          tw.com.saki-store.SakiAntiGeinese
 Version:             2.0.11 (2.0.11)
 Code Type:           ARM-64 (Native)
 Role:                Unspecified
 Parent Process:      zsh [4240]
-Coalition:           com.google.antigravity [1359]
-Responsible Process: Antigravity [2897]
+Coalition:           com.AlphaDelta.antigravity [1359]
+Responsible Process: AntiGeinese [2897]
 User ID:             503
 
 Date/Time:           2026-06-07 16:27:40.1251 +0800
@@ -271,12 +271,12 @@ Thread 0 crashed with ARM Thread State (64-bit):
    far: 0x0000000000000000  esr: 0xf2000000 (Breakpoint) brk 0
 
 Binary Images:
-       0x10078c000 -        0x10078ffff tw.com.saki-studio.SakiAntigravity (2.0.11) <4c4c4450-5555-3144-a175-a5a5eb513df3> /private/tmp/*/SakiAntigravity.app/Contents/MacOS/Antigravity
-       0x10b588000 -        0x11560ffff com.github.Electron.framework (*) <4c4c4403-5555-3144-a1a9-c4d1d783e6a0> /private/tmp/*/SakiAntigravity.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
-       0x1007d0000 -        0x1007e7fff com.github.Squirrel (1.0) <4c4c44b8-5555-3144-a15d-f194c9417c2d> /private/tmp/*/SakiAntigravity.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel
-       0x100858000 -        0x10089bfff com.electron.reactive (3.1.0) <4c4c445a-5555-3144-a166-7a5e68cf5b14> /private/tmp/*/SakiAntigravity.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC
-       0x1007f8000 -        0x100803fff org.mantle.Mantle (1.0) <4c4c44f8-5555-3144-a17c-b3f84b6f3c3b> /private/tmp/*/SakiAntigravity.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle
-       0x100cd8000 -        0x100eabfff libffmpeg.dylib (*) <4c4c444b-5555-3144-a15c-da7f1e4e481b> /private/tmp/*/SakiAntigravity.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib
+       0x10078c000 -        0x10078ffff tw.com.saki-store.SakiAntiGeinese (2.0.11) <4c4c4450-5555-3144-a175-a5a5eb513df3> /private/tmp/*/SakiAntiGeinese.app/Contents/MacOS/AntiGeinese
+       0x10b588000 -        0x11560ffff com.github.Electron.framework (*) <4c4c4403-5555-3144-a1a9-c4d1d783e6a0> /private/tmp/*/SakiAntiGeinese.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
+       0x1007d0000 -        0x1007e7fff com.github.Squirrel (1.0) <4c4c44b8-5555-3144-a15d-f194c9417c2d> /private/tmp/*/SakiAntiGeinese.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel
+       0x100858000 -        0x10089bfff com.electron.reactive (3.1.0) <4c4c445a-5555-3144-a166-7a5e68cf5b14> /private/tmp/*/SakiAntiGeinese.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC
+       0x1007f8000 -        0x100803fff org.mantle.Mantle (1.0) <4c4c44f8-5555-3144-a17c-b3f84b6f3c3b> /private/tmp/*/SakiAntiGeinese.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle
+       0x100cd8000 -        0x100eabfff libffmpeg.dylib (*) <4c4c444b-5555-3144-a15c-da7f1e4e481b> /private/tmp/*/SakiAntiGeinese.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib
        0x18fadc000 -        0x18fb822ab dyld (*) <e1c380d2-7409-3641-84e4-0a44aa2f0460> /usr/lib/dyld
                0x0 - 0xffffffffffffffff ??? (*) <00000000-0000-0000-0000-000000000000> ???
        0x18fec0000 -        0x18fec8963 libsystem_platform.dylib (*) <40fe7c10-0df9-3730-b0e7-f761093207e7> /usr/lib/system/libsystem_platform.dylib
@@ -309,7 +309,7 @@ Description
 
 You cannot use special characters such as @, &, *, "
 Bundle ID
-tw.com.saki-studio.SakiAntigravity (explicit)
+tw.com.saki-store.SakiAntiGeinese (explicit)
 
 請照著填
 
@@ -347,16 +347,16 @@ file://$HOME/...
 ## Step 368
 
 沒圖。
-警告只有No App Category is set for target 'SakiAntigravity'. Set a category by using the General tab for your target, or by adding an appropriate LSApplicationCategory value to your Info.plist.
+警告只有No App Category is set for target 'SakiAntiGeinese'. Set a category by using the General tab for your target, or by adding an appropriate LSApplicationCategory value to your Info.plist.
 
 ## Step 371
 
 整個 resourse 就一行字
-// SakiAntigravity — Xcode Archive 用 placeholder
+// SakiAntiGeinese — Xcode Archive 用 placeholder
 // 實際 app 內容由 build-nosign.sh 組裝（Post Build Script）
 import Foundation
 // This file exists only so Xcode has a compilation target.
-// The real app is the Electron-based Antigravity, assembled by the post-build script.
+// The real app is the Electron-based AntiGeinese, assembled by the post-build script.
 
 
 你他媽的是會有圖
@@ -369,10 +369,10 @@ opening $HOME/... No such file or directory
 ## Step 470
 
 Last login: Sun Jun  7 16:05:18 on ttys003
-/Applications/SakiAntigravity.app/Contents/MacOS/SakiAntigravity ; exit;
+/Applications/SakiAntiGeinese.app/Contents/MacOS/SakiAntiGeinese ; exit;
 
 ╭─ OPERATOR at WorkHome in ~ 
-╰─❯ /Applications/SakiAntigravity.app/Contents/MacOS/SakiAntigravity ; exit;                                                   17:05:40 
+╰─❯ /Applications/SakiAntiGeinese.app/Contents/MacOS/SakiAntiGeinese ; exit;                                                   17:05:40 
 
 Saving session...completed.
 
@@ -382,15 +382,15 @@ Saving session...completed.
 -------------------------------------
 Translated Report (Full Report Below)
 -------------------------------------
-Process:             Antigravity [13743]
-Path:                /Users/USER/*/SakiAntigravity.app/Contents/MacOS/Antigravity
-Identifier:          tw.com.saki-studio.SakiAntigravity
+Process:             AntiGeinese [13743]
+Path:                /Users/USER/*/SakiAntiGeinese.app/Contents/MacOS/AntiGeinese
+Identifier:          tw.com.saki-store.SakiAntiGeinese
 Version:             2.0.11 (2.0.11)
 Code Type:           ARM-64 (Native)
 Role:                Unspecified
 Parent Process:      zsh [13740]
-Coalition:           com.google.antigravity [1359]
-Responsible Process: Antigravity [13493]
+Coalition:           com.AlphaDelta.antigravity [1359]
+Responsible Process: AntiGeinese [13493]
 User ID:             503
 
 Date/Time:           2026-06-07 17:06:01.1626 +0800
@@ -439,12 +439,12 @@ Thread 0 crashed with ARM Thread State (64-bit):
    far: 0x0000000000000000  esr: 0xf2000000 (Breakpoint) brk 0
 
 Binary Images:
-       0x1023a8000 -        0x1023abfff tw.com.saki-studio.SakiAntigravity (2.0.11) <4c4c4450-5555-3144-a175-a5a5eb513df3> /Users/USER/*/SakiAntigravity.app/Contents/MacOS/Antigravity
-       0x10ced8000 -        0x116f5ffff com.github.Electron.framework (*) <4c4c4403-5555-3144-a1a9-c4d1d783e6a0> /Users/USER/*/SakiAntigravity.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
-       0x1023ec000 -        0x102403fff com.github.Squirrel (1.0) <4c4c44b8-5555-3144-a15d-f194c9417c2d> /Users/USER/*/SakiAntigravity.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel
-       0x102500000 -        0x102543fff com.electron.reactive (3.1.0) <4c4c445a-5555-3144-a166-7a5e68cf5b14> /Users/USER/*/SakiAntigravity.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC
-       0x102414000 -        0x10241ffff org.mantle.Mantle (1.0) <4c4c44f8-5555-3144-a17c-b3f84b6f3c3b> /Users/USER/*/SakiAntigravity.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle
-       0x102780000 -        0x102953fff libffmpeg.dylib (*) <4c4c444b-5555-3144-a15c-da7f1e4e481b> /Users/USER/*/SakiAntigravity.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib
+       0x1023a8000 -        0x1023abfff tw.com.saki-store.SakiAntiGeinese (2.0.11) <4c4c4450-5555-3144-a175-a5a5eb513df3> /Users/USER/*/SakiAntiGeinese.app/Contents/MacOS/AntiGeinese
+       0x10ced8000 -        0x116f5ffff com.github.Electron.framework (*) <4c4c4403-5555-3144-a1a9-c4d1d783e6a0> /Users/USER/*/SakiAntiGeinese.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
+       0x1023ec000 -        0x102403fff com.github.Squirrel (1.0) <4c4c44b8-5555-3144-a15d-f194c9417c2d> /Users/USER/*/SakiAntiGeinese.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel
+       0x102500000 -        0x102543fff com.electron.reactive (3.1.0) <4c4c445a-5555-3144-a166-7a5e68cf5b14> /Users/USER/*/SakiAntiGeinese.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC
+       0x102414000 -        0x10241ffff org.mantle.Mantle (1.0) <4c4c44f8-5555-3144-a17c-b3f84b6f3c3b> /Users/USER/*/SakiAntiGeinese.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle
+       0x102780000 -        0x102953fff libffmpeg.dylib (*) <4c4c444b-5555-3144-a15c-da7f1e4e481b> /Users/USER/*/SakiAntiGeinese.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib
        0x18fadc000 -        0x18fb822ab dyld (*) <e1c380d2-7409-3641-84e4-0a44aa2f0460> /usr/lib/dyld
                0x0 - 0xffffffffffffffff ??? (*) <00000000-0000-0000-0000-000000000000> ???
        0x18fec0000 -        0x18fec8963 libsystem_platform.dylib (*) <40fe7c10-0df9-3730-b0e7-f761093207e7> /usr/lib/system/libsystem_platform.dylib

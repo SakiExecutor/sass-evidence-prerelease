@@ -1,4 +1,4 @@
-{"app_name":"Antigravity Helper","timestamp":"2026-06-07 18:05:51.00 +0800","app_version":"","slice_uuid":"4c4c446c-5555-3144-a1bc-aade1ee2bd9f","build_version":"2.0.11","platform":1,"bundleID":"com.google.antigravity.helper","share_with_app_devs":0,"is_first_party":0,"bug_type":"309","os_version":"macOS 26.6 (25G5028f)","roots_installed":0,"name":"Antigravity Helper","incident_id":"D1D91F29-0397-46E9-BBCE-69D975EEA775"}
+{"app_name":"AntiGeinese Helper","timestamp":"2026-06-07 18:05:51.00 +0800","app_version":"","slice_uuid":"4c4c446c-5555-3144-a1bc-aade1ee2bd9f","build_version":"2.0.11","platform":1,"bundleID":"com.AlphaDelta.antigravity.helper","share_with_app_devs":0,"is_first_party":0,"bug_type":"309","os_version":"macOS 26.6 (25G5028f)","roots_installed":0,"name":"AntiGeinese Helper","incident_id":"D1D91F29-0397-46E9-BBCE-69D975EEA775"}
 {
   "uptime" : 2200,
   "procRole" : "Foreground",
@@ -21,20 +21,20 @@
   "procLaunch" : "2026-06-07 18:03:40.6992 +0800",
   "procStartAbsTime" : 53213490560,
   "procExitAbsTime" : 54849060026,
-  "procName" : "Antigravity Helper",
-  "procPath" : "\/Applications\/Antigravity.app\/Contents\/Frameworks\/Antigravity Helper.app\/Contents\/MacOS\/Antigravity Helper",
-  "bundleInfo" : {"CFBundleVersion":"2.0.11","CFBundleIdentifier":"com.google.antigravity.helper"},
+  "procName" : "AntiGeinese Helper",
+  "procPath" : "\/Applications\/AntiGeinese.app\/Contents\/Frameworks\/AntiGeinese Helper.app\/Contents\/MacOS\/AntiGeinese Helper",
+  "bundleInfo" : {"CFBundleVersion":"2.0.11","CFBundleIdentifier":"com.AlphaDelta.antigravity.helper"},
   "storeInfo" : {"deviceIdentifierForVendor":"2267FE70-FF84-5B7E-B5A8-66763075DFF5","thirdParty":true},
-  "parentProc" : "Antigravity",
+  "parentProc" : "AntiGeinese",
   "parentPid" : 6581,
-  "coalitionName" : "com.google.antigravity",
+  "coalitionName" : "com.AlphaDelta.antigravity",
   "crashReporterKey" : "328A513C-FB9E-63DF-7D77-FD036139EBD6",
   "appleIntelligenceStatus" : {"state":"available"},
   "developerMode" : 1,
   "bootProgressRegister" : "0x2f000000",
   "responsiblePid" : 6581,
-  "responsibleProc" : "Antigravity",
-  "codeSigningID" : "com.google.antigravity.helper",
+  "responsibleProc" : "AntiGeinese",
+  "codeSigningID" : "com.AlphaDelta.antigravity.helper",
   "codeSigningTeamID" : "EQHXZ8M8AV",
   "codeSigningFlags" : 570490881,
   "codeSigningValidationCategory" : 6,
@@ -52,11 +52,11 @@
     "source" : "P",
     "arch" : "x86_64",
     "base" : 4367949824,
-    "CFBundleIdentifier" : "com.google.antigravity.helper",
+    "CFBundleIdentifier" : "com.AlphaDelta.antigravity.helper",
     "size" : 192512,
     "uuid" : "4c4c446c-5555-3144-a1bc-aade1ee2bd9f",
-    "path" : "\/Applications\/Antigravity.app\/Contents\/Frameworks\/Antigravity Helper.app\/Contents\/MacOS\/Antigravity Helper",
-    "name" : "Antigravity Helper",
+    "path" : "\/Applications\/AntiGeinese.app\/Contents\/Frameworks\/AntiGeinese Helper.app\/Contents\/MacOS\/AntiGeinese Helper",
+    "name" : "AntiGeinese Helper",
     "CFBundleVersion" : "2.0.11"
   },
   {
@@ -66,7 +66,7 @@
     "CFBundleIdentifier" : "com.github.Electron.framework",
     "size" : 186646528,
     "uuid" : "4c4c4490-5555-3144-a129-ef46de7e0208",
-    "path" : "\/Applications\/Antigravity.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Electron Framework",
+    "path" : "\/Applications\/AntiGeinese.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Electron Framework",
     "name" : "Electron Framework",
     "CFBundleVersion" : "41.0.2"
   },
@@ -78,7 +78,7 @@
     "CFBundleIdentifier" : "com.github.Squirrel",
     "size" : 90112,
     "uuid" : "4c4c44d8-5555-3144-a194-09258a043332",
-    "path" : "\/Applications\/Antigravity.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Squirrel",
+    "path" : "\/Applications\/AntiGeinese.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Squirrel",
     "name" : "Squirrel",
     "CFBundleVersion" : "1"
   },
@@ -90,7 +90,7 @@
     "CFBundleIdentifier" : "com.electron.reactive",
     "size" : 278528,
     "uuid" : "4c4c445b-5555-3144-a18e-f32e1962ebd3",
-    "path" : "\/Applications\/Antigravity.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/ReactiveObjC",
+    "path" : "\/Applications\/AntiGeinese.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/ReactiveObjC",
     "name" : "ReactiveObjC",
     "CFBundleVersion" : "0.0.0"
   },
@@ -102,7 +102,7 @@
     "CFBundleIdentifier" : "org.mantle.Mantle",
     "size" : 49152,
     "uuid" : "4c4c44fa-5555-3144-a13a-011b789e8239",
-    "path" : "\/Applications\/Antigravity.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Mantle",
+    "path" : "\/Applications\/AntiGeinese.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Mantle",
     "name" : "Mantle",
     "CFBundleVersion" : "0.0.0"
   },
@@ -112,7 +112,7 @@
     "base" : 4512407552,
     "size" : 2142208,
     "uuid" : "4c4c44cf-5555-3144-a15a-322e81cdcc8f",
-    "path" : "\/Applications\/Antigravity.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libffmpeg.dylib",
+    "path" : "\/Applications\/AntiGeinese.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libffmpeg.dylib",
     "name" : "libffmpeg.dylib"
   },
   {

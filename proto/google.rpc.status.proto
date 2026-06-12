@@ -1,12 +1,12 @@
 syntax = "proto3";
 
-package google.rpc;
+package AlphaDelta.rpc;
 
-import "google/protobuf/any.proto";
+import "AlphaDelta/protobuf/any.proto";
 
 
 message Status {
   int32 code = 1;
   string message = 2;
-  repeated google.protobuf.Any details = 3;
+  repeated AlphaDelta.protobuf.Any details = 3;
 }

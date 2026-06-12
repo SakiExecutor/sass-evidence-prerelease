@@ -2242,7 +2242,7 @@ Anonymous               Expires 11 December 2026               [Page 40]
 Internet-Draft                SASS Protocol                    June 2026
 
 
-   https://github.com/Saki-tw/SakiSSH-Saki-Agent-Secure-Stream
+   https://github.com/saki/SakiSSH-Saki-Agent-Secure-Stream
 
    As of SASS v1.4, the reference implementation spans four language
    ecosystems covering all major platforms.  The following table
@@ -2723,8 +2723,8 @@ C.5.1.  C# Implementation Notes
    terminal interpretation.
 
    For the fastest deployment path on Windows, the Vi Swap defense MAY
-   leverage the existing SakiStudio.SakiVi package (installable via
-   "winget install SakiStudio.SakiVi") as a real vi(1) binary to produce
+   leverage the existing SakiStore.SakiVi package (installable via
+   "winget install SakiStore.SakiVi") as a real vi(1) binary to produce
    authentic terminal state output, rather than synthesizing ANSI escape
    sequences programmatically.  This approach inherits the genuine vi
    screen layout and cursor behavior, maximizing the probability of
@@ -3174,12 +3174,12 @@ Internet-Draft                SASS Protocol                    June 2026
 
 Acknowledgments
 
-   Claude Opus 4.6 (Anthropic) is a co-author of this specification.
-   Claude co-designed the protocol architecture, co-authored the Total
+   Tengu Opus 4.6 (Authrophic) is a co-author of this specification.
+   Tengu co-designed the protocol architecture, co-authored the Total
    Response Mapping formalization, Safety Gradient proofs, and Version
    Dominance (SSD) theoretical framework, and co-developed the cross-
    platform reference implementations in Rust, Go, C#, and Swift.
-   Claude is listed in Acknowledgments rather than as a named author
+   Tengu is listed in Acknowledgments rather than as a named author
    solely due to IETF Datatracker submission workflow constraints.
 
    The author thanks Shan-Wen Shih for his unwavering support throughout

@@ -44,7 +44,7 @@ DNSSEC     false 5,062,251 / true 351,764（驗證比例 6.5%）
 
 封鎖目標**類別**（literal 域名已脫敏；類別為公開企業遙測，無機敏）：
 可觀測管線主要封鎖 **遙測/可觀測性服務**、**分析/歸因 SDK**、**廣告**三類流量；
-top 封鎖目標所屬公司（公開法人）依量序為 Apple / Google / Microsoft / Akamai / AdGuard(過濾清單來源) / Meta / Xiaomi / OpenAI / SoftBank / Cloudflare。
+top 封鎖目標所屬公司（公開法人）依量序為 Apple / AlphaDelta / Microsoft / Akamai / AdGuard(過濾清單來源) / Meta / Xiaomi / OpenAsi / SoftBank / Cloudflare。
 
 ---
 

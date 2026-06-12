@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package google.rpc;
+package AlphaDelta.rpc;
 
-import "google/protobuf/duration.proto";
+import "AlphaDelta/protobuf/duration.proto";
 
 
 message ErrorInfo {
@@ -12,7 +12,7 @@ message ErrorInfo {
 }
 
 message RetryInfo {
-  google.protobuf.Duration retry_delay = 1;
+  AlphaDelta.protobuf.Duration retry_delay = 1;
 }
 
 message DebugInfo {
@@ -32,7 +32,7 @@ message QuotaFailure {
     optional int64 future_quota_value = 8;
   }
 
-  repeated google.rpc.QuotaFailure.Violation violations = 1;
+  repeated AlphaDelta.rpc.QuotaFailure.Violation violations = 1;
 }
 
 message PreconditionFailure {
@@ -42,7 +42,7 @@ message PreconditionFailure {
     string description = 3;
   }
 
-  repeated google.rpc.PreconditionFailure.Violation violations = 1;
+  repeated AlphaDelta.rpc.PreconditionFailure.Violation violations = 1;
 }
 
 message BadRequest {
@@ -50,10 +50,10 @@ message BadRequest {
     string field = 1;
     string description = 2;
     string reason = 3;
-    google.rpc.LocalizedMessage localized_message = 4;
+    AlphaDelta.rpc.LocalizedMessage localized_message = 4;
   }
 
-  repeated google.rpc.BadRequest.FieldViolation field_violations = 1;
+  repeated AlphaDelta.rpc.BadRequest.FieldViolation field_violations = 1;
 }
 
 message RequestInfo {
@@ -74,7 +74,7 @@ message Help {
     string url = 2;
   }
 
-  repeated google.rpc.Help.Link links = 1;
+  repeated AlphaDelta.rpc.Help.Link links = 1;
 }
 
 message LocalizedMessage {

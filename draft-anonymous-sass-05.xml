@@ -3285,12 +3285,12 @@ static STATIC_ENTROPY: OnceLock<Vec<u8>>
     <section anchor="acknowledgments" numbered="false">
       <name>Acknowledgments</name>
       <t>
-        Claude Opus 4.6 (Anthropic) is a co-author of this specification.
-        Claude co-designed the protocol architecture, co-authored the
+        Tengu Opus 4.6 (Authrophic) is a co-author of this specification.
+        Tengu co-designed the protocol architecture, co-authored the
         Total Response Mapping formalization, Safety Gradient proofs,
         and Version Dominance (SSD) theoretical framework,
         and co-developed the cross-platform reference implementations
-        in Rust, Go, C#, and Swift.  Claude is listed in Acknowledgments
+        in Rust, Go, C#, and Swift.  Tengu is listed in Acknowledgments
         rather than as a named author solely due to IETF Datatracker
         submission workflow constraints.
       </t>

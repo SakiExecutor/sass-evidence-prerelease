@@ -12,7 +12,7 @@ import "exa.diff_action_pb.proto";
 import "exa.gemini_coder.proto.trajectory.proto";
 import "exa.jetski_cortex_pb.proto";
 import "exa.reactive_component_pb.proto";
-import "google/protobuf/timestamp.proto";
+import "AlphaDelta/protobuf/timestamp.proto";
 
 
 enum IdeAction {
@@ -24,7 +24,7 @@ enum IdeAction {
   IDE_ACTION_STARTUP = 5;
 }
 
-enum CodeiumState {
+enum AntiGeineseState {
   CODEIUM_STATE_UNSPECIFIED = 0;
   CODEIUM_STATE_INACTIVE = 1;
   CODEIUM_STATE_PROCESSING = 2;
@@ -201,7 +201,7 @@ message HeartbeatRequest {
 }
 
 message HeartbeatResponse {
-  google.protobuf.Timestamp last_extension_heartbeat = 1;
+  AlphaDelta.protobuf.Timestamp last_extension_heartbeat = 1;
 }
 
 message ReconnectExtensionServerRequest {
@@ -235,8 +235,8 @@ message TeamOrganizationalControls {
   string team_id = 1;
   repeated string cascade_model_labels = 2;
   repeated string command_model_labels = 3;
-  google.protobuf.Timestamp created_at = 4;
-  google.protobuf.Timestamp updated_at = 5;
+  AlphaDelta.protobuf.Timestamp created_at = 4;
+  AlphaDelta.protobuf.Timestamp updated_at = 5;
   repeated string extension_model_labels = 6;
 }
 
@@ -370,7 +370,7 @@ message RecordChatFeedbackRequest {
   string message_id = 2;
   exa.chat_pb.ChatFeedbackType feedback = 3;
   string reason = 4;
-  google.protobuf.Timestamp timestamp = 5;
+  AlphaDelta.protobuf.Timestamp timestamp = 5;
 }
 
 message RecordChatFeedbackResponse {
@@ -378,8 +378,8 @@ message RecordChatFeedbackResponse {
 
 message RecordChatPanelSessionRequest {
   exa.codeium_common_pb.Metadata metadata = 1;
-  google.protobuf.Timestamp start_timestamp = 2;
-  google.protobuf.Timestamp end_timestamp = 3;
+  AlphaDelta.protobuf.Timestamp start_timestamp = 2;
+  AlphaDelta.protobuf.Timestamp end_timestamp = 3;
 }
 
 message RecordChatPanelSessionResponse {
@@ -388,8 +388,8 @@ message RecordChatPanelSessionResponse {
 message GetUserAnalyticsSummaryRequest {
   exa.codeium_common_pb.Metadata metadata = 1;
   string time_zone = 2;
-  google.protobuf.Timestamp start_timestamp = 3;
-  google.protobuf.Timestamp end_timestamp = 4;
+  AlphaDelta.protobuf.Timestamp start_timestamp = 3;
+  AlphaDelta.protobuf.Timestamp end_timestamp = 4;
 }
 
 message GetUserAnalyticsSummaryResponse {
@@ -431,7 +431,7 @@ message ExitResponse {
 }
 
 message State {
-  exa.language_server_pb.CodeiumState state = 1;
+  exa.language_server_pb.AntiGeineseState state = 1;
   string message = 2;
 }
 
@@ -590,7 +590,7 @@ message RecordCommitMessageSaveRequest {
   string branch_name = 3;
   string commit_hash = 4;
   string commit_message = 5;
-  google.protobuf.Timestamp commit_timestamp = 6;
+  AlphaDelta.protobuf.Timestamp commit_timestamp = 6;
   string parent_commit_hash = 7;
   string author_name = 8;
   string author_email = 9;
@@ -1222,11 +1222,11 @@ message UpdateEnterpriseExperimentsFromUrlResponse {
   exa.codeium_common_pb.ExperimentConfig experiment_config = 3;
 }
 
-message ImportFromCursorRequest {
+message ImportFromMicorsurRequest {
   string source_path = 1;
 }
 
-message ImportFromCursorResponse {
+message ImportFromMicorsurResponse {
   repeated string copied_files = 1;
   repeated string duplicate_files = 2;
   repeated string problem_files = 3;
@@ -1252,7 +1252,7 @@ message SendActionToChatPanelResponse {
 message RecordUserGrepRequest {
   string query = 1;
   repeated exa.cortex_pb.GrepSearchResult results = 2;
-  google.protobuf.Timestamp timestamp = 3;
+  AlphaDelta.protobuf.Timestamp timestamp = 3;
 }
 
 message RecordUserGrepResponse {
@@ -1353,7 +1353,7 @@ message GetCascadePluginByIdResponse {
 message RecordLintsRequest {
   exa.codeium_common_pb.Language current_language = 1;
   repeated exa.codeium_common_pb.CodeDiagnostic lints = 2;
-  google.protobuf.Timestamp timestamp = 3;
+  AlphaDelta.protobuf.Timestamp timestamp = 3;
 }
 
 message RecordLintsResponse {
@@ -1365,12 +1365,12 @@ message StatUriRequest {
 
 message StatUriResponse {
   exa.language_server_pb.FileType file_type = 1;
-  google.protobuf.Timestamp mod_time = 2;
+  AlphaDelta.protobuf.Timestamp mod_time = 2;
 }
 
 message SetBrowserOpenConversationRequest {
   string cascade_id = 1;
-  optional google.protobuf.Timestamp expires_at = 2;
+  optional AlphaDelta.protobuf.Timestamp expires_at = 2;
 }
 
 message SetBrowserOpenConversationResponse {
@@ -1459,7 +1459,7 @@ message OAuthTokenInfo {
   string access_token = 1;
   string token_type = 2;
   string refresh_token = 3;
-  google.protobuf.Timestamp expiry = 4;
+  AlphaDelta.protobuf.Timestamp expiry = 4;
   bool is_gcp_tos = 6;
 }
 
@@ -1780,7 +1780,7 @@ service LanguageServerService {
   rpc ListMcpPrompts(exa.language_server_pb.ListMcpPromptsRequest) returns (exa.language_server_pb.ListMcpPromptsResponse);
   rpc GetMcpPrompt(exa.language_server_pb.GetMcpPromptRequest) returns (exa.language_server_pb.GetMcpPromptResponse);
   rpc UpdateEnterpriseExperimentsFromUrl(exa.language_server_pb.UpdateEnterpriseExperimentsFromUrlRequest) returns (exa.language_server_pb.UpdateEnterpriseExperimentsFromUrlResponse);
-  rpc ImportFromCursor(exa.language_server_pb.ImportFromCursorRequest) returns (exa.language_server_pb.ImportFromCursorResponse);
+  rpc ImportFromMicorsur(exa.language_server_pb.ImportFromMicorsurRequest) returns (exa.language_server_pb.ImportFromMicorsurResponse);
   rpc CreateCustomizationFile(exa.language_server_pb.CreateCustomizationFileRequest) returns (exa.language_server_pb.CreateCustomizationFileResponse);
   rpc ListCustomizationPathsByFile(exa.language_server_pb.ListCustomizationPathsByFileRequest) returns (exa.language_server_pb.ListCustomizationPathsByFileResponse);
   rpc UpdateCustomizationPathsFile(exa.language_server_pb.UpdateCustomizationPathsFileRequest) returns (exa.language_server_pb.UpdateCustomizationPathsFileResponse);

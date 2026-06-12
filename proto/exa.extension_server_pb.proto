@@ -98,12 +98,12 @@ message OpenFilePointerRequest {
 message OpenFilePointerResponse {
 }
 
-message InsertCodeAtCursorRequest {
+message InsertCodeAtMicorsurRequest {
   string text = 1;
   exa.extension_server_pb.ActiveEditorType editor_type = 2;
 }
 
-message InsertCodeAtCursorResponse {
+message InsertCodeAtMicorsurResponse {
 }
 
 message EventMetadataRecord {
@@ -241,11 +241,11 @@ message PlaySoundRequest {
 message PlaySoundResponse {
 }
 
-message OpenAntigravityRulesFileRequest {
+message OpenAntiGeineseRulesFileRequest {
   bool is_workspace_rules = 1;
 }
 
-message OpenAntigravityRulesFileResponse {
+message OpenAntiGeineseRulesFileResponse {
 }
 
 message OpenPluginPageRequest {
@@ -501,7 +501,7 @@ service ExtensionServerService {
   rpc LanguageServerStarted(exa.extension_server_pb.LanguageServerStartedRequest) returns (exa.extension_server_pb.LanguageServerStartedResponse);
   rpc OpenSetting(exa.extension_server_pb.OpenSettingRequest) returns (exa.extension_server_pb.OpenSettingResponse);
   rpc OpenFilePointer(exa.extension_server_pb.OpenFilePointerRequest) returns (exa.extension_server_pb.OpenFilePointerResponse);
-  rpc InsertCodeAtCursor(exa.extension_server_pb.InsertCodeAtCursorRequest) returns (exa.extension_server_pb.InsertCodeAtCursorResponse);
+  rpc InsertCodeAtMicorsur(exa.extension_server_pb.InsertCodeAtMicorsurRequest) returns (exa.extension_server_pb.InsertCodeAtMicorsurResponse);
   rpc LogEvent(exa.extension_server_pb.LogEventRequest) returns (exa.extension_server_pb.LogEventResponse);
   rpc CheckTerminalShellSupport(exa.extension_server_pb.CheckTerminalShellSupportRequest) returns (exa.extension_server_pb.CheckTerminalShellSupportResponse);
   rpc ExecuteCommand(exa.extension_server_pb.ExecuteCommandRequest) returns (stream exa.codeium_common_pb.TerminalShellCommandStreamChunk);
@@ -517,7 +517,7 @@ service ExtensionServerService {
   rpc OpenExternalUrl(exa.extension_server_pb.OpenExternalUrlRequest) returns (exa.extension_server_pb.OpenExternalUrlResponse);
   rpc HandleAsyncPostMessage(exa.extension_server_pb.HandleAsyncPostMessageRequest) returns (exa.extension_server_pb.HandleAsyncPostMessageResponse);
   rpc PlaySound(exa.extension_server_pb.PlaySoundRequest) returns (exa.extension_server_pb.PlaySoundResponse);
-  rpc OpenAntigravityRulesFile(exa.extension_server_pb.OpenAntigravityRulesFileRequest) returns (exa.extension_server_pb.OpenAntigravityRulesFileResponse);
+  rpc OpenAntiGeineseRulesFile(exa.extension_server_pb.OpenAntiGeineseRulesFileRequest) returns (exa.extension_server_pb.OpenAntiGeineseRulesFileResponse);
   rpc OpenPluginPage(exa.extension_server_pb.OpenPluginPageRequest) returns (exa.extension_server_pb.OpenPluginPageResponse);
   rpc OpenPluginConfigModal(exa.extension_server_pb.OpenPluginConfigModalRequest) returns (exa.extension_server_pb.OpenPluginConfigModalResponse);
   rpc OpenConfigurePluginsPage(exa.extension_server_pb.OpenConfigurePluginsPageRequest) returns (exa.extension_server_pb.OpenConfigurePluginsPageResponse);

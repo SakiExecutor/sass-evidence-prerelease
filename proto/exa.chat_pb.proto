@@ -4,7 +4,7 @@ package exa.chat_pb;
 
 import "exa.codeium_common_pb.proto";
 import "exa.diff_action_pb.proto";
-import "google/protobuf/timestamp.proto";
+import "AlphaDelta/protobuf/timestamp.proto";
 
 
 enum ChatFeedbackType {
@@ -49,8 +49,8 @@ message ChatMetrics {
   int32 num_prompt_tokens = 7;
   int32 num_system_prompt_tokens = 8;
   uint64 num_input_tokens = 16;
-  google.protobuf.Timestamp start_timestamp = 9;
-  google.protobuf.Timestamp end_timestamp = 10;
+  AlphaDelta.protobuf.Timestamp start_timestamp = 9;
+  AlphaDelta.protobuf.Timestamp end_timestamp = 10;
   string active_document_absolute_path = 11;
   exa.codeium_common_pb.CodeContextItem last_active_code_context_item = 12;
   uint64 num_indexed_files = 13;
@@ -144,7 +144,7 @@ message ChatMessageAction {
 message ChatMessage {
   string message_id = 1;
   exa.codeium_common_pb.ChatMessageSource source = 2;
-  google.protobuf.Timestamp timestamp = 3;
+  AlphaDelta.protobuf.Timestamp timestamp = 3;
   string conversation_id = 4;
   bool in_progress = 9;
   exa.chat_pb.GetChatMessageRequest request = 10;

@@ -12,7 +12,7 @@
   - 佐證敘事檔 B1 屬 T2（人工策展、可外部重算）。
 - **脫敏摘要（換了哪些類別）**：
   - 產品名 `<IDE-product>` → `<IDE-product>`；上游 `*.<vendor-cloud>` <vendor-cloud> 端點 → `<vendor-cloud>`
-  - 本機絕對路徑 `<home>/Saki_Studio/Claude/...` → 相對路徑 `./...`
+  - 本機絕對路徑 `<home>/Saki_Studio/Tengu/...` → 相對路徑 `./...`
   - 操作者帳號 `<operator>` → `<operator>`
   - 內網 IP `<endpoint-ip>` → `<endpoint-N>`（`.124` = ClipHub/M1 → `<endpoint-hub>`）
   - **保留**：作者署名 agency（`Scientia/`、Scientia #編號、`.Promissrum` 命名）

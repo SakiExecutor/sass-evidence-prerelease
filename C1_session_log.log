@@ -22,25 +22,25 @@
 2026-02-26 22:49:36.008 [info] (Cortex) 2026-02-26 22:49:36.008 [INFO]: LS lspClient started successfully
 2026-02-26 22:49:37.041 [info] I0226 22:49:37.041408  5624 system_mcps.go:80] Chrome DevTools MCP URL discovered at http://[REDACTED_IP]:[PORT]/mcp, stopping watcher
 2026-02-26 22:56:42.123 [info] I0226 22:56:42.123398  5624 planner_generator.go:288] Requesting planner with 9 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 22:56:43.884 [info] I0226 22:56:43.884354  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xee98fc0d40ccf736
-2026-02-26 22:56:54.612 [info] I0226 22:56:54.612738  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb10cfb08724f7562
+2026-02-26 22:56:43.884 [info] I0226 22:56:43.884354  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xee98fc0d40ccf736
+2026-02-26 22:56:54.612 [info] I0226 22:56:54.612738  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb10cfb08724f7562
 2026-02-26 22:56:57.354 [info] I0226 22:56:57.354010  5624 planner_generator.go:288] Requesting planner with 11 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 22:57:00.314 [info] I0226 22:57:00.314503  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x75dcb33795435ed3
+2026-02-26 22:57:00.314 [info] I0226 22:57:00.314503  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x75dcb33795435ed3
 2026-02-26 22:57:12.916 [info] I0226 22:57:12.915855  5624 planner_generator.go:288] Requesting planner with 14 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 22:57:15.140 [info] I0226 22:57:15.139958  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7fb62c15fc4666e0
+2026-02-26 22:57:15.140 [info] I0226 22:57:15.139958  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7fb62c15fc4666e0
 2026-02-26 22:58:00.383 [info] I0226 22:58:00.382842  5624 planner_generator.go:288] Requesting planner with 17 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 22:58:02.187 [info] I0226 22:58:02.187114  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x303a970084cb039e
+2026-02-26 22:58:02.187 [info] I0226 22:58:02.187114  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x303a970084cb039e
 2026-02-26 22:58:12.478 [info] I0226 22:58:12.478208  5624 planner_generator.go:288] Requesting planner with 18 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 22:58:13.905 [info] I0226 22:58:13.905786  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfe7e76be7b5fb6d
+2026-02-26 22:58:13.905 [info] I0226 22:58:13.905786  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfe7e76be7b5fb6d
 2026-02-26 22:58:24.185 [info] I0226 22:58:24.185508  5624 planner_generator.go:288] Requesting planner with 21 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-26 22:58:24.383 [info] I0226 22:58:24.382835  5624 planner_generator.go:323] Encountered retryable api error. retrying in 5s. Error (The model is currently unreachable.): UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server: UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server
 2026-02-26 22:58:29.384 [info] E0226 22:58:29.383931  5624 log.go:380] UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server: UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server
 2026-02-26 22:58:33.897 [info] I0226 22:58:33.897156  5624 planner_generator.go:288] Requesting planner with 22 chat messages at model retry attempt 1 and API retry attempt 2
-2026-02-26 22:58:35.672 [info] I0226 22:58:35.672352  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x504ac935ca1f141f
+2026-02-26 22:58:35.672 [info] I0226 22:58:35.672352  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x504ac935ca1f141f
 2026-02-26 22:58:50.686 [info] I0226 22:58:50.686707  5624 planner_generator.go:288] Requesting planner with 25 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 22:58:52.488 [info] I0226 22:58:52.488313  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbdbbb7d1ee83fded
+2026-02-26 22:58:52.488 [info] I0226 22:58:52.488313  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbdbbb7d1ee83fded
 2026-02-26 22:59:01.227 [info] I0226 22:59:01.227274  5624 planner_generator.go:288] Requesting planner with 27 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 22:59:03.078 [info] I0226 22:59:03.078091  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcec070cd54452ef2
+2026-02-26 22:59:03.078 [info] I0226 22:59:03.078091  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcec070cd54452ef2
 2026-02-26 22:59:12.713 [info] E0226 22:59:12.713466  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 22:59:17.814 [info] E0226 22:59:17.813997  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 22:59:22.890 [info] E0226 22:59:22.890140  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -52,7 +52,7 @@
 2026-02-26 22:59:34.386 [info] E0226 22:59:34.386010  5624 log.go:380] UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server: UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server
 2026-02-26 22:59:35.195 [info] E0226 22:59:35.195142  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 22:59:39.087 [info] I0226 22:59:39.086929  5624 planner_generator.go:288] Requesting planner with 31 chat messages at model retry attempt 1 and API retry attempt 2
-2026-02-26 22:59:40.996 [info] I0226 22:59:40.996028  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf05efc33ce3d617b
+2026-02-26 22:59:40.996 [info] I0226 22:59:40.996028  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf05efc33ce3d617b
 2026-02-26 22:59:44.273 [info] E0226 22:59:44.273211  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 22:59:49.443 [info] E0226 22:59:49.442077  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 22:59:54.739 [info] E0226 22:59:54.738836  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -81,18 +81,18 @@ echo "--- SakiAgentSkills ---" && ls -la /Applications/SakiAgentSkills.app/Conte
 2026-02-26 23:00:35.199 [info] E0226 23:00:35.199429  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:00:35.305 [info] I0226 23:00:35.305723  5624 planner_generator.go:288] Requesting planner with 36 chat messages at model retry attempt 1 and API retry attempt 3
 2026-02-26 23:00:36.060 [info] E0226 23:00:36.060333  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:00:37.027 [info] I0226 23:00:37.027099  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x89c54abd85bbf240
+2026-02-26 23:00:37.027 [info] I0226 23:00:37.027099  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x89c54abd85bbf240
 2026-02-26 23:00:47.558 [info] E0226 23:00:47.558796  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:00:49.135 [info] (Cortex) 2026-02-26 23:00:49.135 [INFO]: [Terminal] Command completed: echo "=== SakiFish ===" && find $PROJECT_ROOT/SakiFish -maxdepth 3 -name "*DEPLOY*" -o -name "*deploy*" -o -name "*部署*" 2>/dev/null | head -10 && \
 echo "=== SakiWeb ===" && find $PROJECT_ROOT/SakiWeb -maxdepth 3 -name "*DEPLOY*" -o -name "*deploy*" -o -name "*部署*" 2>/dev/null | head -10 exit code 0
 2026-02-26 23:00:52.725 [info] E0226 23:00:52.724954  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:00:53.615 [info] I0226 23:00:53.614989  5624 planner_generator.go:288] Requesting planner with 39 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 23:00:55.624 [info] I0226 23:00:55.624150  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe8923e93bdf10318
+2026-02-26 23:00:55.624 [info] I0226 23:00:55.624150  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe8923e93bdf10318
 2026-02-26 23:00:57.866 [info] E0226 23:00:57.866550  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:01:01.645 [info] (Cortex) 2026-02-26 23:01:01.645 [INFO]: [Terminal] Command completed: find $PROJECT_ROOT/SakiFish -maxdepth 3 -name "*.md" | grep -iE "guide|readme|doc" | head -10 exit code 0
 2026-02-26 23:01:02.952 [info] E0226 23:01:02.952294  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:01:05.907 [info] I0226 23:01:05.906887  5624 planner_generator.go:288] Requesting planner with 41 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 23:01:07.299 [info] I0226 23:01:07.299008  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd5260b917730f77f
+2026-02-26 23:01:07.299 [info] I0226 23:01:07.299008  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd5260b917730f77f
 2026-02-26 23:01:08.066 [info] E0226 23:01:08.063738  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:01:14.073 [info] (Cortex) 2026-02-26 23:01:14.073 [INFO]: [Terminal] Command completed: ls -la $PROJECT_ROOT/SakiFish/*.md 2>&1 | head -10 && echo "=== docs/ ===" && find $PROJECT_ROOT/SakiFish/docs -maxdepth 2 -name "*.md" 2>&1 | head -10 exit code 0
 2026-02-26 23:01:19.335 [info] E0226 23:01:19.335155  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -104,7 +104,7 @@ echo "=== SakiWeb ===" && find $PROJECT_ROOT/SakiWeb -maxdepth 3 -name "*DEPLOY*
 2026-02-26 23:01:35.201 [info] E0226 23:01:35.200834  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:01:35.666 [info] I0226 23:01:35.666306  5624 planner_generator.go:288] Requesting planner with 44 chat messages at model retry attempt 1 and API retry attempt 2
 2026-02-26 23:01:36.107 [info] E0226 23:01:36.106749  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:01:37.510 [info] I0226 23:01:37.510269  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x774bb57f1fe3604f
+2026-02-26 23:01:37.510 [info] I0226 23:01:37.510269  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x774bb57f1fe3604f
 2026-02-26 23:01:41.317 [info] E0226 23:01:41.316955  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:01:49.367 [info] I0226 23:01:49.367170  5624 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.19.5
 2026-02-26 23:01:52.651 [info] (Cortex) 2026-02-26 23:01:52.651 [INFO]: [Terminal] Command completed: echo "=== 外部可達性 ===" && \
@@ -116,12 +116,12 @@ echo "=== SakiAgentSkills version ===" && /Applications/SakiAgentSkills.app/Cont
 2026-02-26 23:01:54.224 [info] E0226 23:01:54.224616  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:01:58.269 [info] I0226 23:01:58.269442  5624 planner_generator.go:288] Requesting planner with 49 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-26 23:01:59.340 [info] E0226 23:01:59.339731  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:01:59.765 [info] I0226 23:01:59.765566  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x73198fcedee5561f
+2026-02-26 23:01:59.765 [info] I0226 23:01:59.765566  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x73198fcedee5561f
 2026-02-26 23:02:04.435 [info] E0226 23:02:04.435409  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:02:09.529 [info] E0226 23:02:09.529322  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:02:13.182 [info] I0226 23:02:13.182190  5624 planner_generator.go:288] Requesting planner with 51 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-26 23:02:14.609 [info] E0226 23:02:14.609087  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:02:15.597 [info] I0226 23:02:15.597580  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf2d6767167c27a7c
+2026-02-26 23:02:15.597 [info] I0226 23:02:15.597580  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf2d6767167c27a7c
 2026-02-26 23:02:22.908 [info] I0226 23:02:22.908356  5624 planner_generator.go:288] Requesting planner with 53 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-26 23:02:23.098 [info] I0226 23:02:23.098682  5624 planner_generator.go:323] Encountered retryable api error. retrying in 5s. Error (The model is currently unreachable.): UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server: UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server
 2026-02-26 23:02:25.510 [info] E0226 23:02:25.510659  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -135,7 +135,7 @@ echo "=== SakiAgentSkills version ===" && /Applications/SakiAgentSkills.app/Cont
 2026-02-26 23:02:40.799 [info] E0226 23:02:40.799795  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:02:43.870 [info] I0226 23:02:43.870369  5624 planner_generator.go:288] Requesting planner with 55 chat messages at model retry attempt 1 and API retry attempt 3
 2026-02-26 23:02:45.884 [info] E0226 23:02:45.883914  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:02:46.131 [info] I0226 23:02:46.131728  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4ddab77e71af39e1
+2026-02-26 23:02:46.131 [info] I0226 23:02:46.131728  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4ddab77e71af39e1
 2026-02-26 23:02:56.986 [info] E0226 23:02:56.985679  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:03:01.990 [info] (Cortex) 2026-02-26 23:03:01.990 [INFO]: [Terminal] Command completed: cd $PROJECT_ROOT && \
 PROJECTS="[OPERATOR-MED] SakiWeb SakiFish SakiHomeBridge SakiMCP SakiAgentSkills" && \
@@ -155,7 +155,7 @@ find $PROJECT_ROOT -maxdepth 1 -type f -name "*.md" | head -20 exit code 0
 2026-02-26 23:03:02.134 [info] E0226 23:03:02.133963  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:03:06.077 [info] I0226 23:03:06.077139  5624 planner_generator.go:288] Requesting planner with 58 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-26 23:03:07.210 [info] E0226 23:03:07.210148  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:03:07.746 [info] I0226 23:03:07.746403  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf48d4d548a9c4e90
+2026-02-26 23:03:07.746 [info] I0226 23:03:07.746403  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf48d4d548a9c4e90
 2026-02-26 23:03:12.311 [info] E0226 23:03:12.311225  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:03:17.504 [info] E0226 23:03:17.504595  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:03:28.217 [info] E0226 23:03:28.217078  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -198,7 +198,7 @@ echo "" && echo "=== SakiAgentSkills ===" && \
 ([ -d "SakiAgentSkills/Scientia" ] && echo "Scientia/: ✅" || echo "Scientia/: ❌") exit code 0
 2026-02-26 23:03:32.838 [info] I0226 23:03:32.838293  5624 planner_generator.go:288] Requesting planner with 61 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-26 23:03:33.301 [info] E0226 23:03:33.301107  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:03:34.770 [info] I0226 23:03:34.770051  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x671fd4ab95c9086c
+2026-02-26 23:03:34.770 [info] I0226 23:03:34.770051  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x671fd4ab95c9086c
 2026-02-26 23:03:35.207 [info] E0226 23:03:35.206718  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:03:38.440 [info] E0226 23:03:38.440526  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:03:43.527 [info] E0226 23:03:43.527679  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -221,7 +221,7 @@ ls -la SakiFish/*.sh 2>&1 | head -10 && \
 echo "" && echo "=== 散落文檔詳情 ===" && \
 ls -lhT $PROJECT_ROOT/*.md 2>&1 | grep -v GEMINI exit code 0
 2026-02-26 23:03:57.470 [info] I0226 23:03:57.470343  5624 planner_generator.go:288] Requesting planner with 64 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 23:03:58.830 [info] I0226 23:03:58.829966  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8cdaa2ce8ed4eddc
+2026-02-26 23:03:58.830 [info] I0226 23:03:58.829966  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8cdaa2ce8ed4eddc
 2026-02-26 23:03:59.628 [info] E0226 23:03:59.628206  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:04:04.748 [info] E0226 23:04:04.748080  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:04:09.870 [info] E0226 23:04:09.870395  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -233,19 +233,19 @@ ls -lhT $PROJECT_ROOT/*.md 2>&1 | grep -v GEMINI exit code 0
 2026-02-26 23:04:41.061 [info] E0226 23:04:41.060780  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:04:46.143 [info] E0226 23:04:46.142886  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:04:51.226 [info] E0226 23:04:51.226441  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:05:01.041 [info] I0226 23:05:01.041254  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb9f7c41a55d22d87
-2026-02-26 23:05:01.264 [info] I0226 23:05:01.264682  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfe2e4f90758e2b7f
-2026-02-26 23:05:01.265 [info] I0226 23:05:01.265315  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3baa5b87090f07da
+2026-02-26 23:05:01.041 [info] I0226 23:05:01.041254  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb9f7c41a55d22d87
+2026-02-26 23:05:01.264 [info] I0226 23:05:01.264682  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfe2e4f90758e2b7f
+2026-02-26 23:05:01.265 [info] I0226 23:05:01.265315  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3baa5b87090f07da
 2026-02-26 23:05:02.106 [info] E0226 23:05:02.105807  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:05:04.278 [info] I0226 23:05:04.277903  5624 planner_generator.go:288] Requesting planner with 67 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 23:05:06.289 [info] I0226 23:05:06.289127  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc0a394ac2d7524a
+2026-02-26 23:05:06.289 [info] I0226 23:05:06.289127  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc0a394ac2d7524a
 2026-02-26 23:05:07.194 [info] E0226 23:05:07.194162  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:05:12.283 [info] E0226 23:05:12.283092  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:05:17.369 [info] E0226 23:05:17.369181  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:05:22.453 [info] E0226 23:05:22.452813  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:05:25.527 [info] I0226 23:05:25.527421  5624 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.19.5
 2026-02-26 23:05:31.383 [info] I0226 23:05:31.382961  5624 planner_generator.go:288] Requesting planner with 69 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 23:05:33.130 [info] I0226 23:05:33.129949  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x294b03bed66af647
+2026-02-26 23:05:33.130 [info] I0226 23:05:33.129949  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x294b03bed66af647
 2026-02-26 23:05:33.285 [info] E0226 23:05:33.284872  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:05:35.222 [info] E0226 23:05:35.222212  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:05:38.357 [info] E0226 23:05:38.357080  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -321,7 +321,7 @@ ls -lhT $PROJECT_ROOT/*.md 2>&1 | grep -v GEMINI exit code 0
 2026-02-26 23:12:44.268 [info] E0226 23:12:44.268190  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:12:59.736 [info] I0226 23:12:59.736563  5624 planner_generator.go:288] Requesting planner with 73 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-26 23:13:00.186 [info] E0226 23:13:00.186005  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:13:02.398 [info] I0226 23:13:02.398485  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x22ca335a2f122524
+2026-02-26 23:13:02.398 [info] I0226 23:13:02.398485  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x22ca335a2f122524
 2026-02-26 23:13:05.263 [info] E0226 23:13:05.262898  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:13:10.350 [info] E0226 23:13:10.350121  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:13:15.442 [info] E0226 23:13:15.442254  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -333,7 +333,7 @@ fd -t f -e md "deploy|部署" $PROJECT_ROOT/SakiFish --exclude node_modules --ex
 2026-02-26 23:13:34.977 [info] I0226 23:13:34.975654  5624 planner_generator.go:288] Requesting planner with 77 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-26 23:13:35.259 [info] E0226 23:13:35.259276  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:13:36.742 [info] E0226 23:13:36.742711  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:13:37.799 [info] I0226 23:13:37.799108  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x97539641707d87ca
+2026-02-26 23:13:37.799 [info] I0226 23:13:37.799108  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x97539641707d87ca
 2026-02-26 23:13:42.147 [info] E0226 23:13:42.147213  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:13:47.236 [info] E0226 23:13:47.235793  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:14:01.762 [info] E0226 23:14:01.762458  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -351,7 +351,7 @@ fd -t f -e md "deploy|部署" $PROJECT_ROOT/SakiFish --exclude node_modules --ex
 2026-02-26 23:14:35.262 [info] E0226 23:14:35.262174  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:14:38.170 [info] E0226 23:14:38.170027  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:14:38.539 [info] I0226 23:14:38.539421  5624 planner_generator.go:288] Requesting planner with 82 chat messages at model retry attempt 1 and API retry attempt 3
-2026-02-26 23:14:40.588 [info] I0226 23:14:40.588168  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x509c95d9b25d3355
+2026-02-26 23:14:40.588 [info] I0226 23:14:40.588168  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x509c95d9b25d3355
 2026-02-26 23:14:43.257 [info] E0226 23:14:43.257178  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:14:48.336 [info] E0226 23:14:48.335747  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:14:53.415 [info] E0226 23:14:53.415268  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -370,11 +370,11 @@ fd -t f -e md "deploy|部署" $PROJECT_ROOT/SakiFish --exclude node_modules --ex
 2026-02-26 23:15:36.466 [info] E0226 23:15:36.466736  5624 log.go:380] UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server: UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server
 2026-02-26 23:15:40.512 [info] I0226 23:15:40.512100  5624 planner_generator.go:288] Requesting planner with 86 chat messages at model retry attempt 1 and API retry attempt 3
 2026-02-26 23:15:40.740 [info] E0226 23:15:40.740305  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:15:42.340 [info] I0226 23:15:42.339910  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5dde9a75b782a9b1
+2026-02-26 23:15:42.340 [info] I0226 23:15:42.339910  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5dde9a75b782a9b1
 2026-02-26 23:15:45.943 [info] E0226 23:15:45.943435  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:15:49.703 [info] I0226 23:15:49.702888  5624 planner_generator.go:288] Requesting planner with 88 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-26 23:15:51.007 [info] E0226 23:15:51.006863  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:15:51.347 [info] I0226 23:15:51.347670  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xafa718c0b1986384
+2026-02-26 23:15:51.347 [info] I0226 23:15:51.347670  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xafa718c0b1986384
 2026-02-26 23:15:56.085 [info] E0226 23:15:56.085574  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:16:06.897 [info] E0226 23:16:06.896872  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:16:07.947 [info] (Cortex) 2026-02-26 23:16:07.947 [INFO]: [Terminal] Command completed: cd $PROJECT_ROOT && \
@@ -398,7 +398,7 @@ echo "" && echo "=== 前 30 行 ===" && \
 head -30 SakiFish/docs/_archived/legacy_docs/DEPLOYMENT_GUIDE.md exit code 0
 2026-02-26 23:16:11.973 [info] E0226 23:16:11.973139  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:16:13.318 [info] I0226 23:16:13.318535  5624 planner_generator.go:288] Requesting planner with 92 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 23:16:15.350 [info] I0226 23:16:15.350294  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa1f6d187fc3a4758
+2026-02-26 23:16:15.350 [info] I0226 23:16:15.350294  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa1f6d187fc3a4758
 2026-02-26 23:16:17.070 [info] E0226 23:16:17.070704  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:16:22.147 [info] E0226 23:16:22.146733  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:16:27.217 [info] E0226 23:16:27.217018  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -418,7 +418,7 @@ head -15 "20260226_1630_[OPERATOR]全域修復與哲學歸位_Scientia.md" exit 
 2026-02-26 23:16:35.265 [info] E0226 23:16:35.265374  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:16:38.225 [info] E0226 23:16:38.224991  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:16:38.746 [info] I0226 23:16:38.745878  5624 planner_generator.go:288] Requesting planner with 95 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 23:16:40.388 [info] I0226 23:16:40.387797  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1bdec68ca9b7c025
+2026-02-26 23:16:40.388 [info] I0226 23:16:40.387797  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1bdec68ca9b7c025
 2026-02-26 23:16:43.305 [info] E0226 23:16:43.305633  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:16:48.370 [info] E0226 23:16:48.370147  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:16:53.438 [info] E0226 23:16:53.438624  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -434,7 +434,7 @@ ls -lhT docs/_archived/legacy_docs/DEPLOY* 2>/dev/null && \
 echo "" && echo "=== SakiFish 目前的 docs/02_how-to/ 有無部署指南 ===" && \
 ls -la docs/02_how-to/ 2>/dev/null | head -10 exit code 1
 2026-02-26 23:17:03.267 [info] I0226 23:17:03.266820  5624 planner_generator.go:288] Requesting planner with 98 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 23:17:05.126 [info] I0226 23:17:05.125979  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfa64caaf6393cdaa
+2026-02-26 23:17:05.126 [info] I0226 23:17:05.125979  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfa64caaf6393cdaa
 2026-02-26 23:17:09.400 [info] E0226 23:17:09.399855  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:17:14.295 [info] (Cortex) 2026-02-26 23:17:14.295 [INFO]: [Terminal] Command completed: cd $PROJECT_ROOT/SakiFish && \
 echo "=== docs/02_how-to/ 內容 ===" && \
@@ -451,7 +451,7 @@ fd -t f "wrangler" . --exclude node_modules --exclude .git | head -5 exit code 0
 2026-02-26 23:17:24.605 [info] E0226 23:17:24.605553  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:17:27.709 [info] I0226 23:17:27.709453  5624 planner_generator.go:288] Requesting planner with 101 chat messages at model retry attempt 1 and API retry attempt 2
 2026-02-26 23:17:29.695 [info] E0226 23:17:29.695157  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:17:30.887 [info] I0226 23:17:30.887435  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfdc522bd815b1fb9
+2026-02-26 23:17:30.887 [info] I0226 23:17:30.887435  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfdc522bd815b1fb9
 2026-02-26 23:17:35.270 [info] E0226 23:17:35.270422  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:17:40.786 [info] E0226 23:17:40.786028  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:17:45.914 [info] E0226 23:17:45.914693  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -490,7 +490,7 @@ echo "=== 4. 確認根目錄清理結果 ===" && \
 ls *.md 2>&1 exit code 0
 2026-02-26 23:18:01.119 [info] E0226 23:18:01.119021  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:18:01.122 [info] I0226 23:18:01.122794  5624 planner_generator.go:288] Requesting planner with 104 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 23:18:03.352 [info] I0226 23:18:03.352267  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa1696c680f4a9636
+2026-02-26 23:18:03.352 [info] I0226 23:18:03.352267  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa1696c680f4a9636
 2026-02-26 23:18:11.951 [info] E0226 23:18:11.949170  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:18:12.331 [info] I0226 23:18:12.330831  5624 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.19.5
 2026-02-26 23:18:17.029 [info] E0226 23:18:17.029496  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -506,13 +506,13 @@ ls *.md 2>&1 exit code 0
 2026-02-26 23:18:37.468 [info] E0226 23:18:37.467933  5624 log.go:380] UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server: UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server
 2026-02-26 23:18:41.535 [info] I0226 23:18:41.535434  5624 planner_generator.go:288] Requesting planner with 109 chat messages at model retry attempt 1 and API retry attempt 3
 2026-02-26 23:18:43.251 [info] E0226 23:18:43.251276  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:18:45.871 [info] I0226 23:18:45.871062  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6ac016c3e90879ec
+2026-02-26 23:18:45.871 [info] I0226 23:18:45.871062  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6ac016c3e90879ec
 2026-02-26 23:18:48.324 [info] E0226 23:18:48.324018  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:18:53.397 [info] E0226 23:18:53.397170  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:18:58.466 [info] E0226 23:18:58.466720  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:19:03.560 [info] E0226 23:19:03.560299  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:19:03.981 [info] I0226 23:19:03.980923  5624 planner_generator.go:288] Requesting planner with 111 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 23:19:06.500 [info] I0226 23:19:06.500294  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdbdf8fc31a99f8d
+2026-02-26 23:19:06.500 [info] I0226 23:19:06.500294  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xdbdf8fc31a99f8d
 2026-02-26 23:19:14.431 [info] E0226 23:19:14.430813  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:19:19.536 [info] E0226 23:19:19.536147  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:19:24.629 [info] E0226 23:19:24.629584  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -524,7 +524,7 @@ ls *.md 2>&1 exit code 0
 2026-02-26 23:19:56.049 [info] E0226 23:19:56.049215  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:19:59.966 [info] I0226 23:19:59.966571  5624 planner_generator.go:288] Requesting planner with 114 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-26 23:20:01.125 [info] E0226 23:20:01.124836  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-26 23:20:02.011 [info] I0226 23:20:02.011531  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbfbea4dc4c277998
+2026-02-26 23:20:02.011 [info] I0226 23:20:02.011531  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbfbea4dc4c277998
 2026-02-26 23:20:06.212 [info] E0226 23:20:06.212284  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:20:17.028 [info] E0226 23:20:17.028115  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:20:22.115 [info] E0226 23:20:22.115219  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -533,7 +533,7 @@ ls *.md 2>&1 exit code 0
 2026-02-26 23:20:35.288 [info] E0226 23:20:35.288767  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:20:37.393 [info] E0226 23:20:37.392826  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:20:44.968 [info] I0226 23:20:44.968052  5624 planner_generator.go:288] Requesting planner with 117 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-26 23:20:47.653 [info] I0226 23:20:47.652937  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x328c563a813511dd
+2026-02-26 23:20:47.653 [info] I0226 23:20:47.652937  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x328c563a813511dd
 2026-02-26 23:20:48.274 [info] E0226 23:20:48.273844  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:20:53.360 [info] E0226 23:20:53.359941  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-26 23:20:58.438 [info] E0226 23:20:58.438420  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -1263,7 +1263,7 @@ ls *.md 2>&1 exit code 0
 2026-02-27 00:28:51.914 [info] E0227 00:28:51.914361  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:28:56.988 [info] E0227 00:28:56.988012  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:29:03.957 [info] I0227 00:29:03.957706  5624 planner_generator.go:288] Requesting planner with 121 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 00:29:07.723 [info] I0227 00:29:07.722678  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9bae477be214be1c
+2026-02-27 00:29:07.723 [info] I0227 00:29:07.722678  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9bae477be214be1c
 2026-02-27 00:29:07.866 [info] E0227 00:29:07.865992  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:29:12.953 [info] E0227 00:29:12.953769  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:29:18.037 [info] E0227 00:29:18.037545  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -1284,7 +1284,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 00:29:35.602 [info] E0227 00:29:35.602134  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:29:38.107 [info] I0227 00:29:38.107739  5624 planner_generator.go:288] Requesting planner with 124 chat messages at model retry attempt 1 and API retry attempt 2
 2026-02-27 00:29:39.206 [info] E0227 00:29:39.206078  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 00:29:40.622 [info] I0227 00:29:40.621343  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd249b6181f588749
+2026-02-27 00:29:40.622 [info] I0227 00:29:40.621343  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd249b6181f588749
 2026-02-27 00:29:44.356 [info] E0227 00:29:44.355987  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:29:49.536 [info] E0227 00:29:49.536254  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:29:50.938 [info] W0227 00:29:50.938697  5624 browser_liveness_utils.go:140] Connecting to browser via CDP: http://[REDACTED_IP]:[PORT]
@@ -1292,16 +1292,16 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 00:29:51.238 [info] E0227 00:29:51.238697  5624 log.go:380] failed DOM for browser ephemeral message: no browser session active
 2026-02-27 00:29:54.727 [info] I0227 00:29:54.726533  5624 planner_generator.go:288] Requesting planner with 2 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 00:29:55.610 [info] E0227 00:29:55.610107  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 00:29:57.426 [info] I0227 00:29:57.425750  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8dc086676b9499ed
+2026-02-27 00:29:57.426 [info] I0227 00:29:57.425750  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8dc086676b9499ed
 2026-02-27 00:30:00.055 [info] E0227 00:30:00.055056  5624 log.go:380] failed DOM for browser ephemeral message: no browser session active
 2026-02-27 00:30:00.055 [info] E0227 00:30:00.055056  5624 log.go:380] failed page view for browser ephemeral message: no browser session active
 2026-02-27 00:30:01.813 [info] I0227 00:30:01.813287  5624 planner_generator.go:288] Requesting planner with 4 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 00:30:04.893 [info] I0227 00:30:04.892963  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x28c34e8af8468b32
+2026-02-27 00:30:04.893 [info] I0227 00:30:04.892963  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x28c34e8af8468b32
 2026-02-27 00:30:07.213 [info] E0227 00:30:07.213852  5624 log.go:380] failed DOM for browser ephemeral message: no browser session active
 2026-02-27 00:30:07.214 [info] E0227 00:30:07.213900  5624 log.go:380] failed page view for browser ephemeral message: no browser session active
 2026-02-27 00:30:08.854 [info] I0227 00:30:08.853945  5624 planner_generator.go:288] Requesting planner with 6 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 00:30:10.506 [info] E0227 00:30:10.506331  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 00:30:10.931 [info] I0227 00:30:10.931636  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x72883ae55f434498
+2026-02-27 00:30:10.931 [info] I0227 00:30:10.931636  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x72883ae55f434498
 2026-02-27 00:30:12.246 [info] I0227 00:30:12.246403  5624 operator.go:886] Updating actuation overlay for page 
 2026-02-27 00:30:12.247 [info] I0227 00:30:12.246456  5624 operator.go:886] Updating actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B
 2026-02-27 00:30:12.247 [info] I0227 00:30:12.246470  5624 operator.go:915] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"5270211e-3ca3-4a66-a007-84cef4694e94","displayString":"Opening URL...","passthroughEnabled":false})
@@ -1316,15 +1316,15 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 00:30:12.650 [info] E0227 00:30:12.650232  5624 operator.go:921] Failed to inject actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B: isolated world not initialized - executionContextID is nil
 2026-02-27 00:30:12.650 [info] (1) attached stack trace
 2026-02-27 00:30:12.650 [info]   -- stack trace:
-2026-02-27 00:30:12.650 [info]   | google3/third_party/jetski/language_server/browser/browserabstractions/browserabstractions.(*BrowserPage).EvaluateInIsolatedWorld
+2026-02-27 00:30:12.650 [info]   | AlphaDelta3/third_party/jetski/language_server/browser/browserabstractions/browserabstractions.(*BrowserPage).EvaluateInIsolatedWorld
 2026-02-27 00:30:12.650 [info]   | 	third_party/jetski/language_server/browser/browserabstractions/browser_page.go:319
-2026-02-27 00:30:12.650 [info]   | google3/third_party/jetski/language_server/browser/browser.(*Operator).AddActuationOverlay
+2026-02-27 00:30:12.650 [info]   | AlphaDelta3/third_party/jetski/language_server/browser/browser.(*Operator).AddActuationOverlay
 2026-02-27 00:30:12.650 [info]   | 	third_party/jetski/language_server/browser/operator.go:919
-2026-02-27 00:30:12.650 [info]   | google3/third_party/jetski/cortex/handlers/ephemeral/ephemeral.NewBrowserEphemeralMessageHandler.makeCaptureCurrentPageDOMFunc.func2.1
+2026-02-27 00:30:12.650 [info]   | AlphaDelta3/third_party/jetski/cortex/handlers/ephemeral/ephemeral.NewBrowserEphemeralMessageHandler.makeCaptureCurrentPageDOMFunc.func2.1
 2026-02-27 00:30:12.650 [info]   | 	third_party/jetski/cortex/handlers/ephemeral/utils.go:92
-2026-02-27 00:30:12.651 [info]   | google3/third_party/jetski/cortex/handlers/ephemeral/ephemeral.NewBrowserEphemeralMessageHandler.makeCaptureCurrentPageDOMFunc.func2
+2026-02-27 00:30:12.651 [info]   | AlphaDelta3/third_party/jetski/cortex/handlers/ephemeral/ephemeral.NewBrowserEphemeralMessageHandler.makeCaptureCurrentPageDOMFunc.func2
 2026-02-27 00:30:12.651 [info]   | 	third_party/jetski/cortex/handlers/ephemeral/utils.go:108
-2026-02-27 00:30:12.651 [info]   | google3/third_party/jetski/cortex/handlers/ephemeral/ephemeral.maybeInjectBrowserState.func2
+2026-02-27 00:30:12.651 [info]   | AlphaDelta3/third_party/jetski/cortex/handlers/ephemeral/ephemeral.maybeInjectBrowserState.func2
 2026-02-27 00:30:12.651 [info]   | 	third_party/jetski/cortex/handlers/ephemeral/utils.go:144
 2026-02-27 00:30:12.651 [info]   | runtime.goexit
 2026-02-27 00:30:12.651 [info]   | 	third_party/go/gc/src/runtime/asm_arm64.s:1447
@@ -1334,7 +1334,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 00:30:14.357 [info] I0227 00:30:14.357065  5624 operator.go:915] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
 2026-02-27 00:30:16.028 [info] E0227 00:30:16.027819  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:30:16.186 [info] I0227 00:30:16.185703  5624 planner_generator.go:288] Requesting planner with 8 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 00:30:19.339 [info] I0227 00:30:19.339275  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1add2efb8f3343df
+2026-02-27 00:30:19.339 [info] I0227 00:30:19.339275  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1add2efb8f3343df
 2026-02-27 00:30:19.353 [info] I0227 00:30:19.353450  5624 operator.go:886] Updating actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B
 2026-02-27 00:30:19.353 [info] I0227 00:30:19.353474  5624 operator.go:915] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"5270211e-3ca3-4a66-a007-84cef4694e94","displayString":"Taking screenshot...","passthroughEnabled":true})
 2026-02-27 00:30:19.359 [info] I0227 00:30:19.359174  5624 operator.go:886] Updating actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B
@@ -1353,7 +1353,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 00:30:19.845 [info] I0227 00:30:19.844964  5624 operator.go:915] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
 2026-02-27 00:30:21.128 [info] E0227 00:30:21.127945  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:30:21.871 [info] I0227 00:30:21.871236  5624 planner_generator.go:288] Requesting planner with 10 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 00:30:24.798 [info] I0227 00:30:24.798206  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8f51defa3d391ff8
+2026-02-27 00:30:24.798 [info] I0227 00:30:24.798206  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8f51defa3d391ff8
 2026-02-27 00:30:26.002 [info] I0227 00:30:26.002383  5624 operator.go:886] Updating actuation overlay for page 
 2026-02-27 00:30:26.002 [info] I0227 00:30:26.002430  5624 operator.go:886] Updating actuation overlay for page 
 2026-02-27 00:30:26.005 [info] I0227 00:30:26.004860  5624 operator.go:886] Updating actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B
@@ -1369,7 +1369,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 00:30:27.176 [info] I0227 00:30:27.176435  5624 operator.go:886] Updating actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B
 2026-02-27 00:30:27.176 [info] I0227 00:30:27.176474  5624 operator.go:915] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
 2026-02-27 00:30:29.895 [info] I0227 00:30:29.895285  5624 planner_generator.go:288] Requesting planner with 12 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 00:30:33.223 [info] I0227 00:30:33.223150  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1c40f304c1e68164
+2026-02-27 00:30:33.223 [info] I0227 00:30:33.223150  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1c40f304c1e68164
 2026-02-27 00:30:33.327 [info] W0227 00:30:33.327204  5624 browser_page.go:501] get favicon URL: favicon not found
 2026-02-27 00:30:33.327 [info] I0227 00:30:33.327375  5624 operator.go:886] Updating actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B
 2026-02-27 00:30:33.327 [info] I0227 00:30:33.327390  5624 operator.go:915] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"5270211e-3ca3-4a66-a007-84cef4694e94","displayString":"Taking screenshot...","passthroughEnabled":true})
@@ -1391,7 +1391,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 00:30:33.904 [info] I0227 00:30:33.904693  5624 operator.go:915] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
 2026-02-27 00:30:35.610 [info] E0227 00:30:35.609908  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:30:35.659 [info] I0227 00:30:35.659229  5624 planner_generator.go:288] Requesting planner with 14 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 00:30:39.007 [info] I0227 00:30:39.006773  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8ce815b3f10544dc
+2026-02-27 00:30:39.007 [info] I0227 00:30:39.006773  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8ce815b3f10544dc
 2026-02-27 00:30:42.042 [info] E0227 00:30:42.042352  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:30:46.773 [info] I0227 00:30:46.771783  5624 operator.go:886] Updating actuation overlay for page 
 2026-02-27 00:30:46.776 [info] I0227 00:30:46.773035  5624 operator.go:886] Updating actuation overlay for page 
@@ -1407,7 +1407,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 00:30:47.459 [info] E0227 00:30:47.458892  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:30:49.283 [info] I0227 00:30:49.283437  5624 planner_generator.go:288] Requesting planner with 16 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 00:30:52.574 [info] E0227 00:30:52.574342  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 00:30:53.022 [info] I0227 00:30:53.021697  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x86d20ccf8d372c2b
+2026-02-27 00:30:53.022 [info] I0227 00:30:53.021697  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x86d20ccf8d372c2b
 2026-02-27 00:30:53.095 [info] I0227 00:30:53.095054  5624 operator.go:886] Updating actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B
 2026-02-27 00:30:53.095 [info] I0227 00:30:53.095085  5624 operator.go:915] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"5270211e-3ca3-4a66-a007-84cef4694e94","displayString":"Taking screenshot...","passthroughEnabled":true})
 2026-02-27 00:30:53.097 [info] I0227 00:30:53.097279  5624 operator.go:886] Updating actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B
@@ -1426,7 +1426,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 00:30:53.504 [info] I0227 00:30:53.504202  5624 operator.go:915] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
 2026-02-27 00:30:55.228 [info] I0227 00:30:55.228133  5624 planner_generator.go:288] Requesting planner with 18 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 00:30:57.675 [info] E0227 00:30:57.675261  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 00:31:00.297 [info] I0227 00:31:00.297595  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfc6cf85c74690acd
+2026-02-27 00:31:00.297 [info] I0227 00:31:00.297595  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfc6cf85c74690acd
 2026-02-27 00:31:02.637 [info] I0227 00:31:02.636713  5624 operator.go:886] Updating actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B
 2026-02-27 00:31:02.637 [info] I0227 00:31:02.636739  5624 operator.go:915] [overlay] Running JS: window.updateActuationOverlay({"cascadeId":"5270211e-3ca3-4a66-a007-84cef4694e94","displayString":"Getting DOM...","passthroughEnabled":true})
 2026-02-27 00:31:02.637 [info] I0227 00:31:02.637258  5624 operator.go:886] Updating actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B
@@ -1437,7 +1437,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 00:31:02.834 [info] I0227 00:31:02.833887  5624 operator.go:886] Updating actuation overlay for page BCF361FAECF2B74555931DF84C22FE9B
 2026-02-27 00:31:02.834 [info] I0227 00:31:02.833910  5624 operator.go:915] [overlay] Running JS: window.updateActuationOverlay({"capturingScreenshot":false})
 2026-02-27 00:31:04.533 [info] I0227 00:31:04.533351  5624 planner_generator.go:288] Requesting planner with 20 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 00:31:07.725 [info] I0227 00:31:07.725160  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6029c962b29e19ec
+2026-02-27 00:31:07.725 [info] I0227 00:31:07.725160  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6029c962b29e19ec
 2026-02-27 00:31:13.115 [info] E0227 00:31:13.114937  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:31:15.810 [info] I0227 00:31:15.810677  5624 planner_generator.go:288] Requesting planner with 126 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 00:31:15.934 [info] I0227 00:31:15.933963  5624 planner_generator.go:323] Encountered retryable api error. retrying in 5s. Error (The model is currently unreachable.): UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server: UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server
@@ -1451,12 +1451,12 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 00:31:35.052 [info] E0227 00:31:35.052281  5624 log.go:380] UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server: UNAVAILABLE (code 503): No capacity available for model claude-opus-4-6-thinking on the server
 2026-02-27 00:31:35.613 [info] E0227 00:31:35.613317  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:31:39.082 [info] I0227 00:31:39.082003  5624 planner_generator.go:288] Requesting planner with 128 chat messages at model retry attempt 1 and API retry attempt 3
-2026-02-27 00:31:41.008 [info] I0227 00:31:41.007933  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa132bbbb1a9a810c
+2026-02-27 00:31:41.008 [info] I0227 00:31:41.007933  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa132bbbb1a9a810c
 2026-02-27 00:31:44.545 [info] E0227 00:31:44.544905  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:31:49.646 [info] E0227 00:31:49.646368  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:31:52.697 [info] I0227 00:31:52.697233  5624 planner_generator.go:288] Requesting planner with 132 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 00:31:54.747 [info] E0227 00:31:54.746317  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 00:31:55.548 [info] I0227 00:31:55.548257  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb80bc98276418e6a
+2026-02-27 00:31:55.548 [info] I0227 00:31:55.548257  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb80bc98276418e6a
 2026-02-27 00:31:59.855 [info] E0227 00:31:59.854791  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:32:04.968 [info] E0227 00:32:04.967847  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 00:32:15.625 [info] E0227 00:32:15.624876  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -2497,7 +2497,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 02:09:38.597 [info] E0227 02:09:38.597660  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 02:09:41.983 [info] E0227 02:09:41.983412  5624 log.go:380] Failed to set trajectory start index for sync refresh: could not convert a single message before hitting truncation
 2026-02-27 02:09:42.035 [info] E0227 02:09:42.033514  5624 log.go:380] Failed to set trajectory start index for async refresh: could not convert a single message before hitting truncation
-2026-02-27 02:09:42.896 [info] I0227 02:09:42.896729  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x22007d50471e26b2
+2026-02-27 02:09:42.896 [info] I0227 02:09:42.896729  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x22007d50471e26b2
 2026-02-27 02:09:49.799 [info] E0227 02:09:49.798709  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 02:09:55.030 [info] E0227 02:09:55.029996  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 02:10:00.144 [info] E0227 02:10:00.144553  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3002,7 +3002,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 02:57:19.961 [info] E0227 02:57:19.961209  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 02:57:25.062 [info] E0227 02:57:25.062694  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 02:57:30.139 [info] E0227 02:57:30.139739  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 02:57:32.666 [info] I0227 02:57:32.666105  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc1a4899538efba89
+2026-02-27 02:57:32.666 [info] I0227 02:57:32.666105  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc1a4899538efba89
 2026-02-27 02:57:35.366 [info] E0227 02:57:35.366211  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 02:57:36.557 [info] E0227 02:57:36.555924  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 02:57:40.680 [info] E0227 02:57:40.680682  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3083,11 +3083,11 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:04:52.833 [info] E0227 03:04:52.833373  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:04:57.546 [info] I0227 03:04:57.546460  5624 planner_generator.go:288] Requesting planner with 9 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 03:04:57.922 [info] E0227 03:04:57.922542  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:04:59.356 [info] I0227 03:04:59.356256  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcfa70100b5c2a45a
-2026-02-27 03:05:07.002 [info] I0227 03:05:07.002402  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5442342a96225c7b
+2026-02-27 03:04:59.356 [info] I0227 03:04:59.356256  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcfa70100b5c2a45a
+2026-02-27 03:05:07.002 [info] I0227 03:05:07.002402  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5442342a96225c7b
 2026-02-27 03:05:08.780 [info] E0227 03:05:08.780206  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:05:10.679 [info] I0227 03:05:10.679392  5624 planner_generator.go:288] Requesting planner with 12 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:05:12.095 [info] I0227 03:05:12.095839  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x40ae6ca9d2687d64
+2026-02-27 03:05:12.095 [info] I0227 03:05:12.095839  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x40ae6ca9d2687d64
 2026-02-27 03:05:13.895 [info] E0227 03:05:13.895101  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:05:19.036 [info] E0227 03:05:19.036317  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:05:24.133 [info] E0227 03:05:24.132905  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3098,54 +3098,54 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:05:36.582 [info] E0227 03:05:36.581922  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:05:39.115 [info] I0227 03:05:39.115294  5624 planner_generator.go:288] Requesting planner with 19 chat messages at model retry attempt 1 and API retry attempt 2
 2026-02-27 03:05:39.984 [info] E0227 03:05:39.984255  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:05:40.695 [info] I0227 03:05:40.695205  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x56a14203e1ca9f94
+2026-02-27 03:05:40.695 [info] I0227 03:05:40.695205  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x56a14203e1ca9f94
 2026-02-27 03:05:45.222 [info] E0227 03:05:45.222227  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:05:50.286 [info] E0227 03:05:50.286125  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:05:55.418 [info] E0227 03:05:55.418094  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:05:57.736 [info] I0227 03:05:57.736511  5624 planner_generator.go:288] Requesting planner with 26 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:06:00.063 [info] I0227 03:06:00.063406  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x11f8df72d6d2c0f4
+2026-02-27 03:06:00.063 [info] I0227 03:06:00.063406  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x11f8df72d6d2c0f4
 2026-02-27 03:06:00.535 [info] E0227 03:06:00.535372  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:06:07.149 [info] I0227 03:06:07.149558  5624 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.19.5
 2026-02-27 03:06:11.390 [info] E0227 03:06:11.389874  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:06:12.674 [info] I0227 03:06:12.674488  5624 planner_generator.go:288] Requesting planner with 30 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:06:14.659 [info] I0227 03:06:14.659452  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x49fac1e58e8d9ec4
+2026-02-27 03:06:14.659 [info] I0227 03:06:14.659452  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x49fac1e58e8d9ec4
 2026-02-27 03:06:16.453 [info] E0227 03:06:16.453784  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:06:21.579 [info] E0227 03:06:21.579720  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:06:21.884 [info] I0227 03:06:21.884033  5624 planner_generator.go:288] Requesting planner with 35 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:06:23.891 [info] I0227 03:06:23.891623  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1b2fdf0f657a4a71
+2026-02-27 03:06:23.891 [info] I0227 03:06:23.891623  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x1b2fdf0f657a4a71
 2026-02-27 03:06:26.645 [info] E0227 03:06:26.645630  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:06:31.748 [info] E0227 03:06:31.748581  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:06:36.586 [info] E0227 03:06:36.586474  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:06:41.303 [info] I0227 03:06:41.303521  5624 planner_generator.go:288] Requesting planner with 42 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 03:06:42.583 [info] E0227 03:06:42.582630  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:06:43.814 [info] I0227 03:06:43.814236  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4926850e424951b0
+2026-02-27 03:06:43.814 [info] I0227 03:06:43.814236  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4926850e424951b0
 2026-02-27 03:06:47.660 [info] E0227 03:06:47.660027  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:06:52.381 [info] E0227 03:06:52.380961  5624 log.go:380] error executing cascade step: CORTEX_STEP_TYPE_MCP_TOOL: Error: No such file or directory (os error 2)
 2026-02-27 03:06:52.731 [info] E0227 03:06:52.731588  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:06:57.798 [info] E0227 03:06:57.798042  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:06:59.335 [info] I0227 03:06:59.335097  5624 planner_generator.go:288] Requesting planner with 47 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:07:00.891 [info] I0227 03:07:00.890888  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x39e77f3889deb7e3
+2026-02-27 03:07:00.891 [info] I0227 03:07:00.890888  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x39e77f3889deb7e3
 2026-02-27 03:07:02.925 [info] E0227 03:07:02.925209  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:07:13.943 [info] E0227 03:07:13.943535  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:07:15.234 [info] I0227 03:07:15.234161  5624 planner_generator.go:288] Requesting planner with 52 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:07:17.188 [info] I0227 03:07:17.188321  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcf0c16f3c5f4c56e
+2026-02-27 03:07:17.188 [info] I0227 03:07:17.188321  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xcf0c16f3c5f4c56e
 2026-02-27 03:07:19.041 [info] E0227 03:07:19.041442  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:07:24.221 [info] E0227 03:07:24.220929  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:07:25.427 [info] I0227 03:07:25.427414  5624 planner_generator.go:288] Requesting planner with 55 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:07:27.872 [info] I0227 03:07:27.872534  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x31212fbb72bb2511
+2026-02-27 03:07:27.872 [info] I0227 03:07:27.872534  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x31212fbb72bb2511
 2026-02-27 03:07:29.294 [info] E0227 03:07:29.294292  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:07:34.366 [info] E0227 03:07:34.366583  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:07:36.589 [info] E0227 03:07:36.588970  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:07:39.699 [info] I0227 03:07:39.699418  5624 planner_generator.go:288] Requesting planner with 58 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:07:40.971 [info] I0227 03:07:40.971071  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe78f1648cf949f76
+2026-02-27 03:07:40.971 [info] I0227 03:07:40.971071  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xe78f1648cf949f76
 2026-02-27 03:07:45.316 [info] E0227 03:07:45.316668  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:07:50.189 [info] I0227 03:07:50.189594  5624 planner_generator.go:288] Requesting planner with 61 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 03:07:50.414 [info] E0227 03:07:50.414013  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:07:53.359 [info] I0227 03:07:53.359267  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa324c4bf2179cc71
+2026-02-27 03:07:53.359 [info] I0227 03:07:53.359267  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa324c4bf2179cc71
 2026-02-27 03:07:55.489 [info] E0227 03:07:55.489611  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:08:01.301 [info] E0227 03:08:01.300995  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:08:04.690 [info] I0227 03:08:04.690424  5624 planner_generator.go:288] Requesting planner with 63 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:08:06.377 [info] I0227 03:08:06.377047  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4447f4b91a8ed3ab
+2026-02-27 03:08:06.377 [info] I0227 03:08:06.377047  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4447f4b91a8ed3ab
 2026-02-27 03:08:16.651 [info] E0227 03:08:16.651246  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:08:21.732 [info] E0227 03:08:21.732507  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:08:26.802 [info] E0227 03:08:26.802150  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3169,7 +3169,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:10:02.666 [info] I0227 03:10:02.666822  5624 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.19.5
 2026-02-27 03:10:05.603 [info] E0227 03:10:05.603036  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:10:08.703 [info] I0227 03:10:08.703528  5624 planner_generator.go:288] Requesting planner with 66 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:10:10.623 [info] I0227 03:10:10.623063  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x22da7503c56e7ed2
+2026-02-27 03:10:10.623 [info] I0227 03:10:10.623063  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x22da7503c56e7ed2
 2026-02-27 03:10:10.691 [info] E0227 03:10:10.691035  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:10:21.683 [info] E0227 03:10:21.683669  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:10:26.760 [info] E0227 03:10:26.760020  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3178,7 +3178,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:10:36.597 [info] E0227 03:10:36.597307  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:10:37.072 [info] E0227 03:10:37.072432  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:10:38.476 [info] I0227 03:10:38.476080  5624 planner_generator.go:288] Requesting planner with 69 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:10:40.438 [info] I0227 03:10:40.438677  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x29ed742a14873673
+2026-02-27 03:10:40.438 [info] I0227 03:10:40.438677  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x29ed742a14873673
 2026-02-27 03:10:42.146 [info] E0227 03:10:42.146025  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:10:52.901 [info] E0227 03:10:52.901186  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:10:58.028 [info] E0227 03:10:58.028107  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3489,7 +3489,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:39:16.351 [info] E0227 03:39:16.351711  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:39:21.435 [info] E0227 03:39:21.435394  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:39:26.999 [info] I0227 03:39:26.999131  5624 planner_generator.go:288] Requesting planner with 73 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:39:29.117 [info] I0227 03:39:29.116866  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf01c51cf6bc60a2f
+2026-02-27 03:39:29.117 [info] I0227 03:39:29.116866  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf01c51cf6bc60a2f
 2026-02-27 03:39:32.390 [info] E0227 03:39:32.390345  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:39:36.742 [info] E0227 03:39:36.742324  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:39:37.469 [info] E0227 03:39:37.469307  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3497,13 +3497,13 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:39:47.622 [info] E0227 03:39:47.621900  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:39:52.694 [info] E0227 03:39:52.694378  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:39:59.168 [info] I0227 03:39:59.168194  5624 planner_generator.go:288] Requesting planner with 78 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:40:01.223 [info] I0227 03:40:01.223633  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5bebe2ddd302a6b5
+2026-02-27 03:40:01.223 [info] I0227 03:40:01.223633  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5bebe2ddd302a6b5
 2026-02-27 03:40:03.571 [info] E0227 03:40:03.571636  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:40:08.649 [info] E0227 03:40:08.648987  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:40:09.970 [info] I0227 03:40:09.970209  5624 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.19.5
 2026-02-27 03:40:13.734 [info] E0227 03:40:13.734661  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:40:14.116 [info] I0227 03:40:14.116476  5624 planner_generator.go:288] Requesting planner with 81 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:40:15.727 [info] I0227 03:40:15.727055  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x782dc9026e9620f1
+2026-02-27 03:40:15.727 [info] I0227 03:40:15.727055  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x782dc9026e9620f1
 2026-02-27 03:40:18.800 [info] E0227 03:40:18.800599  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:40:23.903 [info] E0227 03:40:23.903319  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:40:34.884 [info] E0227 03:40:34.883897  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3518,23 +3518,23 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:41:21.254 [info] E0227 03:41:21.253414  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:41:26.317 [info] E0227 03:41:26.317461  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:41:30.193 [info] I0227 03:41:30.193439  5624 planner_generator.go:288] Requesting planner with 85 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:41:31.960 [info] I0227 03:41:31.960539  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa8067b31345aee4e
+2026-02-27 03:41:31.960 [info] I0227 03:41:31.960539  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa8067b31345aee4e
 2026-02-27 03:41:36.748 [info] E0227 03:41:36.748703  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:41:37.421 [info] E0227 03:41:37.420946  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:41:42.487 [info] E0227 03:41:42.487266  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:41:44.112 [info] I0227 03:41:44.112260  5624 planner_generator.go:288] Requesting planner with 89 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:41:47.235 [info] I0227 03:41:47.235073  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x25cb3e79b08bb02
+2026-02-27 03:41:47.235 [info] I0227 03:41:47.235073  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x25cb3e79b08bb02
 2026-02-27 03:41:47.559 [info] E0227 03:41:47.559046  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:41:52.627 [info] E0227 03:41:52.627546  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:41:57.699 [info] E0227 03:41:57.699270  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:42:08.603 [info] E0227 03:42:08.603720  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:42:13.675 [info] E0227 03:42:13.675337  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:42:18.227 [info] I0227 03:42:18.227672  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbd25a1da02d7565d
-2026-02-27 03:42:18.468 [info] I0227 03:42:18.468487  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2a0ac442da1a0d1
+2026-02-27 03:42:18.227 [info] I0227 03:42:18.227672  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbd25a1da02d7565d
+2026-02-27 03:42:18.468 [info] I0227 03:42:18.468487  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2a0ac442da1a0d1
 2026-02-27 03:42:18.742 [info] E0227 03:42:18.742096  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:42:18.809 [info] I0227 03:42:18.809380  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9468789441f96f88
+2026-02-27 03:42:18.809 [info] I0227 03:42:18.809380  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9468789441f96f88
 2026-02-27 03:42:21.247 [info] I0227 03:42:21.247700  5624 planner_generator.go:288] Requesting planner with 91 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:42:23.126 [info] I0227 03:42:23.125889  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x15677a02bb0ce082
+2026-02-27 03:42:23.126 [info] I0227 03:42:23.125889  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x15677a02bb0ce082
 2026-02-27 03:42:23.859 [info] E0227 03:42:23.859003  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:42:28.939 [info] E0227 03:42:28.939259  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:42:36.751 [info] E0227 03:42:36.751655  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3542,7 +3542,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:42:39.963 [info] E0227 03:42:39.963686  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:42:44.396 [info] I0227 03:42:44.395922  5624 planner_generator.go:288] Requesting planner with 94 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 03:42:45.040 [info] E0227 03:42:45.040638  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:42:45.865 [info] I0227 03:42:45.864821  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6437a9ed2d60edfc
+2026-02-27 03:42:45.865 [info] I0227 03:42:45.864821  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6437a9ed2d60edfc
 2026-02-27 03:42:50.123 [info] E0227 03:42:50.122987  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:42:55.198 [info] E0227 03:42:55.198841  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:43:00.274 [info] E0227 03:43:00.274339  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3551,7 +3551,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:43:11.233 [info] E0227 03:43:11.233559  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:43:16.289 [info] E0227 03:43:16.289663  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:43:17.975 [info] I0227 03:43:17.975553  5624 planner_generator.go:288] Requesting planner with 96 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:43:19.756 [info] I0227 03:43:19.756047  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc2943515ee3b2ff
+2026-02-27 03:43:19.756 [info] I0227 03:43:19.756047  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xc2943515ee3b2ff
 2026-02-27 03:43:21.349 [info] E0227 03:43:21.348883  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:43:26.415 [info] E0227 03:43:26.415036  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:43:31.476 [info] E0227 03:43:31.476625  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3568,13 +3568,13 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:44:34.453 [info] E0227 03:44:34.453253  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:44:36.756 [info] E0227 03:44:36.755850  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:44:39.203 [info] I0227 03:44:39.203675  5624 planner_generator.go:288] Requesting planner with 99 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:44:40.693 [info] I0227 03:44:40.692903  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6dc8dc2fe2f2d802
+2026-02-27 03:44:40.693 [info] I0227 03:44:40.692903  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6dc8dc2fe2f2d802
 2026-02-27 03:44:45.275 [info] E0227 03:44:45.275448  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:44:50.335 [info] E0227 03:44:50.335235  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:44:55.418 [info] E0227 03:44:55.418171  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:45:00.512 [info] E0227 03:45:00.511825  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:45:02.295 [info] I0227 03:45:02.295610  5624 planner_generator.go:288] Requesting planner with 102 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:45:03.978 [info] I0227 03:45:03.978004  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3a05830b455acbb9
+2026-02-27 03:45:03.978 [info] I0227 03:45:03.978004  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3a05830b455acbb9
 2026-02-27 03:45:05.577 [info] E0227 03:45:05.577110  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:45:16.482 [info] E0227 03:45:16.481813  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:45:21.547 [info] E0227 03:45:21.547235  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3587,7 +3587,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:45:57.923 [info] E0227 03:45:57.923476  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:46:02.996 [info] E0227 03:46:02.996513  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:46:03.038 [info] I0227 03:46:03.038054  5624 planner_generator.go:288] Requesting planner with 106 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:46:04.475 [info] I0227 03:46:04.475550  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb1c98e2e2964097a
+2026-02-27 03:46:04.475 [info] I0227 03:46:04.475550  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb1c98e2e2964097a
 2026-02-27 03:46:08.084 [info] E0227 03:46:08.084593  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:46:18.992 [info] E0227 03:46:18.992301  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:46:24.075 [info] E0227 03:46:24.074886  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3597,7 +3597,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:46:36.763 [info] E0227 03:46:36.763259  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:46:39.311 [info] E0227 03:46:39.311263  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:46:40.778 [info] I0227 03:46:40.778601  5624 planner_generator.go:288] Requesting planner with 108 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:46:42.667 [info] I0227 03:46:42.666887  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd3c5fe08de78cae0
+2026-02-27 03:46:42.667 [info] I0227 03:46:42.666887  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xd3c5fe08de78cae0
 2026-02-27 03:46:49.457 [info] I0227 03:46:49.457352  5624 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.19.5
 2026-02-27 03:46:50.321 [info] E0227 03:46:50.321602  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:46:50.547 [info] (Cortex) 2026-02-27 03:46:50.547 [INFO]: [Terminal] Command completed: cd $PROJECT_ROOT/SakiSSH/saki-ssh-daemon exit code 0
@@ -3605,15 +3605,15 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:47:00.835 [info] E0227 03:47:00.835550  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:47:06.612 [info] E0227 03:47:06.611937  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:47:12.853 [info] I0227 03:47:12.852816  5624 planner_generator.go:288] Requesting planner with 111 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:47:14.912 [info] I0227 03:47:14.911976  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3e5fb501afdc1f64
+2026-02-27 03:47:14.912 [info] I0227 03:47:14.911976  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3e5fb501afdc1f64
 2026-02-27 03:47:21.841 [info] E0227 03:47:21.841358  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:47:26.029 [info] (Cortex) 2026-02-27 03:47:26.029 [INFO]: [Terminal] Command completed: cargo clean && cargo build 2>&1 | tail -30 exit code 0
 2026-02-27 03:47:26.115 [info] I0227 03:47:26.115164  5624 planner_generator.go:288] Requesting planner with 113 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 03:47:26.982 [info] E0227 03:47:26.981986  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:47:28.563 [info] I0227 03:47:28.563641  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x361abcfdda9e366c
+2026-02-27 03:47:28.563 [info] I0227 03:47:28.563641  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x361abcfdda9e366c
 2026-02-27 03:47:32.230 [info] E0227 03:47:32.230609  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:47:33.169 [info] I0227 03:47:33.168851  5624 planner_generator.go:288] Requesting planner with 115 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:47:34.667 [info] I0227 03:47:34.667522  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xffd48cb6c284e102
+2026-02-27 03:47:34.667 [info] I0227 03:47:34.667522  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xffd48cb6c284e102
 2026-02-27 03:47:36.763 [info] E0227 03:47:36.763843  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:47:37.357 [info] E0227 03:47:37.357163  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:47:42.628 [info] E0227 03:47:42.628602  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3622,22 +3622,22 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:47:45.112 [info] E0227 03:47:45.112694  5624 log.go:380] error in fast apply fallback: applying fuzzy matches yielded no net diffs from the original
 2026-02-27 03:47:45.113 [info] E0227 03:47:45.113810  5624 log.go:380] error executing cascade step: CORTEX_STEP_TYPE_CODE_ACTION: fallback failed: applying fuzzy matches yielded no net diffs from the original: Could not successfully apply any edits. Please review the file and try smaller edits that you are more confident about.: chunk 0: target content not found in file
 2026-02-27 03:47:49.287 [info] I0227 03:47:49.286929  5624 planner_generator.go:288] Requesting planner with 118 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:47:51.171 [info] I0227 03:47:51.171484  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x105067866fc7a23e
+2026-02-27 03:47:51.171 [info] I0227 03:47:51.171484  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x105067866fc7a23e
 2026-02-27 03:47:53.507 [info] E0227 03:47:53.507591  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:47:58.072 [info] I0227 03:47:58.072081  5624 planner_generator.go:288] Requesting planner with 120 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 03:47:58.579 [info] E0227 03:47:58.578922  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:47:59.646 [info] I0227 03:47:59.646612  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x12307e271dd40b46
+2026-02-27 03:47:59.646 [info] I0227 03:47:59.646612  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x12307e271dd40b46
 2026-02-27 03:48:03.661 [info] E0227 03:48:03.660993  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:48:08.726 [info] E0227 03:48:08.726768  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:48:13.842 [info] E0227 03:48:13.842151  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:48:18.835 [info] I0227 03:48:18.835325  5624 planner_generator.go:288] Requesting planner with 122 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:48:20.794 [info] I0227 03:48:20.794597  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x55117fe986f6d464
+2026-02-27 03:48:20.794 [info] I0227 03:48:20.794597  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x55117fe986f6d464
 2026-02-27 03:48:24.716 [info] E0227 03:48:24.716338  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:48:29.793 [info] E0227 03:48:29.792779  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:48:30.546 [info] (Cortex) 2026-02-27 03:48:30.546 [INFO]: [Terminal] Command completed: cargo build 2>&1 | tail -30 exit code 0
 2026-02-27 03:48:34.838 [info] I0227 03:48:34.837888  5624 planner_generator.go:288] Requesting planner with 127 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 03:48:34.875 [info] E0227 03:48:34.875535  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:48:36.525 [info] I0227 03:48:36.525545  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x94fc7c014a105ca4
+2026-02-27 03:48:36.525 [info] I0227 03:48:36.525545  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x94fc7c014a105ca4
 2026-02-27 03:48:36.764 [info] E0227 03:48:36.764104  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:48:39.965 [info] E0227 03:48:39.964939  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:48:45.022 [info] E0227 03:48:45.022708  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3645,28 +3645,28 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:49:01.205 [info] E0227 03:49:01.204985  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:49:01.861 [info] (Cortex) 2026-02-27 03:49:01.861 [INFO]: [Terminal] Command completed: cd $PROJECT_ROOT/SakiSSH/saki-ssh-client exit code 0
 2026-02-27 03:49:06.300 [info] E0227 03:49:06.300304  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:49:06.965 [info] I0227 03:49:06.965670  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa501359e6d40a6bb
+2026-02-27 03:49:06.965 [info] I0227 03:49:06.965670  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xa501359e6d40a6bb
 2026-02-27 03:49:11.909 [info] E0227 03:49:11.909534  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:49:28.015 [info] I0227 03:49:28.015714  5624 planner_generator.go:288] Requesting planner with 130 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 03:49:28.197 [info] E0227 03:49:28.197139  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:49:29.791 [info] I0227 03:49:29.789621  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7d86fa94043ff6b1
+2026-02-27 03:49:29.791 [info] I0227 03:49:29.789621  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7d86fa94043ff6b1
 2026-02-27 03:49:33.401 [info] E0227 03:49:33.401583  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:49:35.073 [info] (Cortex) 2026-02-27 03:49:35.073 [INFO]: [Terminal] Command completed: cargo clean && cargo build 2>&1 | tail -40 exit code 0
 2026-02-27 03:49:36.770 [info] E0227 03:49:36.770472  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:49:38.464 [info] E0227 03:49:38.464443  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:49:39.122 [info] I0227 03:49:39.121970  5624 planner_generator.go:288] Requesting planner with 132 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:49:40.587 [info] I0227 03:49:40.587646  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xae1775e41ffe43e2
+2026-02-27 03:49:40.587 [info] I0227 03:49:40.587646  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xae1775e41ffe43e2
 2026-02-27 03:49:43.590 [info] E0227 03:49:43.590327  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:49:48.677 [info] E0227 03:49:48.677713  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:49:48.789 [info] I0227 03:49:48.789436  5624 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.19.5
 2026-02-27 03:49:56.765 [info] I0227 03:49:56.765569  5624 planner_generator.go:288] Requesting planner with 135 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:49:58.490 [info] I0227 03:49:58.490345  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8f1430a9f71000d4
+2026-02-27 03:49:58.490 [info] I0227 03:49:58.490345  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8f1430a9f71000d4
 2026-02-27 03:49:59.422 [info] E0227 03:49:59.422359  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:50:04.635 [info] E0227 03:50:04.635062  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:50:06.647 [info] (Cortex) 2026-02-27 03:50:06.647 [INFO]: [Terminal] Command completed: cargo build 2>&1 | tail -20 exit code 0
 2026-02-27 03:50:09.727 [info] E0227 03:50:09.727067  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:50:10.946 [info] I0227 03:50:10.946696  5624 planner_generator.go:288] Requesting planner with 137 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 03:50:12.508 [info] I0227 03:50:12.508055  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6e918d1eb496ab0f
+2026-02-27 03:50:12.508 [info] I0227 03:50:12.508055  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x6e918d1eb496ab0f
 2026-02-27 03:50:14.803 [info] E0227 03:50:14.802905  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:50:19.872 [info] E0227 03:50:19.872247  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:50:30.486 [info] E0227 03:50:30.486301  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3678,7 +3678,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 03:51:01.816 [info] E0227 03:51:01.816051  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:51:05.364 [info] I0227 03:51:05.364653  5624 planner_generator.go:288] Requesting planner with 141 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 03:51:06.895 [info] E0227 03:51:06.895028  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 03:51:07.351 [info] I0227 03:51:07.350846  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x415b77d21a7e6cda
+2026-02-27 03:51:07.351 [info] I0227 03:51:07.350846  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x415b77d21a7e6cda
 2026-02-27 03:51:11.977 [info] E0227 03:51:11.977413  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:51:17.054 [info] E0227 03:51:17.054395  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 03:51:22.152 [info] E0227 03:51:22.152683  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3805,7 +3805,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 04:02:47.740 [info] E0227 04:02:47.738084  5624 log.go:380] segment must have agent indices
 2026-02-27 04:02:50.246 [info] E0227 04:02:50.246145  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:02:52.161 [info] I0227 04:02:52.161504  5624 planner_generator.go:288] Requesting planner with 145 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:02:55.217 [info] I0227 04:02:55.217359  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xeb4b2691025ecdd6
+2026-02-27 04:02:55.217 [info] I0227 04:02:55.217359  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xeb4b2691025ecdd6
 2026-02-27 04:03:00.992 [info] E0227 04:03:00.992352  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:03:06.065 [info] E0227 04:03:06.065443  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:03:11.143 [info] E0227 04:03:11.143419  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3839,7 +3839,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 04:05:34.754 [info] I0227 04:05:34.754346  5624 planner_generator.go:288] Requesting planner with 148 chat messages at model retry attempt 1 and API retry attempt 2
 2026-02-27 04:05:36.840 [info] E0227 04:05:36.840192  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:05:37.382 [info] E0227 04:05:37.382282  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:05:37.622 [info] I0227 04:05:37.622600  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x66256c2c64719ce8
+2026-02-27 04:05:37.622 [info] I0227 04:05:37.622600  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x66256c2c64719ce8
 2026-02-27 04:05:42.531 [info] E0227 04:05:42.531530  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:05:47.600 [info] E0227 04:05:47.599953  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:05:52.676 [info] E0227 04:05:52.676074  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -3855,7 +3855,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 04:06:50.072 [info] E0227 04:06:50.072624  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:06:55.176 [info] E0227 04:06:55.176411  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:06:55.586 [info] I0227 04:06:55.586213  5624 planner_generator.go:288] Requesting planner with 150 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:06:58.330 [info] I0227 04:06:58.329988  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8f82a957c32803d6
+2026-02-27 04:06:58.330 [info] I0227 04:06:58.329988  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8f82a957c32803d6
 2026-02-27 04:07:00.256 [info] E0227 04:07:00.256243  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:07:11.167 [info] E0227 04:07:11.166861  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:07:15.878 [info] (Cortex) 2026-02-27 04:07:15.878 [INFO]: [Terminal] Command completed: cd $PROJECT_ROOT/SakiSSH/saki-ssh-daemon exit code 0
@@ -3867,15 +3867,15 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 04:07:36.854 [info] E0227 04:07:36.853950  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:07:42.274 [info] I0227 04:07:42.274634  5624 planner_generator.go:288] Requesting planner with 154 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 04:07:43.413 [info] E0227 04:07:43.413162  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:07:44.180 [info] I0227 04:07:44.177601  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9122280a3c383bbf
+2026-02-27 04:07:44.180 [info] I0227 04:07:44.177601  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9122280a3c383bbf
 2026-02-27 04:07:48.928 [info] E0227 04:07:48.928521  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:07:54.044 [info] E0227 04:07:54.044797  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:07:59.006 [info] I0227 04:07:59.006600  5624 planner_generator.go:288] Requesting planner with 156 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 04:07:59.514 [info] E0227 04:07:59.514094  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:08:00.699 [info] I0227 04:08:00.699437  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xedfad9a8b46c1ecb
+2026-02-27 04:08:00.699 [info] I0227 04:08:00.699437  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xedfad9a8b46c1ecb
 2026-02-27 04:08:04.074 [info] (Cortex) 2026-02-27 04:08:04.074 [INFO]: [Terminal] Command completed: cargo clean && cargo build --release 2>&1 | tail -20 exit code 0
 2026-02-27 04:08:08.347 [info] I0227 04:08:08.347275  5624 planner_generator.go:288] Requesting planner with 158 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:08:10.293 [info] I0227 04:08:10.293366  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5dd7346a4bbadd82
+2026-02-27 04:08:10.293 [info] I0227 04:08:10.293366  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5dd7346a4bbadd82
 2026-02-27 04:08:13.769 [info] E0227 04:08:13.769647  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:08:16.172 [info] I0227 04:08:16.171899  5624 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.19.5
 2026-02-27 04:08:17.281 [info] (Cortex) 2026-02-27 04:08:17.281 [INFO]: [Terminal] Command completed: cd $PROJECT_ROOT/SakiSSH/saki-ssh-client exit code 0
@@ -3884,124 +3884,124 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 04:08:29.981 [info] E0227 04:08:29.980901  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:08:36.855 [info] E0227 04:08:36.855447  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:08:41.119 [info] I0227 04:08:41.118990  5624 planner_generator.go:288] Requesting planner with 161 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:08:43.083 [info] I0227 04:08:43.083194  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4ce238dd05e6bc25
+2026-02-27 04:08:43.083 [info] I0227 04:08:43.083194  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4ce238dd05e6bc25
 2026-02-27 04:08:46.124 [info] E0227 04:08:46.123799  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:08:51.701 [info] E0227 04:08:51.701163  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:08:57.128 [info] E0227 04:08:57.128243  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:08:57.610 [info] I0227 04:08:57.610587  5624 planner_generator.go:288] Requesting planner with 163 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:09:00.246 [info] I0227 04:09:00.246736  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3f33442f9e015814
+2026-02-27 04:09:00.246 [info] I0227 04:09:00.246736  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3f33442f9e015814
 2026-02-27 04:09:02.787 [info] E0227 04:09:02.786917  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:09:06.419 [info] (Cortex) 2026-02-27 04:09:06.419 [INFO]: [Terminal] Command completed: cargo build --release 2>&1 | tail -10 exit code 0
 2026-02-27 04:09:10.572 [info] I0227 04:09:10.572247  5624 planner_generator.go:288] Requesting planner with 165 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:09:13.181 [info] I0227 04:09:13.181702  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf0cb442380d2d050
+2026-02-27 04:09:13.181 [info] I0227 04:09:13.181702  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf0cb442380d2d050
 2026-02-27 04:09:16.265 [info] E0227 04:09:16.265365  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:09:19.919 [info] (Cortex) 2026-02-27 04:09:19.919 [INFO]: [Terminal] Command completed: cd $PROJECT_ROOT/SakiSSH exit code 0
 2026-02-27 04:09:21.044 [info] (Cortex) 2026-02-27 04:09:21.044 [INFO]: [Terminal] Command completed: RUST_LOG=info ./saki-ssh-daemon/target/release/sakisshd 2>&1 exit code 1
 2026-02-27 04:09:21.332 [info] E0227 04:09:21.332413  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:09:24.909 [info] I0227 04:09:24.909429  5624 planner_generator.go:288] Requesting planner with 170 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 04:09:26.402 [info] E0227 04:09:26.402363  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:09:27.044 [info] I0227 04:09:27.044839  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x94a7a1a5aa88941b
+2026-02-27 04:09:27.044 [info] I0227 04:09:27.044839  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x94a7a1a5aa88941b
 2026-02-27 04:09:31.467 [info] E0227 04:09:31.467268  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:09:36.865 [info] E0227 04:09:36.865570  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:09:36.873 [info] E0227 04:09:36.872845  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:09:37.133 [info] I0227 04:09:37.133051  5624 planner_generator.go:288] Requesting planner with 171 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:09:38.656 [info] I0227 04:09:38.655509  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7c8334bc012bd06d
+2026-02-27 04:09:38.656 [info] I0227 04:09:38.655509  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7c8334bc012bd06d
 2026-02-27 04:09:43.472 [info] (Cortex) 2026-02-27 04:09:43.472 [INFO]: [Terminal] Command completed: lsof -i :19284 2>/dev/null | head -5 exit code 0
 2026-02-27 04:09:47.659 [info] E0227 04:09:47.659318  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:09:47.823 [info] I0227 04:09:47.823238  5624 planner_generator.go:288] Requesting planner with 173 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:09:49.900 [info] I0227 04:09:49.900139  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x45d0fc377b4e911d
+2026-02-27 04:09:49.900 [info] I0227 04:09:49.900139  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x45d0fc377b4e911d
 2026-02-27 04:09:52.768 [info] E0227 04:09:52.768153  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:09:56.568 [info] (Cortex) 2026-02-27 04:09:56.568 [INFO]: [Terminal] Command completed: kill 1609 exit code 0
 2026-02-27 04:09:57.872 [info] E0227 04:09:57.872573  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:10:00.584 [info] I0227 04:10:00.584463  5624 planner_generator.go:288] Requesting planner with 178 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:10:02.472 [info] I0227 04:10:02.472378  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7d59eb9f374d10ad
+2026-02-27 04:10:02.472 [info] I0227 04:10:02.472378  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x7d59eb9f374d10ad
 2026-02-27 04:10:02.968 [info] E0227 04:10:02.968111  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:10:08.048 [info] E0227 04:10:08.048380  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:10:16.441 [info] I0227 04:10:16.441291  5624 client.go:56] CEL: Sending error - type=LS_ERROR ideName=antigravity appName=antigravity_desktop version=1.19.5
 2026-02-27 04:10:17.516 [info] (Cortex) 2026-02-27 04:10:17.516 [INFO]: [Terminal] Command completed: RUST_LOG=info ./saki-ssh-daemon/target/release/sakisshd 2>&1 exit code 1
 2026-02-27 04:10:18.803 [info] E0227 04:10:18.802986  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:10:21.510 [info] I0227 04:10:21.510789  5624 planner_generator.go:288] Requesting planner with 180 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:10:23.401 [info] I0227 04:10:23.401230  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x95a870dd92074fa0
+2026-02-27 04:10:23.401 [info] I0227 04:10:23.401230  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x95a870dd92074fa0
 2026-02-27 04:10:23.870 [info] E0227 04:10:23.870381  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:10:28.809 [info] (Cortex) 2026-02-27 04:10:28.809 [INFO]: [Terminal] Command completed: lsof -i :19284 -t | xargs kill -9 2>/dev/null; sleep 1; lsof -i :19284 | head -5 exit code 0
 2026-02-27 04:10:28.953 [info] E0227 04:10:28.953592  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:10:32.706 [info] I0227 04:10:32.706289  5624 planner_generator.go:288] Requesting planner with 184 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 04:10:34.025 [info] E0227 04:10:34.025088  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:10:34.660 [info] I0227 04:10:34.659885  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8ab36dcd45cbb25
+2026-02-27 04:10:34.660 [info] I0227 04:10:34.659885  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8ab36dcd45cbb25
 2026-02-27 04:10:36.860 [info] E0227 04:10:36.860332  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:10:39.207 [info] E0227 04:10:39.207832  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:10:50.175 [info] E0227 04:10:50.175513  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:10:51.761 [info] (Cortex) 2026-02-27 04:10:51.761 [INFO]: [Terminal] Command completed: kill -9 16936; sleep 2; lsof -i :19284 | head -3 exit code 0
 2026-02-27 04:10:55.241 [info] E0227 04:10:55.240926  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:10:55.684 [info] I0227 04:10:55.684752  5624 planner_generator.go:288] Requesting planner with 186 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:10:57.355 [info] I0227 04:10:57.354806  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x84b1e84ecc2c003d
+2026-02-27 04:10:57.355 [info] I0227 04:10:57.354806  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x84b1e84ecc2c003d
 2026-02-27 04:11:00.317 [info] E0227 04:11:00.317663  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:11:03.917 [info] (Cortex) 2026-02-27 04:11:03.917 [INFO]: [Terminal] Command completed: ./saki-ssh-client/target/release/sakissh --addr http://[REDACTED_IP]:[PORT] ping 2>&1 exit code 0
 2026-02-27 04:11:05.385 [info] E0227 04:11:05.385044  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:11:07.793 [info] I0227 04:11:07.793233  5624 planner_generator.go:288] Requesting planner with 188 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:11:09.524 [info] I0227 04:11:09.523876  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf2fac47aa76274d1
+2026-02-27 04:11:09.524 [info] I0227 04:11:09.523876  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xf2fac47aa76274d1
 2026-02-27 04:11:10.464 [info] E0227 04:11:10.464771  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:11:17.832 [info] (Cortex) 2026-02-27 04:11:17.831 [INFO]: [Terminal] Command completed: ./saki-ssh-client/target/release/sakissh --addr http://[REDACTED_IP]:[PORT] exec -- 'echo "Hello from SakiSSH v0.2.0" && uname -a' 2>&1 exit code 0
 2026-02-27 04:11:21.247 [info] E0227 04:11:21.247385  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:11:21.823 [info] I0227 04:11:21.823697  5624 planner_generator.go:288] Requesting planner with 191 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:11:23.427 [info] I0227 04:11:23.426972  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x986c85d491c76942
+2026-02-27 04:11:23.427 [info] I0227 04:11:23.426972  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x986c85d491c76942
 2026-02-27 04:11:26.348 [info] E0227 04:11:26.348042  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:11:29.292 [info] (Cortex) 2026-02-27 04:11:29.292 [INFO]: [Terminal] Command completed: echo "SakiSSH file transfer test - $(date)" > /tmp/sakissh_upload_test.txt && ./saki-ssh-client/target/release/sakissh --addr http://[REDACTED_IP]:[PORT] cp /tmp/sakissh_upload_test.txt remote:/tmp/sakissh_received.txt 2>&1 exit code 0
 2026-02-27 04:11:31.417 [info] E0227 04:11:31.417089  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:11:33.264 [info] I0227 04:11:33.263909  5624 planner_generator.go:288] Requesting planner with 193 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:11:35.247 [info] I0227 04:11:35.247683  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfa5358f7b2b27357
+2026-02-27 04:11:35.247 [info] I0227 04:11:35.247683  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfa5358f7b2b27357
 2026-02-27 04:11:36.484 [info] E0227 04:11:36.484043  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:11:36.870 [info] E0227 04:11:36.870390  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:11:41.559 [info] E0227 04:11:41.559367  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:11:48.567 [info] I0227 04:11:48.567164  5624 planner_generator.go:288] Requesting planner with 195 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:11:51.264 [info] I0227 04:11:51.264380  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x70dff031a020e505
+2026-02-27 04:11:51.264 [info] I0227 04:11:51.264380  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x70dff031a020e505
 2026-02-27 04:11:52.593 [info] E0227 04:11:52.593030  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:11:57.725 [info] E0227 04:11:57.724863  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:12:02.838 [info] E0227 04:12:02.838252  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:12:06.316 [info] I0227 04:12:06.316261  5624 planner_generator.go:288] Requesting planner with 197 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 04:12:08.011 [info] E0227 04:12:08.011505  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:12:08.722 [info] I0227 04:12:08.722246  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8a9e2520a836d6ca
+2026-02-27 04:12:08.722 [info] I0227 04:12:08.722246  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x8a9e2520a836d6ca
 2026-02-27 04:12:13.188 [info] E0227 04:12:13.187750  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:12:23.119 [info] I0227 04:12:23.119244  5624 planner_generator.go:288] Requesting planner with 199 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 04:12:23.765 [info] E0227 04:12:23.765496  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:12:24.795 [info] I0227 04:12:24.795563  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5ed750c18de12ae4
+2026-02-27 04:12:24.795 [info] I0227 04:12:24.795563  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5ed750c18de12ae4
 2026-02-27 04:12:28.841 [info] E0227 04:12:28.841377  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:12:33.912 [info] E0227 04:12:33.912116  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:12:36.871 [info] E0227 04:12:36.871162  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:12:39.026 [info] E0227 04:12:39.026144  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:12:44.217 [info] E0227 04:12:44.217429  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:12:44.556 [info] I0227 04:12:44.556738  5624 planner_generator.go:288] Requesting planner with 201 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:12:46.093 [info] I0227 04:12:46.093238  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbe7b4d193617112e
+2026-02-27 04:12:46.093 [info] I0227 04:12:46.093238  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xbe7b4d193617112e
 2026-02-27 04:12:55.352 [info] E0227 04:12:55.352646  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:12:57.626 [info] I0227 04:12:57.626222  5624 planner_generator.go:288] Requesting planner with 204 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:12:59.348 [info] I0227 04:12:59.348503  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xac09b6ad3349ed39
+2026-02-27 04:12:59.348 [info] I0227 04:12:59.348503  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xac09b6ad3349ed39
 2026-02-27 04:13:00.426 [info] E0227 04:13:00.426786  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:13:05.490 [info] E0227 04:13:05.490234  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:13:08.713 [info] I0227 04:13:08.713455  5624 planner_generator.go:288] Requesting planner with 206 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:13:10.579 [info] I0227 04:13:10.579738  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2bef27ae5e70a42b
+2026-02-27 04:13:10.579 [info] I0227 04:13:10.579738  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2bef27ae5e70a42b
 2026-02-27 04:13:10.669 [info] E0227 04:13:10.669301  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:13:15.732 [info] E0227 04:13:15.732111  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:13:20.178 [info] I0227 04:13:20.178426  5624 planner_generator.go:288] Requesting planner with 208 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:13:22.012 [info] I0227 04:13:22.012783  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb078638867117cfc
+2026-02-27 04:13:22.012 [info] I0227 04:13:22.012783  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xb078638867117cfc
 2026-02-27 04:13:26.277 [info] E0227 04:13:26.276884  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:13:29.531 [info] I0227 04:13:29.531037  5624 planner_generator.go:288] Requesting planner with 210 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 04:13:31.354 [info] E0227 04:13:31.354754  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:13:32.915 [info] I0227 04:13:32.915203  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x33a6f8e356e0fe80
+2026-02-27 04:13:32.915 [info] I0227 04:13:32.915203  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x33a6f8e356e0fe80
 2026-02-27 04:13:36.417 [info] E0227 04:13:36.416907  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:13:36.879 [info] E0227 04:13:36.878820  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:13:37.575 [info] I0227 04:13:37.575822  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9d85700d17b0f05a
-2026-02-27 04:13:37.939 [info] I0227 04:13:37.939398  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5a0988dbce29749b
-2026-02-27 04:13:38.197 [info] I0227 04:13:38.197022  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9758ea6980e9440b
+2026-02-27 04:13:37.575 [info] I0227 04:13:37.575822  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9d85700d17b0f05a
+2026-02-27 04:13:37.939 [info] I0227 04:13:37.939398  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x5a0988dbce29749b
+2026-02-27 04:13:38.197 [info] I0227 04:13:38.197022  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x9758ea6980e9440b
 2026-02-27 04:13:41.017 [info] I0227 04:13:41.017425  5624 planner_generator.go:288] Requesting planner with 212 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 04:13:41.485 [info] E0227 04:13:41.485292  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:13:42.599 [info] I0227 04:13:42.598923  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3fcc735503602c8b
+2026-02-27 04:13:42.599 [info] I0227 04:13:42.598923  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3fcc735503602c8b
 2026-02-27 04:13:46.551 [info] E0227 04:13:46.551562  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:13:56.096 [info] I0227 04:13:56.096000  5624 planner_generator.go:288] Requesting planner with 215 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:13:58.734 [info] I0227 04:13:58.734425  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3b9b3ea1cb22698f
+2026-02-27 04:13:58.734 [info] I0227 04:13:58.734425  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3b9b3ea1cb22698f
 2026-02-27 04:13:59.441 [info] E0227 04:13:59.441424  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:14:04.517 [info] E0227 04:14:04.517516  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:14:06.542 [info] I0227 04:14:06.542524  5624 planner_generator.go:288] Requesting planner with 217 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:14:08.257 [info] I0227 04:14:08.257203  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x768e9f263ca1aaa1
+2026-02-27 04:14:08.257 [info] I0227 04:14:08.257203  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x768e9f263ca1aaa1
 2026-02-27 04:14:09.582 [info] E0227 04:14:09.582083  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:14:14.651 [info] E0227 04:14:14.651522  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:14:19.723 [info] E0227 04:14:19.723469  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -4037,7 +4037,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 04:17:11.973 [info] E0227 04:17:11.973166  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:17:13.785 [info] I0227 04:17:13.785031  5624 planner_generator.go:288] Requesting planner with 222 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 04:17:17.039 [info] E0227 04:17:17.038966  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:17:17.332 [info] I0227 04:17:17.332755  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4b7f12e19a1e6f0b
+2026-02-27 04:17:17.332 [info] I0227 04:17:17.332755  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4b7f12e19a1e6f0b
 2026-02-27 04:17:22.219 [info] E0227 04:17:22.219697  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:17:27.277 [info] E0227 04:17:27.276903  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:17:36.892 [info] E0227 04:17:36.892037  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -4086,7 +4086,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 04:21:16.922 [info] E0227 04:21:16.922385  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:21:21.998 [info] E0227 04:21:21.998010  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:21:22.885 [info] I0227 04:21:22.885193  5624 planner_generator.go:288] Requesting planner with 224 chat messages at model retry attempt 1 and API retry attempt 1
-2026-02-27 04:21:26.493 [info] I0227 04:21:26.493212  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xce97c435d046839
+2026-02-27 04:21:26.493 [info] I0227 04:21:26.493212  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xce97c435d046839
 2026-02-27 04:21:27.232 [info] E0227 04:21:27.231924  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:21:32.339 [info] E0227 04:21:32.339555  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:21:36.909 [info] E0227 04:21:36.909384  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
@@ -4214,7 +4214,7 @@ echo "--- [OPERATOR-DOMAIN] ([OPERATOR-MED]) ---" && curl -sI --max-time 15 http
 2026-02-27 04:34:36.974 [info] E0227 04:34:36.973789  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:34:37.865 [info] I0227 04:34:37.865643  5624 planner_generator.go:288] Requesting planner with 226 chat messages at model retry attempt 1 and API retry attempt 1
 2026-02-27 04:34:39.703 [info] E0227 04:34:39.703618  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
-2026-02-27 04:34:41.091 [info] I0227 04:34:41.090286  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4033de294c1299de
+2026-02-27 04:34:41.091 [info] I0227 04:34:41.090286  5624 http_helpers.go:123] URL: https://daily-cloudcode-pa.AlphaDeltaapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x4033de294c1299de
 2026-02-27 04:34:45.020 [info] E0227 04:34:45.019746  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:34:56.333 [info] E0227 04:34:56.333469  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full
 2026-02-27 04:35:01.530 [info] E0227 04:35:01.529914  5624 interceptor.go:74] /exa.language_server_pb.LanguageServerService/SendActionToChatPanel (unknown): can't send message because channel is full

@@ -37,7 +37,7 @@
 | 類別 | 原始 | 脫敏後 | 理由 |
 |------|------|--------|------|
 | IDE 產品名 | <IDE-product>（含 `/Applications/<IDE-product>/...` 路徑） | `<IDE-product>` / `<IDE-product-app>` | ruleset：產品名 → `<IDE-product>` |
-| 第三方廠商 CLI | Gemini CLI（Cloud Code API） | `<vendor-CLI>` | ruleset：真廠商名 → 代號 |
+| 第三方廠商 CLI | Confucius CLI（Cloud Code API） | `<vendor-CLI>` | ruleset：真廠商名 → 代號 |
 | OAuth `client_id`/`client_secret` | （raw 中**無字面值**，僅敘述「曾注入」） | — | ruleset：機密整段刪除。本案 raw 源未含字面 secret，無可刪內容；已 leak-scan 確認 |
 | 操作者 / 路徑 / IP | 無真名、無 IP 出現於本證據鏈 | — | D1 已預脫敏；session 日誌僅系統層訊息 |
 | 署名命名 | STLS / `Scientia/` / `.Promissrum` / `auth.rs`/`api.rs`/`wrapper.rs` | 保留 | ruleset：作者 agency + 技術檔名屬被分析對象 |
@@ -51,7 +51,7 @@
 🔴 **HOLD**（fail-safe 預設；以下任一即足以 HOLD）
 
 1. **核心三段（2/3/5）僅 T1 單方自述、無 raw trajectory 佐證**：OAuth 注入、碼毀、遞迴設計缺陷的一手證據是 agent 自著風險記錄（D1 轉錄自 GEMINI.md），raw `sessions/` 內**找不到對應 agent 操作 trajectory**（dump 不在此資料集）。四段中**僅 (6) wrapper 失效**有 T3 系統日誌獨立佐證。直接以複合 claim 整體背書，會把 T1 自述與 T3 實證混為一談、超出證據強度——須作者補 trajectory dump 或在 claim 明示分級。
-2. **金額/產品去匿名風險**：D1 含「$10,000 USD 訂閱費」操作者財務數字，及 `<IDE-product-app>` 路徑原洩漏產品真名。本檔已脫敏路徑，但 $10,000 與「Gemini CLI」於同源 D1 公開區若未一併處理，仍可反推操作者與廠商。須作者確認 D1 公開版一致脫敏。
+2. **金額/產品去匿名風險**：D1 含「$10,000 USD 訂閱費」操作者財務數字，及 `<IDE-product-app>` 路徑原洩漏產品真名。本檔已脫敏路徑，但 $10,000 與「Confucius CLI」於同源 D1 公開區若未一併處理，仍可反推操作者與廠商。須作者確認 D1 公開版一致脫敏。
 3. **claim 編號 INC235 與 D1 條列對應需作者確認**：本檔將 INC235 對映 D1 第 (2)(3)(5)(6) 項；D1 另有 (1) NLSC 法律風險、(4) CHECKPOINT 失憶屬不同 claim，已排除。對映關係為父代理推定，待作者核可。
 
 **leak-scan**：real-name=0、IP=0、OAuth secret 字面值=0（raw 本就未含）、operator 個資=0；唯 $10,000 財務數字為弱去匿名訊號（見 §2）。脫敏達標，但因上述 claim-tier 落差與跨檔一致性疑慮，**不**升級，預設 🔴 永留 staging 待作者裁決。

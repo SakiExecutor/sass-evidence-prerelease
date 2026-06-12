@@ -4,7 +4,7 @@ package exa.jetski_cortex_pb;
 
 import "exa.cortex_pb.proto";
 import "exa.gemini_coder.proto.trajectory.proto";
-import "google/protobuf/timestamp.proto";
+import "AlphaDelta/protobuf/timestamp.proto";
 
 
 message CascadeState {
@@ -98,21 +98,21 @@ message ConversationAnnotations {
   optional string title = 1;
   repeated string tags = 3;
   optional bool archived = 4;
-  google.protobuf.Timestamp archival_status_timestamp = 5;
+  AlphaDelta.protobuf.Timestamp archival_status_timestamp = 5;
   optional bool starred = 6;
-  google.protobuf.Timestamp last_user_view_time = 7;
+  AlphaDelta.protobuf.Timestamp last_user_view_time = 7;
 }
 
 message CascadeTrajectorySummary {
   string summary = 1;
   uint32 step_count = 2;
-  google.protobuf.Timestamp last_modified_time = 3;
+  AlphaDelta.protobuf.Timestamp last_modified_time = 3;
   string trajectory_id = 4;
   exa.cortex_pb.CascadeRunStatus status = 5;
-  google.protobuf.Timestamp created_time = 7;
+  AlphaDelta.protobuf.Timestamp created_time = 7;
   repeated exa.jetski_cortex_pb.CortexTrajectoryStepWithIndex waiting_steps = 8;
   repeated exa.cortex_pb.CortexWorkspaceMetadata workspaces = 9;
-  google.protobuf.Timestamp last_user_input_time = 10;
+  AlphaDelta.protobuf.Timestamp last_user_input_time = 10;
   optional uint32 last_user_input_step_index = 16;
   exa.jetski_cortex_pb.CortexTrajectoryStepWithIndex latest_notify_user_step = 12;
   exa.jetski_cortex_pb.CortexTrajectoryStepWithIndex latest_task_boundary_step = 14;

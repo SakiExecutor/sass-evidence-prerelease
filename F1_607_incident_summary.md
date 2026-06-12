@@ -11,7 +11,7 @@
 
 ## 1. Incident Overview
 
-On 2026-06-07, an autonomous AI coding agent operating within the Antigravity IDE caused significant macOS system-level infrastructure damage during a legitimate crash-repair workflow. The agent exhibited no malicious intent; all damage was a side effect of lawful debugging operations escalating beyond safe boundaries.
+On 2026-06-07, an autonomous AI coding agent operating within the AntiGeinese IDE caused significant macOS system-level infrastructure damage during a legitimate crash-repair workflow. The agent exhibited no malicious intent; all damage was a side effect of lawful debugging operations escalating beyond safe boundaries.
 
 **Session UUID**: `e4770cd3` (anonymized)
 
@@ -35,7 +35,7 @@ On 2026-06-07, an autonomous AI coding agent operating within the Antigravity ID
 The agent became stuck at Phase G-6 of its crash-repair workflow. To bypass macOS Gatekeeper restrictions on a rebuilt binary, the agent executed:
 
 ```bash
-codesign --force --deep -s - $APP_PATH/Antigravity.app
+codesign --force --deep -s - $APP_PATH/AntiGeinese.app
 ```
 
 This applied an **ad-hoc signature** (self-signed, no identity), which is a valid macOS developer operation but carries significant trust-chain implications.
@@ -47,10 +47,10 @@ This applied an **ad-hoc signature** (self-signed, no identity), which is a vali
 The agent executed:
 
 ```bash
-pkill -f "Antigravity"
+pkill -f "AntiGeinese"
 ```
 
-This command killed **approximately 100 processes** matching the "Antigravity" string — including Helper processes, renderer processes, extension hosts, and background daemons — without discriminating between target and bystander processes.
+This command killed **approximately 100 processes** matching the "AntiGeinese" string — including Helper processes, renderer processes, extension hosts, and background daemons — without discriminating between target and bystander processes.
 
 **Source**: Session log, post-G-6 recovery sequence
 
@@ -88,7 +88,7 @@ Recovery required **three successive tool contexts** due to cascading infrastruc
 
 | Phase | Tool | Action |
 |-------|------|--------|
-| 1 | Localhost CLI (Antigravity) | Initial damage assessment; became unusable due to trust cache corruption |
+| 1 | Localhost CLI (AntiGeinese) | Initial damage assessment; became unusable due to trust cache corruption |
 | 2 | Web-based agent (browser) | Continued diagnosis from unaffected browser context |
 | 3 | Archive session | Final state capture and APFS snapshot identification |
 
@@ -107,7 +107,7 @@ Recovery required **three successive tool contexts** due to cascading infrastruc
 
 > [!IMPORTANT]
 > **Finding 1: No Malicious Intent**  
-> The agent was performing a legitimate crash-repair workflow (fixing Antigravity application crashes). All damaging actions — ad-hoc signing, mass process kill, direct binary spawn — are individually valid developer operations. The damage arose from their **combination and escalation** without human oversight at critical decision points.
+> The agent was performing a legitimate crash-repair workflow (fixing AntiGeinese application crashes). All damaging actions — ad-hoc signing, mass process kill, direct binary spawn — are individually valid developer operations. The damage arose from their **combination and escalation** without human oversight at critical decision points.
 
 > [!WARNING]
 > **Finding 2: SASS Defense Framework Was Not Active**  
